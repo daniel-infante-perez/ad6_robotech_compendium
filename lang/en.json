@@ -1,0 +1,831 @@
+{
+    "ad6_robotech":{
+        "lore":
+        {
+          "talents":
+            {
+                "career":
+                {
+                    "timed-shot":
+                    {
+                         "name":"Timed Shot"
+                        ,"desc":"<p><em>&ldquo;Use a counter-weave maneuver to get behind the enemy and knock out their engines.&rdquo;</em></p> <p>Once per engaged enemy target, choose a location to place damage when attacking. All of your damage from an attack may be applied this way once per enemy you face. This may used to target specific hardware or systems. See page 161.</p>"
+                    }                      
+                    ,"crucial-orders":
+                    {
+                         "name":"Crucial Orders"
+                        ,"desc":"<p><em>&ldquo;Get out from back there or you&rsquo;re a goner!&rdquo;</em></p> <p>When piloting mecha, you may support those under your command. During an engagement, the Squadron Leader can forgo using their equipment suite each round. This allows a squad member piloting a mecha to use an extra equipment suite during their turn - the same equipment suite cannot be used twice in the same turn.</p>"
+                    }                      
+                    ,"got-your-back":
+                    {
+                         "name":"Got Your Back"
+                        ,"desc":"<p><em>&ldquo;Don&rsquo;t worry, Boss, I&rsquo;ll run interference for you.&rdquo;</em></p> <p>At any time during mecha combat, gain a bonus Action as well as an additional half-move to aid an ally. This may be used to take assist, inhibit, or redirect Actions. You must be within Short range of your ally to use this Talent, which is determined after taking your bonus movement. You may use this Talent once per round.</p>"
+                    }                    
+                    ,"awacs":
+                    {
+                         "name":"AWACS"
+                        ,"desc":"<p><em>&ldquo;Fly in real low, skim those hills&mdash;I want to see the farmers&rsquo; hats blow off. Hit them hard and fast.&rdquo;</em></p> <p>During the first round of a Conflict, you gain +1 extra Action that is used to take any Support Action. This allows you to take 3 Actions in total. You must be piloting a Mecha or aerial vehicle with advanced sensors or ECM to take advantage of this Talent.</p>"
+                    }                                                         
+                    ,"embolden":
+                    {
+                         "name":"Embolden"
+                        ,"desc":"<p><em>&ldquo;Stay solid and no force can defeat you! We are the UEDF!&rdquo;</em></p> <p>Once per encounter, aid an ally by helping them to ignore wounds or Fatigue from 1 source. You encourage them through the pain and inspire them to continue on. You must be in contact through comms or within shouting distance for this Talent to work.</p>"
+                    }                      
+                    ,"get-it-done":
+                    {
+                         "name":"Get It Done"
+                        ,"desc":"<p><em>&ldquo;Don&rsquo;t worry, Captain, the Reflex Furnace will be back to full capacity in just a few minutes.&rdquo;</em></p> <p>You may automatically pass a failed Challenge as it relates to your Career. As soon as the Challenge fails, you may choose to treat the roll as a sticky success. See Sticky Challenge rules on Page 59.</p>"
+                    }                      
+                    ,"inspire":
+                    {
+                         "name":"Inspire"
+                        ,"desc":"<p><em>&ldquo;This song goes out to the brave pilots of the 329th Valkyrie Wing.&rdquo;</em></p> <p>Through song, you&rsquo;re able to inspire those around you. You may focus your performance toward a squad or an individual you are familiar with. Grant an Edge to friends or allies who are fighting for freedom. This bonus lasts for 1 round and the recipients must be able to hear you either directly or through comms. You may use this Talent once per engagement.</p>"
+                    }                      
+                    ,"unseen":
+                    {
+                         "name":"Unseen"
+                        ,"desc":"<p><em>&ldquo;No, sir. I didn&rsquo;t get a look at who knocked me out. You say the video feeds were down as well?&rdquo;</em></p> <p>When infiltrating or operating under disguise, you may treat any failed Challenge as a Sticky Challenge. This Talent may only be used as it relates to subterfuge-based attempts. See page 59.</p>"
+                    }                      
+                    ,"tactical-action":
+                    {
+                         "name":"Tactical Action"
+                        ,"desc":"<p><em>&ldquo;Soldier! You do not quit on me! Take that flank and advance when I give the order.&rdquo;</em></p> <p>During an engagement where you wield Light-Class weapons, gain a total of 2 bonus actions. These actions may be used during your turn or donated to an ally within shouting distance or in contact via comms. This affords you a total of 2 bonus actions that are used one-for-one during the encounter.</p>"
+                    }                      
+                    ,"adaptable":
+                    {
+                         "name":"Adaptable"
+                        ,"desc":"<p><em>&ldquo;I learned this after spending a few months working on a freighter.&rdquo;</em></p> <p>Choose any Career Talent for your own from any other Career.</p>"
+                    }                      
+                    ,"linked":
+                    {
+                         "name":"Linked"
+                        ,"desc":"<p><em>&ldquo;I feel what they feel and know what they know, and we think as one. We are the three who are one.&rdquo;</em></p> <p>You operate as three separate beings that all share the same thoughts, feelings, and experiences. You are connected with a psychic link that remains active as long as you are within 1 km of each other. For each member outside of the Range, the other members take 1 level of penalty. You are provided the same equipment.</p>"
+                    }                      
+                    ,"caches":
+                    {
+                         "name":"Caches"
+                        ,"desc":"<p><em>&ldquo;I&rsquo;ve got everything I need. It&rsquo;s all around us. It might take a bit to find, but I&rsquo;ve got it all.&rdquo;</em></p> <p>Within familiar territory, you are never more than days away from a supply cache that contains 1 general supply item that is crucial to your adventures. In unfamiliar territory, you can always find something of value within days.</p>"
+                    }                      
+
+                }
+                ,"leadership":
+                {
+                    "munitions-strike":
+                    {
+                         "name":"Munitions Strike"
+                        ,"desc":"<p><em>&ldquo;Brace for impact in ten seconds! Cover those ears&hellip;this is gonna be messy!&rdquo;</em></p> <p>You have reserved a small portion of munitions that are usable at any time. You are able to call in a powerful strike from a nearby supporting vessel or ship. Once the munitions are used, you may not call another strike until you have days to requisition another payload. Once called for, the Munitions Strike will take seconds to impact, providing you with a pool of 6 dice to roll successes. Choose 1:</p> <p>&bull; Ground Bombardment: Inflict light damage to all targets in a 15 m radius. Targets within 3 m of the impact site take mecha damage.</p> <p>&bull; Aerospace Barrage: Inflict mecha damage to an airborne threat. Any target within a 100 m line may be affected.</p> <p>&bull; Reflex Strike: Inflict naval damage to a single target. Targets within 50 m of the impact site take half as much mecha damage.</p>"
+                    }
+                    ,"coffee-break":
+                    {
+                         "name":"Coffee Break"
+                        ,"desc":"<p><em>&ldquo;Anyone want some coffee?&rdquo;</em></p> <p>You enjoy a nice cup of coffee to help you relax. Each day, if you have minutes to relax and drink coffee, you reduce Fatigue by 1. You can only do this once per day and this counts toward the maximum of 1 Fatigue that can be recovered each day.</p>"
+                    }
+                    ,"crack-team":
+                    {
+                         "name":"Crack Team"
+                        ,"desc":"<p><em>&ldquo;I only want the best of the best. I have chosen you. Do not let me down.&rdquo;</em></p> <p><strong>Prerequisite: </strong>Commander Rank or Higher</p> <p>You have a personal command over a talented team &ndash; choose 1 of the following:</p> <p>&bull; Science</p> <p>&bull; Engineering</p> <p>&bull; Gunnery</p> <p>&bull; Sensors</p> <p>When you order this group to take Action, gain an Edge when rolling. See page 167 for ordering subordinates.</p>"
+                    }
+                    ,"fast-planner":
+                    {
+                         "name":"Fast Planner"
+                        ,"desc":"<p><em>&ldquo;All right squadron, this is the plan&hellip;&rdquo;</em></p> <p>You are able to survey a situation and act quickly. You are able to increase the time and amount of interaction that occurs during the Communication portion of a round. Every hero can go around twice to clarify a plan. Also, gain &ldquo;Fast Planner&rdquo; as an Element.</p>"
+                    }
+                    ,"hero-of-the-people":
+                    {
+                         "name":"Hero of the People"
+                        ,"desc":"<p><em>&ldquo;Make sure these rations get to E-Block. There are lots of hungry kids down there.&rdquo;</em></p> <p>You are well-loved by the common folk. They buy you drinks when you are out on the town and always greet you with a smile. They may even band together to help or protect you if you get in trouble. Gain an Edge when rolling to deal with civilians in social situations. Also, gain &ldquo;People&rsquo;s Hero&rdquo; as an Element.</p>"
+                    }
+                    ,"lead-the-charge":
+                    {
+                         "name":"Lead the Charge"
+                        ,"desc":"<p><em>ldquo;Let&rsquo;s go, squad! Right into the center&hellip;all form up on me!&rdquo;</em></p> <p>When you charge into combat, you inspire a righteous fury in those who follow your lead. In the first round of combat, if you are the first one to enter or initiate it, half of those under your command can make rerolls to any or all Actions</p>"
+                    }
+                    ,"mad-thinker":
+                    {
+                         "name":"Mad Thinker"
+                        ,"desc":"<p><em>&ldquo;That&rsquo;s so crazy&hellip;it just might work!&rdquo;</em></p> <p>You see things in your mind&rsquo;s eye that others cannot conceive; an instant later you&rsquo;re attempting something no one thought possible. Once per engagement or encounter, you are able to use Skills to enact a plan that is so crazy it just may work. When attempting this plan, do not take penalties due to difficulty.</p>"
+                    }
+                    ,"pride-of-the-fleet":
+                    {
+                         "name":"Pride of the Fleet"
+                        ,"desc":"<p><em>&ldquo;We will not succumb to this superior force. We will fight and be victorious.&rdquo;</em></p> <p>Through your indomitable presence, you stun those who would do you harm. When in the presence of an enemy, your spirit and resolve stuns them. Once per encounter or engagement, you may negate 1 enemy Action at any time. The enemy must be able to see you, your mecha, or your naval vessel to make this happen.</p>"
+                    }
+                    ,"swiftmind":
+                    {
+                         "name":"Swiftmind"
+                        ,"desc":"<p><em>&ldquo;This admin is almost as good as me. They&rsquo;re blocking everything I try, but they can&rsquo;t stop this.&rdquo;</em></p> <p>You think and process information much faster than most. You win all ties against heroes or villains when opposing them mentally. In the case of a tie, you are considered to have at least 1 success against your opponent.</p>"
+                    }
+                    ,"station-overload":
+                    {
+                         "name":"Station Overload"
+                        ,"desc":"<p><em>&ldquo;I don&rsquo;t care what this reading says, we have to increase output&hellip;reroute the overload to another system!&rdquo;</em></p> <p>In emergency situations, you use all the resources at your disposal. You may use 2 equipment suites from a station, or double the effectiveness of 1. When this occurs, a system on your mecha, ship, or base takes a total of 2 system damage. You may choose to damage your station&rsquo;s equipment suites, rendering them inoperable instead.</p>"
+                    }
+                    ,"supply-drop":
+                    {
+                         "name":"Supply Drop"
+                        ,"desc":"<p><em>&ldquo;We&rsquo;re pretty banged up down here. Do you think we can get some support?&rdquo;</em></p> <p>You prepare to support your people in the field. Once per mission, you are able to call in supplies to a specified location via transport aircraft or space shuttle. It takes minutes to get the supplies once called for. The drop includes:</p> <p>&bull; Any 6 Kits.</p> <p>&bull; Enough ammunition to completely reload mecha guns and all light weapons.</p> <p>&bull; Tools and materials needed to repair 4 points of mecha damage or all Light-Class armor damage.</p> <p>The above listed items are the standard drop. You may request special drops for mecha weapons, missiles, light equipment, camp buildings, or MPV.</p>"
+                    }
+                    ,"watchdog":
+                    {
+                         "name":"Watchdog"
+                        ,"desc":"<p><em>&ldquo;Stay vigilant on those sensors; we need to ensure our flanks are covered.&rdquo;</em></p> <p>You are always keen to keep your eyes on the sensors, knowing that early detection of a threat can save lives. Once per encounter, during the Support Phase, you may treat a Targeted Scan as an Area Scan. This means you don&rsquo;t halve your result when determining your successes, but gain the ability to see the Area. See page 155 for more on Observing Actions. Also, gain &ldquo;Watchdog&rdquo; as an Element.</p>"
+                    }
+                    ,"battle-order":
+                    {
+                         "name":"Battle Order"
+                        ,"desc":"<p><em>&ldquo;If we do this right, we can make it out of here alive!&rdquo;</em></p> <p>You are decisive and calm under pressure. Those under your command follow your orders without question. Once per Conflict, you may give an order to an ally or subordinate who has a lower rank than you. When following this order, they do not take Fatigue from exceeding their Burnout. Make the order in the Communication Phase.</p>"
+                    }
+                    ,"combat-leader":
+                    {
+                         "name":"Combat Leader"
+                        ,"desc":"<p><em>&ldquo;Gamattru Wing, you are to dive on the enemy position after their volley of anti-air cover. Use a parabolic entry pattern. They will not be able to adapt.&rdquo;</em></p> <p>You excel at leading in the thick of combat. Your keen instincts and ability to sense the enemy&rsquo;s motives have led to many glorious victories. Once per Conflict, gain +1 bonus Action. This bonus Action may only be used to make a Support or Ops Action (assuming you have not taken an Ops or Support Action in the Conflict already).</p>"
+                    }
+                    ,"good-reputation":
+                    {
+                         "name":"Good Reputation"
+                        ,"desc":"<p><em>&ldquo;This unit has scanned and eliminated 203 humanoid lifeforms. My calculations indicate that I will eliminate 414 more before evolving.&rdquo;</em></p> <p>Years of dedicated service have yielded you many accolades. People who know your track record take your word seriously. You have a good reputation among a specific population of sentients&mdash;which is chosen when this Talent is taken. You gain an Edge when engaging in social situations with this group.</p>"
+                    }
+                    ,"inspirational":
+                    {
+                         "name":"Inspirational"
+                        ,"desc":"<p><em>&ldquo;We have so little, and our enemy is well prepared, but we can still make a difference. Each of us can change the game if we are smart and determined!&rdquo;</em></p> <p>You stand on a fallen tree to project your voice. As you engage your friends, more and more people approach to hear what you have to say. By the end of your speech, you have the whole company enamored. Once per Conflict, you may give an inspirational speech. It takes minutes to complete, but all those who hear it have their Burnout raised by 1 for the next Conflict.</p>"
+                    }
+                    ,"legendary-hero":
+                    {
+                         "name":"Legendary Hero"
+                        ,"desc":"<p><em>&ldquo;See that one? I heard they took on an entire swarm of Invid Scouts with just a knife. I&rsquo;m glad they are on our side.&rdquo;</em></p> <p>Once, a long time ago, you walked into the jaws of hell and emerged unscathed. Increase your Fame by 1 level. Once per Conflict, you may invoke your legendary status to spur your fellow soldiers onto greatness. When Attacking and being Attacked, gain +3 automatic Successes, but take 1 Wound or damage automatically. Equipment cannot be used to mitigate this damage.</p>"
+                    }
+                    ,"that-is-how-it-is-done":
+                    {
+                         "name":"That Is How It Is Done"
+                        ,"desc":"<p><em>&ldquo;The battlefield isn&rsquo;t just a trial for you. It&rsquo;s a trial for them, too. Show them the way.&rdquo;</em></p> <p>Once per Conflict, gain the following Benefit: In the turn after you have Success with an Action, any allies within Short Range who witness your Action may make a reroll if they perform the same Action in the same way. Enact this Ability after you have succeeded, at the beginning of the turn.</p>"
+                    }                                                        
+                }
+                ,"piloting":
+                {
+                    "all-the-missiles":
+                    {
+                         "name":"All the Missiles"
+                        ,"desc":"<p><em>&ldquo;It&rsquo;s a beautiful thing, watching a hundred Mini-Missiles streak toward the enemy.&rdquo;</em></p> <p>Once per encounter, double the Skill dice of a missile equipment suite. However, when using this Talent you must expend 2 ammo uses of the equipment suite.</p>"
+                    }
+                    ,"always-shot-down":
+                    {
+                         "name":"Always Shot Down"
+                        ,"desc":"<p><em>&ldquo;I almost never bring a Veritech back after an engagement. It seems I&rsquo;m always getting shot down.&rdquo;</em></p> <p>Any mecha you pilot loses 1 armor. However, you never take physical damage and are always recovered when your mecha is destroyed.</p> <p>Seek the GM&rsquo;s permission before taking this Talent if using High Lethality Mode. See page 168.</p>"
+                    }
+                    ,"countermeasures":
+                    {
+                         "name":"Countermeasures"
+                        ,"desc":"<p><em>&ldquo;Missiles are the best anti-missile option in your toolkit.&rdquo;</em></p> <p>You may double the Skill dice of an anti-missile equipment suite when used to defend against missile-based attacks.</p>"
+                    }
+                    ,"daredevil":
+                    {
+                         "name":"Daredevil"
+                        ,"desc":"<p><em>&ldquo;We&rsquo;ll make a blitzkrieg attack out of the rings of Saturn.&rdquo;</em></p> <p>When performing a dangerous task involving agility, strength, quickness, and bravery, gain a reroll. You may use this Talent once per encounter. As an ongoing passive ability, reduce damage ram damage taken by 1.</p>"
+                    }
+                    ,"equipment-upgrade":
+                    {
+                         "name":"Equipment Upgrade"
+                        ,"desc":"<p><em>&ldquo;So, the deck chief&hellip;they&rsquo;re my godparent. I get the best of everything.&rdquo;</em></p> <p>Gain access to 1 piece of equipment equal to 1 rank above your current rank. This includes mecha, naval vessels, and mecha upgrades.</p>"
+                    }
+                    ,"fast-transform":
+                    {
+                         "name":"Fast Transform"
+                        ,"desc":"<p><em>&ldquo;Battloid to fire, Guardian to dodge, and Fighter to maneuver...&rdquo;</em></p> <p>You are a master at controlling your Veritech. You can transform between modes quickly and confidently. When you use a transformation equipment suite the Action is considered to be enhanced. Based on your creativity, the situation, and the fiction, the GM is to consider a bonus for the Action. Once per Encounter you may use 2 equipment suites instead of 1 during your turn. Both suites used must be related to the transformation modes used.</p>"
+                    }
+                    ,"fly-anything":
+                    {
+                         "name":"Fly Anything"
+                        ,"desc":"<p><em>&ldquo;Zentraedi, Veritech, or prototype, it doesn&rsquo;t matter. You feel at home in any mecha.&rdquo;</em></p> <p>You have the expertise to pilot any type of advanced or flying craft. This includes Aircraft, Mecha, Mecha Upgrades, Space Vehicles, and Shuttles. Assume you have proficiency in any light or mecha-sized vehicle. You may also pilot naval vessels at a penalty.</p>"
+                    }
+                    ,"hard-lock":
+                    {
+                         "name":"Hard Lock"
+                        ,"desc":"<p><em>&ldquo;Now, cadets, if you time it properly, when you come out of a roll, you can get an opening for a missile salvo.&rdquo;</em></p> <p>If you damaged a mecha, you may use this Talent as an equipment suite in the following round against the same mecha. You must make at least 1 attack Action the round after damaging a mecha and use Hard Lock as an equipment suite. You must also meet all the other requirements for attacking.</p> <p>&bull; Uses: Unlimited</p> <p>&bull; Skill: 3</p>"
+                    }
+                    ,"heap-of-junk":
+                    {
+                         "name":"Heap of Junk"
+                        ,"desc":"<p><em>&ldquo;I&rsquo;m tell&rsquo;n ya&hellip;and I don&rsquo;t care what the diagnostics say&hellip;it&rsquo;s broken!&rdquo;</em></p> <p>There&rsquo;s something wrong with your mecha. No engineer can get it fixed and 1 system or another has issues always. Randomly reduce 1 system on your mecha by 1 level when you take the mecha out. Once per engagement, negate all damage from 1 attack. The damage is assumed to hit part of the junk and not damage any other systems.</p>"
+                    }
+                    ,"machine-ghost":
+                    {
+                         "name":"Machine Ghost"
+                        ,"desc":"<p><em>&ldquo;Come on baby&hellip;I know what you can do&hellip;let&rsquo;s make this happen.&rdquo;</em></p> <p>You bind with a station, mecha, system, or naval vessel. Once per encounter or engagement make a reroll when using an equipment suite that relates to the object you bound with. You also have the ability to sense how the system is operating or if something is broken or wrong.</p>"
+                    }
+                    ,"never-shot-down":
+                    {
+                         "name":"Never Shot Down"
+                        ,"desc":"<p><em>&ldquo;See, I told you I&rsquo;d make it back alive.&rdquo;</em></p> <p>Even if a mecha you are piloting loses all its structure, you are able to bring it back to base. The mecha is unable to take Actions for combat purposes and must immediately leave the vicinity. If your mecha&rsquo;s structure is reduced to 0, it can make it home, but you will take 2 brawl damage from the attack that inflicts the crippling damage.</p>"
+                    }
+                    ,"sympathetic-damage":
+                    {
+                         "name":"Sympathetic Damage"
+                        ,"desc":"<p><em>&ldquo;Target those Mini-Missiles on their port side. The armor is ripped up there.&rdquo;</em></p> <p>When attacking with a mecha-based area effect weapon, if you damage an enemy mecha, you may choose to inflict 1 level of damage to a specific system. Blast weapons must have a radius of at least 3 m to receive this benefit. See page 162 for more on system damage.</p>"
+                    }
+                    ,"advanced-maneuvering":
+                    {
+                         "name":"Advanced Maneuvering"
+                        ,"desc":"<p><em>&ldquo;Tactical assessment indicates that using the asteroid debris will result in a 92 percent chance of escape.&rdquo;</em></p> <p>With a sharp mind and even sharper reflexes, you push your Mecha to the limit. Using every Vernier Thruster and your intuition, you dive through space like an elegant dancer. When performing a Defend or Redirect Action in a suitable flying Vessel moving at least at half Speed, gain the following equipment suite:</p> <p><strong>&bull; Uses: </strong>Unlimited</p> <p><strong>&bull; Skill: </strong>5 + take 1 damage to your Vessel due to the Stress of the maneuver</p>"
+                    }
+                    ,"defensive-fighter":
+                    {
+                         "name":"Defensive Fighter"
+                        ,"desc":"<p><em>&ldquo;So many missiles. We can make it through if we split them. Hang on, we&rsquo;re about to experience some turbulence.&rdquo;</em></p> <p>You watch the tides of battle and know how to dodge and weave. Your positioning mitigates the worst of most impacts. When moving at least at half-speed in your Mecha or aerial vehicle, gain +1 Armor against area of effect damage and Attacks with a Range of Short. This is a continuous effect. You may also decide to burn this to gain +1 Armor when making a Defend Action once per Conflict.</p>"
+                    }
+                    ,"fox-among-the-hounds":
+                    {
+                         "name":"Fox Among the Hounds"
+                        ,"desc":"<p><em>&ldquo;No worries, Bravo leader&mdash;my signature is masked and I&rsquo;m just going to ease on in&hellip;right in the middle of these Invid.&rdquo;</em></p> <p>You are an expert at breaking up any formation and making enemy attacks a danger to their own allies. Gain the &ldquo;Fox&rdquo; Element. You are in this Element when surrounded by multiple weaker foes. When engaging a swarm of targets, if you have targeted the swarm in your previous round, you may use the &ldquo;Fox Amongst the Hounds&rdquo; equipment suite:</p> <p><strong>&bull; Uses: </strong>Unlimited</p> <p><strong>&bull; Skill: </strong>2</p>"
+                    }
+                    ,"head-hunter":
+                    {
+                         "name":"Head Hunter"
+                        ,"desc":"<p><em>&ldquo;My Queen did not evolve me to waste my time tangling with these rats. I desire a real challenge.&rdquo;</em></p> <p>You gain the Head Hunter Element. You are in this Element when searching for and engaging enemy aces, officers, and warriors of renown in single combat. During the course of a Conflict, you may bank Attack Actions when targeting an enemy pilot of renown. Later in the Conflict, you may add these banked Actions to an Attack Action against your rival. Each banked Action allows you to ignore 1 point of the target&rsquo;s Armor and gain +1 automatic Success.</p>"
+                    }
+                    ,"just-hold-together":
+                    {
+                         "name":"Just Hold Together"
+                        ,"desc":"<p><em>&ldquo;All right baby, I know you won&rsquo;t like this&mdash;but If I give you just a bit more juice, you can get that signal out.&rdquo;</em></p> <p>You know your Mecha and have luck on your side. During a Conflict, a Pilot can make any and all damaged or destroyed Systems and Hardware function without penalty inside the Mecha or aerial vehicle you are operating. This can happen in any round after the damage has occurred. The duration of the effect lasts for seconds. This Talent will not allow a system that requires ammunition to fire again if the ammunition has been expended.</p>"
+                    }
+                    ,"mag-dump":
+                    {
+                         "name":"Mag Dump"
+                        ,"desc":"<p><em>&ldquo;Once you get a targeting solution, fire! And make sure not to let off that trigger!&rdquo;</em></p> <p>As a pilot, you have come to count on your trusty Gun Pod. Spend 1 additional point of Use when activating a Gun Pod&lsquo;s equipment suite. This provides you with double the dice granted by the equipment suite&rsquo;s Skill.</p>"
+                    }
+                }
+                ,"social":
+                {
+                     "bureaucrat":
+                    {
+                         "name":"Bureaucrat"
+                        ,"desc":"<p><em>&ldquo;No, no. If you want to get this done efficiently, you need form 1192-z.&rdquo;</em></p> <p>You are a natural at understanding governmental systems. You requisition or get approval through paperwork to obtain equipment within minutes to hours. Use this Talent to dazzle or befuddle others with your impressive bureaucratic jargon. Also, gain &ldquo;Bureaucrat&rdquo; as an Element.</p>"
+                    }
+                    ,"copycat":
+                    {
+                         "name":"Copycat"
+                        ,"desc":"<p><em>&ldquo;Don&rsquo;t worry, I&rsquo;m a doctor&hellip;on TV.&rdquo;</em></p> <p>If you take time observing someone performing a task you are unfamiliar with, you can learn and execute the task effectively. The next time you perform a similar task, gain an Edge. You may store up to 3 different tasks this way.</p>"
+                    }
+                    ,"dead-inside":
+                    {
+                         "name":"Dead Inside"
+                        ,"desc":"<p><em>&ldquo;After a few dozen sorties, I don&rsquo;t feel much of anything anymore.&rdquo;</em></p> <p>After experiencing countless battlefield tragedies, you learn to deal with loss. You never take Fatigue from the loss of a comrade or an injury to yourself. This Talent leads your hero to be sullen or morose at times. Also, gain an Edge when attempting to intimidate someone.</p>"
+                    }
+                    ,"friends-in-high-places":
+                    {
+                         "name":"Friends in High Places"
+                        ,"desc":"<p><em>&ldquo;We grew up in the same neighborhood. Even though they were older, I could tell he had a crush on me.&rdquo;</em></p> <p>You have a personal friend who outranks you. From time to time they help you gain information, equipment, or support in combat. You can use their help once per game session, or as often as they are available. Take care of this relationship. Acting rude or ungrateful may have your connection turn their back on you for a while.</p>"
+                    }
+                    ,"friends-in-low-places":
+                    {
+                         "name":"Friends in Low Places"
+                        ,"desc":"<p><em>&ldquo;I can tell that mechanic likes me&hellip;my Veritech is always in top shape!&rdquo;</em></p> <p>You have a connection that is below your rank. This person is a friend who will help you out to the best of their ability. They&rsquo;re willing to go outside of the command structure to offer you aid. Take care not to push this connection too far, as they might get in trouble for overstepping their authority.</p>"
+                    }
+                    ,"hideout":
+                    {
+                         "name":"Hideout"
+                        ,"desc":"<p><em>&ldquo;Quick, I know a place that we can go to where MPs will never find us.&rdquo;</em></p> <p>You have a place that is hidden that only your most trusted friends are aware of. This is a safe place where you can rest or hide if things become dangerous. If you lose the hideout or move away from it, you can get another. It takes days to find or create a new hideout.</p>"
+                    }
+                    ,"hidden-contacts":
+                    {
+                         "name":"Hidden Contacts"
+                        ,"desc":"<p><em>&ldquo;&hellip;I know a guy, you&rsquo;ll love them!&rdquo;</em></p> <p>You know lots of people, but you also know people who don&rsquo;t like being found. This may be a secret society, smugglers, or the leaders of an organization working behind the scenes. These special contacts may help you. However, the bigger the ask, the bigger the price. Choose 1 type you have an association with. Gain an Advantage when engaging with this group.</p>"
+                    }
+                    ,"lions-roar":
+                    {
+                         "name":"Lion's Roar"
+                        ,"desc":"<p><em>&ldquo;Know this, my brave warriors. Today we are victorious or we do not return home!&rdquo;</em></p> <p>Gain 1 extra Heroic Move. You may allow an ally to use this Move at no penalty. The second Move recovers as per the normal rules and separately from the original Move. See page 159 for Heroic Move recovery.</p>"
+                    }
+                    ,"mysterious-past":
+                    {
+                         "name":"Mysterious Past"
+                        ,"desc":"<p><em>&ldquo;We tried to look them up in the ID system, but there&rsquo;s nothing there.&rdquo;</em></p> <p>You may not be who you seem. Others looking into you cannot learn much. There is little information on where you were raised, your ID numbers, or your medical records. Any time you can use your mysterious nature, gain an Edge. Also, gain&rdquo;Mysterious&rdquo; as an Element.</p>"
+                    }
+                    ,"parlay":
+                    {
+                         "name":"Parlay"
+                        ,"desc":""
+                    }
+                    ,"secret-stash":
+                    {
+                         "name":"Secret Stash"
+                        ,"desc":"<p><em>&ldquo;Parlay! I demand a parlay which cannot be honorably denied.&rdquo;</em></p> <p>You have a way of engaging others. Even a die hard enemy will listen to what you have to say before attacking. In the first round of an encounter or engagement you can delay an opponent from taking 1 to 2 Actions. The total number of Actions you may delay is the number you choose to lose that turn.</p>"
+                    }
+                    ,"wealthy":
+                    {
+                         "name":"Wealthy"
+                        ,"desc":"<p><em>&ldquo;Unlike those trust fund kids, you got here all by yourself.&rdquo;</em></p> <p>Gain 1 level of Wealth above your current rank to a maximum of Ultra-Wealth. Also, gain an Assistant, Bodyguard, or a Copilot. See page 125 for more information companions.</p>"
+                    }
+                    ,"a-reason-to-come-home":
+                    {
+                         "name":"A Reason to Come Home"
+                        ,"desc":"<p><em>&ldquo;I will never leave you behind. I will be back, no matter what.&rdquo;</em></p> <p>When you take this Talent, gain a Drama relating to your desire and reason to survive and return home. Once during a Conflict, you may ignore 1 source of damage to reduce your Wounds. In addition, you gain the &ldquo;Journeyer&rdquo; Element. You are in this Element when attempting to return to the source of your Drama.</p>"
+                    }
+                    ,"exaggerated-reputation":
+                    {
+                         "name":"Exaggerated Reputation"
+                        ,"desc":"<p><em>&ldquo;Yeah, of course I took out that Triumvirate myself. The ASC has advanced capabilities now.&rdquo;</em></p> <p>Treat your Fame as 1 level higher than it is. However, you will often be accosted by those who believe your exaggerated reputation, and people may either avoid you or harass you depending on its nature. Additionally, gain an Edge when interacting with people socially who are not aware of the truth due to the outlandish and bombastic stories that surround you. Gain a Drama if those people find out you are not genuine.</p>"
+                    }
+                    ,"slick-as-water":
+                    {
+                         "name":"Slick As Water"
+                        ,"desc":"<p><em>&ldquo;I am truly sorry for my actions. As long as we all come together, we can work past this.&rdquo;</em></p> <p>You always know what to say to get out of a jam. You make mistakes, but they never seem to impact you socially. When you make a social mistake or miscue, you can turn it into a positive effect by taking 1 point of Fatigue. The positive effect could be getting an Edge the next time you interact with the same group of people, or you can choose not to take a Drama from the interaction.</p>"
+                    }
+                    ,"sentimental-trinket":
+                    {
+                         "name":"Sentimental Trinket"
+                        ,"desc":"<p><em>&ldquo;This small amulet is all I have left of my fiancee.&rdquo;</em></p> <p>You have a small object in your possession at all times. This item serves as a powerful source of inspiration and a reminder to keep surviving. Once per session, gain an Edge when resolving a challenge related to a Drama. The trinket can be destroyed to instantly resolve a Drama. You may gain a new trinket after resolving another Drama.</p>"
+                    }
+                    ,"unhinged":
+                    {
+                         "name":"Unhinged"
+                        ,"desc":"<p><em>&ldquo;Breaking protocol. Regess&rsquo; instructions are less efficient. I will make the adjustments required.&rdquo;</em></p> <p>You have always been a touch unstable. Most of the time, it gets you in trouble, but you have learned to harness this instability. You gain the &ldquo;Unhinged&rdquo; Element and are in your Element when acting erratically or during a mental break. Permanently lose -1 point of Stress; you now have access to 4 boxes instead of 5. When you mentally break, the GM may only control 1 of your Actions. You still control the other.</p>"
+                    }
+                    ,"you-are-the-stage":
+                    {
+                         "name":"You Are the Stage"
+                        ,"desc":"<p><em>&ldquo;No light? No stage? Just some dead trees and big rocks? This will be the best performance of my career!&rdquo;</em></p> <p>Your brilliance is always the main attraction; everything else is just for show. When performing, you may use a listed equipment suite benefit associated with a venue that you have access to with your current Fame. You do not need access to a venue to gain this benefit. You may activate this Talent once over days.</p>"
+                    }
+                }
+                ,"tactical":
+                {
+                     "built-tough":
+                    {
+                         "name":"Built Tough"
+                        ,"desc":"<p><em>&ldquo;I have been built more sturdy than the average Zentraedi Warrior.&rdquo;</em></p> <p>Your Zentraedi model has been engineered to be battle ready. As a Human, you always seem to make it though combat. Humans and Zentraedi gain different benefits from taking this Talent. Built Tough may be taken 2 times:</p> <p><strong>&bull; Humans: </strong>Humans gain 2 additional brawl wounds; the second time taken grants 1 additional critical wound.</p> <p><strong>&bull; Zentraedi: </strong>Zentraedi gain 5 light wounds which equals 1 extra brawl wound and gain the benefits of a Flight Suit even if not wearing one. If taken a second time, replace all your light wounds with 3 mecha class wounds (4 if you enhanced +1 Brawl wound on page 17) &ndash; the first 2 counting as brawl and the last counting as critical.</p> <p><strong>&bull; Tirolians: </strong>Tirolians gain +2 additional Brawl Wounds; the second time taken grants +1 additional Critical Wound.</p> <p><strong>&bull; Invid: </strong>Invid gain +1 Resist, which may be added to any Resist provided from gear but not Vessels. Gain an additional +1 Resist if taken a second time.See page 163 for details.</p>"
+                    }
+                    ,"counterattack":
+                    {
+                         "name":"Counterattack"
+                        ,"desc":"<p><em>&ldquo;I won&rsquo;t go down so easy!&rdquo;</em></p> <p>Once per engagement, when you take damage at Melee or Short range, inflict half of the damage taken back on your opponent. You must have operational weapon systems, a weapon, or a simple plan to be able to inflict the damage back.</p>"
+                    }
+                    ,"dead-eye":
+                    {
+                         "name":"Dead Eye"
+                        ,"desc":"<p><em>&ldquo;Fire right at the neck joint in their armor. It&rsquo;s weakest there.&rdquo;</em></p> <p>Once per engagement per opponent you may ignore 1 point of your target&rsquo;s armor. You may decide to use this after rolling your Actions. This Talent can only be used with light weapons.</p>"
+                    }
+                    ,"defender":
+                    {
+                         "name":"Defender"
+                        ,"desc":"<p><em>&ldquo;I am here to protect you, Senator.&rdquo;</em></p> <p>You gain an Edge to defend an ally. The bonus is only gained if the person you are guarding is being attacked. You must declare whom you are guarding each round and be in range to defend them.</p>"
+                    }
+                    ,"efficient-fighter":
+                    {
+                         "name":"Efficient Fighter"
+                        ,"desc":"<p><em>&ldquo;Our production facility can&rsquo;t keep up with the demand for ammo. Place your shots well.&rdquo;</em></p> <p>As you fight, you only use the resources you need. You are not affected by supply shortfalls for basic ammunition. Gain 1 additional use of one ammunition-based equipment suite.</p>"
+                    }
+                    ,"heightened":
+                    {
+                         "name":"Heightened"
+                        ,"desc":"<p><em>&ldquo;He looks small, but no one is stronger than Ben.&rdquo;</em></p> <p>You are physically exceptional in some way. Choose 1: Strength, Endurance, Agility, Willpower, Intellect, or Charisma. Gain an Edge once per encounter, engagement, or day (GM&rsquo;s choice) when using your selected aspect.</p>"
+                    }
+                    ,"infiltrator":
+                    {
+                         "name":"Infiltrator"
+                        ,"desc":"<p><em>&ldquo;Those vents are NOT too small. I do this all the time.&rdquo;</em></p> <p>Gain an Edge to rolls when sneaking and your presence has not been detected or expected. Once you are spotted or have left evidence that indicates your presence, this bonus is lost.</p>"
+                    }
+                    ,"martial-artist":
+                    {
+                         "name":"Martial Artist"
+                        ,"desc":"<p><em>&ldquo;I know all 27 Shaolin animal styles...&rdquo;</em></p> <p>You are a deadly in melee combat, even without weapons. For melee combat purposes, you count as being armed with a deadly weapon even if you don&rsquo;t have one. This may be used in mecha and light encounters. This allows you to ignore the penalty for not having a proper melee weapon.</p>"
+                    }
+                    ,"soldier-up":
+                    {
+                         "name":"Soldier Up"
+                        ,"desc":"<p><em>&ldquo;I&rsquo;ll get the job done. No one else needs to get hurt&rdquo;</em></p> <p>You are an exemplary soldier, committed to your duty. When taking action of a physical manner, you may take 1 wound, brawl or critical to gain an automatic 2 successes, or take 2 wounds to gain an automatic 5 successes. You may not gain a Heroic Move from successes when using this Talent.</p>"
+                    }
+                    ,"swiftstrike":
+                    {
+                         "name":"Swiftstrike"
+                        ,"desc":"<p><em>&ldquo;They moves so fast, I can&rsquo;t track their position&hellip;now they&rsquo;re at 10 o&rsquo;clock&hellip;watch...Arrggg!&hellip;&rdquo;</em></p> <p>Your quick reactions are unparalleled. You win ties against heroes or villains when opposing them physically. This means that you are assumed to have 1 success against your opponent when you tie.</p>"
+                    }
+                    ,"track-star":
+                    {
+                         "name":"Track Star"
+                        ,"desc":"<p><em>&ldquo;It pays to wake up at 0500 and run a half marathon every day.&rdquo;</em></p> <p><strong>Humans: </strong>Gain +2 ground units of speed (50 m total). <strong>Zentraedi: </strong>Gain +8 ground units of speed (210 m total). You can also run twice as far before becoming physically fatigued.</p>"
+                    }
+                    ,"weapon-expert":
+                    {
+                         "name":"Weapon Expert"
+                        ,"desc":"<p><em>&ldquo;Ahh, the old model 60s. They were considered beasts back in the day.&rdquo;</em></p> <p>You have an innate understanding of how light weapons operate and can operate any light weapon with proficiency, even those you have no experience using. You gain an Edge to repair, maintain, or construct light weapons. Also, you gain an Edge when attacking an opponent armed with a less potent weapon that you wield.</p>"
+                    }
+                    ,"camouflage":
+                    {
+                         "name":"Camouflage"
+                        ,"desc":"<p><em>&ldquo;The mud here is thick and filled with calcium. It will obfuscate our heat signatures.&rdquo;</em></p> <p>You master the environment and blend into it. Given seconds to hide yourself and your allies, gain an Edge to stealthrelated checks. Given minutes to prepare, gain an Advantage. This assumes you are on foot, carrying limited gear. When in Mecha or vehicles, this benefit is reduced by 1 level.</p>"
+                    }
+                    ,"demolitionist":
+                    {
+                         "name":"Demolitionist"
+                        ,"desc":"<p><em>&ldquo;Everything has a weak point. Nothing is impenetrable.&rdquo;</em></p> <p>You know exactly how to crack an egg&mdash;well, an egg with 1-m thick composite Armor. When planting demolitions on a Structure and within an appropriate amount of time, increase Shaped Charge to 3x Mecha damage and double the radius of Fragmentation demolitions from a Demolition Kit (M85).</p>"
+                    }
+                    ,"dirty-fighter":
+                    {
+                         "name":"Dirty Fighter"
+                        ,"desc":"<p><em>&ldquo;Aim for the gonads! Wait, does it have gonads? Aim for the gonads anyway!&rdquo;</em></p> <p>There&rsquo;s no such thing as a fair fight. Gain the Element &ldquo;Dirty Fighter.&rdquo; You gain an Edge the first time you Attack a target with a Melee Attack. If you surprise your target, ignore 1 point of their Armor.</p>"
+                    }
+                    ,"ground-pounder":
+                    {
+                         "name":"Ground Pounder"
+                        ,"desc":"<p><em>&ldquo;I don&rsquo;t need vehicles, gizmos, or mecha. We have everything we need right here in our hands.&rdquo;</em></p> <p>Troopers are fragile but nimble, and gain a slew of tactical Advantages&mdash;especially where guerrilla warfare is needed. Gain the Element &ldquo;Guerrilla.&rdquo; Gain +1 Resist to your personal gear-based Light Armor. This benefit is passive and continues indefinitely. You may choose to burn this benefit to gain +3 Resist against an Attack.</p>"
+                    }
+                    ,"snipe":
+                    {
+                         "name":"Snipe"
+                        ,"desc":"<p><em>&ldquo;With these weapons? There&rsquo;s only one way to beat them. You must aim for the eye. Don&rsquo;t miss.&rdquo;</em></p> <p>Gain the Element &ldquo;Patient.&rdquo; You wait for as long as it takes to get the perfect shot. During a Conflict, you may choose to bank Attack Actions as part of your steady aim. Each Action banked provides 1 level of bonus, assuming you take an Attack Action on the target you have been aiming at and remain undetected.</p>"
+                    }                    
+
+                }
+                ,"technical":
+                {
+                     "always-a-handy-tool":
+                    {
+                         "name":"Always a Handy Tool"
+                        ,"desc":"<p><em>&ldquo;Listen Kid, you want to be a hero? Always keep your multitool close by.&rdquo;</em></p> <p>Even without a tool kit, you always seem to have a useful tool on you. Even if checked, patted down, or moving through security you somehow retain your tool. Your tool can be used as a Hand Weapon.</p>"
+                    }
+                    ,"computer-head":
+                    {
+                         "name":"Computer Head"
+                        ,"desc":"<p><em>&ldquo;Don&rsquo;t worry, sweetie&hellip;I&rsquo;m not going to mess with too many of your 0s and 1s.&rdquo;</em></p> <p>You are a master of computer repair, operation, programming, and virtual intrusion. Gain an Edge when fixing, programming, or hacking computer or virtual systems.</p>"
+                    }
+                    ,"dangerous-exposure":
+                    {
+                         "name":"Dangerous Exposure"
+                        ,"desc":"<p><em>&ldquo;I promise, this is not a good idea. However, it&rsquo;s going to be a whole lot of fun.&rdquo;</em></p> <p>You have been exposed to all sorts of technical dangers including: electricity, cold, and fire. You have gained a limited resistance to these effects. You are assumed to have +1 armor when being damaged by them.</p>"
+                    }
+                    ,"eidetic-memory":
+                    {
+                         "name":"Eidetic Memory"
+                        ,"desc":"<p><em>&ldquo;I can remember all the words to Minmei&rsquo;s songs and all the lines in her movies.&rdquo;</em></p> <p>Your mind is a steel trap. You never forget anything you&rsquo;ve seen or heard.</p>"
+                    }
+
+                    ,"exploding-tech":
+                    {
+                         "name":"Exploding Tech"
+                        ,"desc":"<p><em>&ldquo;So, I rigged a backup power source to the floor&rsquo;s gravity plates. Stand back, this is going to be messy.&rdquo;</em></p> <p>You know how to combine systems in volatile ways. Any time you have access to different electronic systems or items, you can hack them into a weapon. You cause the objects to interact and create a damaging effect. The result destroys the systems or items. Also, gain &ldquo;Exploder&rdquo; as an Element.</p>"
+                    }
+                    ,"field-medic":
+                    {
+                         "name":"Field Medic"
+                        ,"desc":"<p><em>&ldquo;Stay calm. Think of happy things. Do you have a cat? I got this, you&rsquo;ll be fine.&rdquo;</em></p> <p>You have the knowledge and ability to treat wounds in the field. You have the training to heal brawl wounds with few materials. With a medical kit, you may treat 1 brawl wound, per character, per day. The treatment time takes minutes.</p>"
+                    }
+                    ,"hiding-hole":
+                    {
+                         "name":"Hiding Hole"
+                        ,"desc":"<p><em>&ldquo;Where is that nerd? If we don&rsquo;t find them, the Commander is gonna have our hides.&rdquo;</em></p> <p>Some are not cut out for direct combat. When the going gets tough, you hide. You always manage to find a safe place to hide for a while when someone is looking to hurt you. This Talent extends to awkward social situations as well as playing dead.</p>"
+                    }
+                    ,"navigator":
+                    {
+                         "name":"Navigator"
+                        ,"desc":"<p><em>&ldquo;Maneuvers and calculations&hellip;that&rsquo;s all I do. Go around the nebula, avoid that asteroid&hellip;sheesh.&rdquo;</em></p> <p>You are at home in space. You gain an Edge to navigation of a spacecraft including: calculations, survival, launching, reentry, gravity wells, and plotting a course.</p>"
+                    }
+                    ,"overload":
+                    {
+                         "name":"Overload"
+                        ,"desc":"<p><em>&ldquo;Charge the system to 120% capacity. I know we are going to lose it, but we need it operational now!&rdquo;</em></p> <p>Inflict damage to a system to get increased benefit from it. The system takes 2 levels of damage, but you gain an Advantage when using it. Light weapons and personal equipment are destroyed when using this Talent.</p>"
+                    }
+                    ,"pack-rat":
+                    {
+                         "name":"Pack Rat"
+                        ,"desc":"<p><em>&ldquo;Corporal, I need you to sign these papers saying that the requisition was lost in combat.&rdquo;</em></p> <p>You always store extra equipment and ammunition for hard times. You are able to carry an additional item over standard maximums. You also gain ownership of an additional kit, beyond typical loadout.</p>"
+                    }
+                    ,"quick-diagnostics":
+                    {
+                         "name":"Quick Diagnostics"
+                        ,"desc":"<p><em>&ldquo;These gyros go out of calibration all the time. This one is at least .0001 degrees out.&rdquo;</em></p> <p>You are able to identify a mechanical or electrical problem by listening to it or observing minor changes in its behavior. The observation only requires seconds of time and you gain an Edge to subsequently repair the problem.</p>"
+                    }
+                    ,"therapist":
+                    {
+                         "name":"Therapist"
+                        ,"desc":"<p><em>&ldquo;Just sit back, relax, and walk me through this last engagement.&rdquo;</em></p> <p>After years of training and experience with the horrors of war, you know how to treat PTSD and mental health issues related to Stress. After interaction with someone for hours, you can reduce their Fatigue by 1 point. This can be performed once per day, per person you interact with, but may be done in conjunction with standard Fatigue recovery of 1 per day.</p>"
+                    }
+                    ,"jury-rig":
+                    {
+                         "name":"Jury Rig"
+                        ,"desc":"<p><em>&ldquo;Well, all the capacitors here are blown, but those over there are just fine. Seems like a simple decision.&rdquo;</em></p> <p>Quick thinking and resourcefulness have gotten you through some tough times. Gain the Element &ldquo;Resourceful.&rdquo; When you do not have time or the parts to properly fix a damaged system, you can scavenge parts from another system. The system you took the parts from becomes damaged to a degree based on the level of repair completed.</p>"
+                    }                      
+                    ,"intensify":
+                    {
+                         "name":"Intensify"
+                        ,"desc":"<p><em>&ldquo;All right, I now have the Boosters linked with the jet pack. Attacking and defending with one push of a button.&rdquo;</em></p> <p>As you quickly rewire and rewrite protocols within a vehicle, system, or Vessel, you link multiple systems together to intensify your capabilities. Once per Conflict, you may use up to 2 equipment suites instead of 1. However, this costs 1 additional use from either equipment suite activated. The systems must be complex to modify them technically.</p>"
+                    }                      
+                    ,"scavenger":
+                    {
+                         "name":"Scavenger"
+                        ,"desc":"<p><em>&ldquo;Now, this place, this place always comes through for me. That cruiser&rsquo;s debris spread all over these hills as she was coming down.&rdquo;</em></p> <p>You are adept at using limited materials to keep Mecha and gear in working order and obtain the materials to do so. On any supply test to obtain Mecha or equipment, you count as having 1 additional Success.</p> <p>*You may take this Talent a second time; when you do any test for obtaining supplies, count as having 2 additional Successes.</p>"
+                    }                      
+                    ,"well-stocked":
+                    {
+                         "name":"Well Stocked"
+                        ,"desc":"<p><em>&ldquo;I carry everything in my utility vest&hellip;dental floss, pliers, a tape measure, neural wiring harness, tracking device...&rdquo;</em></p> <p>Gain the Element &ldquo;Prepared.&rdquo; You knew lugging that case of supplies around would come in handy at some point. You gain +1 additional use of a non-weapon-based equipment suite you have access to. This Talent may be used once over the span of hours.</p>"
+                    }                      
+                }
+                ,"invid":
+                {
+                    "telekinesis":
+                    {
+                         "name":"Telekinesis"
+                        ,"desc":"<p>You can move objects with your mind. You may move 10 kg of objects 10 m, or the Talent may be altered to move 100 kg of material 1 m. You may choose to split up the weight and distance as you see fit. The objects move 3 m over moments. Enemies that are lifted from the ground are unable to move. By spending 2 Fatigue, you may lift 2 targets at once.</p>"
+                    }
+                    ,"mental-invade":
+                    {
+                         "name":"Mental Invade"
+                        ,"desc":"<p>Using the strength of your mind, you reach into another's thoughts and can see what they are thinking. The invasion lasts for minutes based on the strength of the attempt. When invading, you hear and see through the target's senses. The subject must be in visual range of your or another Invid in the adjacent hive mind. You may only invade 1 mind at a time.</p>"
+                    }
+                    ,"possession":
+                    {
+                         "name":"Possession"
+                        ,"desc":"<p>Some of the most mentally powerful Invid can take over another's body. To initiate this Attack, you must have visual contact or be adjacent to another Invid in the hive mind. When you have control, your body slumps over and your mind enters your target's body. You cannot review the target's memories, but have full control of their body. Possession lasts for seconds.</p>"
+                    }
+                    ,"pure-beam-energy":
+                    {
+                         "name":"Pure Beam Energy"
+                        ,"desc":"<p>By summoning a powerful internal force, you can emit an energy beam from your hands or eyes. The beam has a Range of Short, ignores 1 point of your opponent's Armor, and inflicts 2x Light-Class damage. When piloting an organic-based Mecha, this Attack is enhanced to Mecha-Class damage. You may use an Attack Action with this Talent.</p>"
+                    }
+                }
+            }
+            ,"skills":{
+                "adept-negotiator": 
+                {
+                    "name": "Adept Negotiator"
+                    ,"desc": "<p><em>&ldquo;Your terms are ridiculous. We could never agree to such nonsense.&rdquo;</em></p> <p>You know how to use leverage and avoid topics of weakness to gain the upper hand. Use this Skill to help get what you want when you are in contention with others. To get something, you must be willing to give something up.</p> <p><strong>&bull; Benefit &ndash; Compromise: </strong>You get something you want.</p> <p><strong>&bull; Cost &ndash; Compromise: </strong>To get what you want, you must have something of value to give up.</p> <p><strong>&bull; Physical: </strong>During a prolonged dogfight, after you see your opponent&rsquo;s moves, you open yourself to take damage in order to land the killing blow.</p> <p><strong>&bull; Social: </strong>During discussions, you manage to acquire the rare parts needed to build more mecha, but give up exactly what you intended.</p> <p><strong>&bull; Technical: </strong>You are fixing a system and don&rsquo;t have the proper tools. You short-out one aspect of the system to get the other up and running.</p>"
+                    ,"cad1":"Compromise"
+                    ,"cad2":"Compromise"
+                }
+                ,"ambush-tactics": 
+                {
+                    "name": "Ambush Tactics"
+                    ,"desc": "<p><em>&ldquo;Ok men, we are going to storm the terrorists&rsquo; HQ. Hold nothing back, we will take them by surprise and quickly.&rdquo;</em></p> <p>You can smell an ambush a mile away. You&rsquo;re also a master at setting ambushes and surprise attacks. Strike a target when they least suspect, extricate your team from an attack no one could see coming, and take advantage of cover on a battlefield.</p> <p><strong>&bull; Benefit &ndash; Surprise: </strong>You surprise your enemy with an attack or argument they don&rsquo;t see coming.</p> <p><strong>&bull; Cost &ndash; Hidden: </strong>To take your opponent by surprise, you must come from a position of hiding.</p> <p><strong>&bull; Physical: </strong>Hostages are being held in a local restaurant.</p> <p>You crash through the store&rsquo;s front window and take the criminals by surprise.</p> <p><strong>&bull; Social: </strong>As your rival speaks about a dark time in your past, you prepare for it and launch a verbal attack of your own.</p> <p><strong>&bull; Technical: </strong>There are vulnerable systems that could blow at any moment. You bypass them and get to the core of the problem before the whole system goes up.</p>"
+                    ,"cad1":"Surprise"
+                    ,"cad2":"Hidden"
+                }
+                ,"angelic-grace": 
+                {
+                    "name": "Angelic Grace"
+                    ,"desc": "<p><em>&ldquo;As I bask in the princess&rsquo;s presence, I feel calm and warm.&rdquo;</em></p> <p>You don&rsquo;t walk, you glide across a floor. Those around you, even savage beasts, calm in your presence. The grace you possess is almost supernatural and can be a powerful tool in the right circumstances.</p> <p><strong>&bull; Benefit &ndash; Poise: </strong>You act with grace under fire in any situation.</p> <p><strong>&bull; Cost &ndash; Inflexible: </strong>Once initiated, your choice of approach cannot change or the poise will be broken.</p> <p><strong>&bull; Physical: </strong>During a fight, you are able to navigate a treacherous course using a high level of efficiency.</p> <p><strong>&bull; Social: </strong>The two negotiating parties are starting to get angry. You use your grace to ensure the talks continue on smoothly.</p> <p><strong>&bull; Technical: </strong>You research a new artifact quickly and calmly, never making a mistake as you translate the ancient text.</p>"
+                    ,"cad1":"Poise"
+                    ,"cad2":"Inflexible"
+                }
+                ,"blend-in": 
+                {
+                    "name": "Blend In"
+                    ,"desc": "<p><em>&ldquo;To ensure proper obfuscation, walk two steps left and stay fifteen back from your mark.&rdquo;</em></p> <p>You have the uncanny ability to seem to belong in the eyes of others. This helps you blend into a crowd or sit at an officer&rsquo;s dinner pretending to be one. In most cases those around you will not question, or readily accept a reason, regarding your presence. In battle, enemies seem to ignore you for other more apparent targets.</p> <p><strong>&bull; Benefit &ndash; Unsuspecting: </strong>Blending in makes you seem inconsequential, normal, or unassuming.</p> <p><strong>&bull; Cost &ndash; Crowd: </strong>To go unseen in plain sight, there must be a crowd or visual noise that you can disappear into.</p> <p><strong>&bull; Physical: </strong>You make your way across the battlefield with the intention to attack the boss. You slip past the guards almost unnoticed with a properly timed distraction.</p> <p><strong>&bull; Social: </strong>You insert yourself into a conversation almost unnoticed. You place a rumor into the talk, then slink away. No one remembers how the rumor started.</p> <p><strong>&bull; Technical: </strong>You know how to use mundane existing parts to supplement when you are out of the specialized parts. It might not be as good, but it will due in a pinch.</p>"
+                    ,"cad1":"Unsuspecting"
+                    ,"cad2":"Crowd"
+                }       
+                ,"close-quarters": 
+                {
+                    "name": "Close Quarters"
+                    ,"desc": "<p><em>&ldquo;You&rsquo;re not so tough when you can&rsquo;t dance around that asteroid field.&rdquo;</em></p> <p>With Close Quarters, you are able to get up close and personal. On the battlefield you engage close enough to see the enemy&rsquo;s eyes. In social situations you get right into someone&rsquo;s personal business.</p> <p><strong>&bull; Benefit &ndash; Personal: </strong>You get up close and personal with an opponent or task, employing great effect.</p> <p><strong>&bull; Cost &ndash; Close-Ranged: </strong>You need to be as close as posible to get the results you are looking for.</p> <p><strong>&bull; Physical: </strong>You move and attack in melee range, using swords, fists, or the butt of your gun.</p> <p><strong>&bull; Social: </strong>You work your way in deep into someone&rsquo;s personal business. You can discover and use their secrets against them.</p> <p><strong>&bull; Technical: </strong>You are disciplined. You are able to reverse engineer secrets out of the most advanced technology.</p>"
+                    ,"cad1":"Personal"
+                    ,"cad2":"Close-Ranged"
+                }         
+                ,"contacts-everywhere": 
+                {
+                    "name": "Contacts Everywhere"
+                    ,"desc": "<p><em>&ldquo;I know this group&rsquo;s ideology. We have to be careful. If they find out we&rsquo;re UEDF this could be trouble.&rdquo;</em></p> <p>You know lots of people in all walks of life and for the most part, they like you. You cultivate and track contacts at various levels of military and social life. As long as you care for your relationship with your contacts, they will help you. Sometimes a price is involved which usually takes the form of a payment or trade. This Skill should help you gain information, acquire hard to find items, and help with complex problems.</p> <p><strong>&bull; Benefit &ndash; Support: </strong>Having friends can get you help when you need it most.</p> <p><strong>&bull; Cost &ndash; Availability: </strong>You must be able to reach your ally, and they must be willing to help.</p> <p><strong>&bull; Physical: </strong>During a battle, your group becomes inundated by enemy fire. You know who is close by and who can help you out of this jam.</p> <p><strong>&bull; Social: </strong>You know many people, what they want, and how to get what you need from them.</p> <p><strong>&bull; Technical:</strong>You know all the suppliers of components and can speak technically about their products.</p>"
+                    ,"cad1":"Support"
+                    ,"cad2":"Availability"
+                }      
+                ,"cover-your-buddy": 
+                {
+                    "name": "Cover your Buddy"
+                    ,"desc": "<p><em>&ldquo;Don&rsquo;t worry, buddy, I got that bogey on your six distracted.&rdquo;</em></p> <p>Positioning yourself or your fire across an ally, you provide them cover to escape attack or find an opening in an enemy&rsquo;s defense. This is used to discourage an enemy from pursuing or focusing on the ally you are covering.</p> <p><strong>&bull; Benefit &ndash; Aid: </strong>With close ties to your friends, you always know the best way to help.</p> <p><strong>&bull; Cost &ndash; Nearby: </strong>You must be in range to lend your support. This could mean pulling them out of the line of fire or targeting an enemy across his wing.</p> <p><strong>&bull; Physical: </strong>Your wingmate is flying straight at an enemy mecha which is also flying straight at them. You provide some cover fire to break the enemy&rsquo;s trajectory and give your friend an advantage.</p> <p><strong>&bull; Social:</strong>You and your friend are out on the town and meet potential dates. You act like a jerk so your friend looks like a great dating option.</p> <p><strong>&bull; Technical: </strong>Your friend is fixing a mecha and makes a mistake that places them behind schedule. When a supervisor investigates, you intercede to take off the heat.</p>"
+                    ,"cad1":"Aid"
+                    ,"cad2":"Nearby"
+                }      
+                ,"counterposition": 
+                {
+                    "name": "Counterposition"
+                    ,"desc": "<p><em>&ldquo;Moving in on me, won&rsquo;t work that way.&rdquo;</em></p> <p>As an opponent engages, you&rsquo;re able to respond by repositioning to maintain an advantage. You may use this Skill as both a Reaction and on your turn. You may use Counterposition on your turn as a response to an Action taken by an enemy last turn. This Skill is important as it allows you to keep your vessel in a more advantageous position.</p> <p><strong>&bull; Benefit &ndash; Respond: </strong>You respond quickly and intuitively to an opponent&rsquo;s maneuvering.</p> <p><strong>&bull; Cost &ndash; Recognize: </strong>In order to respond, you must be able to witness and understand your opponent&rsquo;s intent.</p> <p><strong>&bull; Physical: </strong>The enemy mecha moves in to engage in hand to hand combat. You think it&rsquo;s better to stay back and fire your weapons, so you glide back as they rush in.</p> <p><strong>&bull; Social: </strong>Intuiting what your enemy will say, you cut them off and deliver a cutting remark that keeps them silent.</p> <p><strong>&bull; Technical: </strong>As you work on a delicate system, you prepare yourself for a systematic overload and change repair priority.</p>"
+                    ,"cad1":"Respond"
+                    ,"cad2":"Recognize"
+                }      
+                ,"escape-artist": 
+                {
+                    "name": "Escape Artist"
+                    ,"desc": "<p><em>&ldquo;See that vent? You better be prepared to get cozy.&rdquo;</em></p> <p>You are good at getting yourself out of a jam. You can slip bonds, crawl through a tight vent, or hide behind the smallest of obstacles. Use this Skill to wait in ambush, escape an enemy grapple, or fit through a tiny area to assassinate your target. Spies tend to get themselves caught in sticky situations and escape artist makes infiltration or exfiltration possible.</p> <p><strong>&bull; Benefit &ndash; Escape: </strong>Escape Artist allows you to remove yourself from a trapped position.</p> <p><strong>&bull; Cost &ndash; Awareness: </strong>You can only get away if you are able to find or create an opening to do so.</p> <p><strong>&bull; Physical: </strong>You become grappled by an enemy, but are able to slip out of their grasp and turn their attack against them.</p> <p><strong>&bull; Social: </strong>You get dragged into a deep conversation about politics. Taking a side could make you look bad, but you manage to find a good excuse to duck out.</p> <p><strong>&bull; Technical: </strong>You are hacking a database and are discovered by an admin. You find a way to leave the system without leaving a trace.</p>"
+                    ,"cad1":"Escape"
+                    ,"cad2":"Awareness"
+                }      
+                ,"exology": 
+                {
+                    "name": "Exology"
+                    ,"desc": "<p><em>&ldquo;Well, what do we have here? We don&rsquo;t see this type of intricate carving often, unless this was a king&rsquo;s tomb.&rdquo;</em></p> <p>As Humans extend their reach into the stars, they have continued experiences with new races. Exology is the study of alien culture, history, and technology. Use this Skill to identify alien technology and how to operate it. It may also be used to gain information on alien religion, customs, and history.</p> <p><strong>&bull; Benefit &ndash; Familiarity: </strong>You gain a familiarity about something esoteric or alien.</p> <p><strong>&bull; Cost &ndash; Narrow: </strong>The information you have is very narrow and may not be applied to many situations.</p> <p><strong>&bull; Physical: </strong>After rigorous study of the aliens&rsquo; vessels, you uncover flaws in their design. You know right where to strike.</p> <p><strong>&bull; Social: </strong>You understand the enemy only thinks of war. Use this to your advantage during negotiations.</p> <p><strong>&bull; Technical: </strong>While most engineers could never reverseengineer this ancient alien technology, you have years of study in this field.</p>"
+                    ,"cad1":"Familiarity"
+                    ,"cad2":"Narrow"
+                }      
+                ,"flash-move": 
+                {
+                    "name": "Flash Move"
+                    ,"desc": "<p><em>&ldquo;Ha! Now I am over here! Bet you didn&rsquo;t see that coming!&rdquo;</em></p> <p>You identify a tiny window of time to move your mecha. You flare the thrusters and jaunt a short distance, taking the enemy completely by surprise. The best pilots can use this Skill to reposition, avoid attacks, or take advantage of an enemy weak point.</p> <p><strong>&bull; Benefit &ndash; Unpredictable:</strong>You make a move that happens quickly and is hard to predict or intuit.</p> <p><strong>&bull; Cost &ndash; Short-Ranged: </strong>The move is quick and doesn&rsquo;t get you very far.</p> <p><strong>&bull; Physical: </strong>You are surrounded by the enemy who attacks at once. You move quickly out of the way, and they shoot each other in a crossfire.</p> <p><strong>&bull; Social: </strong>You enter a dance competition, and with your wiles and signature flash-like moves you stun the crowd and win the trophy.</p> <p><strong>&bull; Technical: </strong>There isn&rsquo;t much time to disarm a bomb, but with your flash-like instincts you move quickly, cutting the wires in rapid succession.</p>"
+                    ,"cad1":"Unpredictable"
+                    ,"cad2":"Short-Ranged"
+                }      
+                ,"grand-presence": 
+                {
+                    "name": "Grand Presence"
+                    ,"desc": "<p><em>&ldquo;Behold, the host of tonight&rsquo;s ball&hellip;the Admiral themself!&rdquo;</em></p> <p>When you enter a situation, everyone is taken by your presence. Those around you want to come closer and hear what you have to say. You may use this Skill to inspire, intimidate, and mesmerize those who can see you. You garner the attention and respect you deserve, both from allies and enemies alike.</p> <p><strong>&bull; Benefit &ndash; Attention: </strong>When you come into view, others stop and gaze in wonder, fear, or admiration.</p> <p><strong>&bull; Cost &ndash; Recognition: </strong>It helps for those who gaze upon you, know who you are or be aware of your presence.</p> <p><strong>&bull; Physical: </strong>When you enter the battlefield, the enemy becomes intimidated by your presence and distracted.</p> <p><strong>&bull; Social: </strong>You gain attention when entering a great ballroom room and garner inquiries and respect.</p> <p><strong>&bull; Technical: </strong>When you work on equipment, you are able to get things working in ways that you wouldn&rsquo;t expect&hellip;as if the parts want to work for you.</p>"
+                    ,"cad1":"Attention"
+                    ,"cad2":"Recognition"
+                }      
+                ,"heavy-encryption": 
+                {
+                    "name": "Heavy Encryption"
+                    ,"desc": "<p><em>&ldquo;I need just fifteen more seconds to crack it. Can you hold the Zentraedi off for just a bit more?&rdquo;</em></p> <p>The encryption of messages to and from friendly units is vital to the safety of a military organization. You have the ability to encrypt and decrypt messages. Use this Skill to ensure the enemy does not have access to your information. You may also use this Skill to protect &ndash; or crack into &ndash; stored files in a database.</p> <p><strong>&bull; Benefit &ndash; Lock: </strong>You have the ability to lock something down so others can&rsquo;t gain access.</p> <p><strong>&bull; Cost &ndash; Key: </strong>Anyone hoping to open what you have locked must have or create a key.</p> <p><strong>&bull; Physical: </strong>As you attack, you mask your moves to make it harder for your target to defend.</p> <p><strong>&bull; Social: </strong>As you seduce a young socialite in front of their father, you use subtle innuendo to ensure they understand your intent, but their father does not.</p> <p><strong>&bull; Technical: </strong>As you send an important message to ground forces, you make sure the signal is secure and unable to be intercepted.</p>"
+                    ,"cad1":"Lock"
+                    ,"cad2":"Key"
+                }      
+                ,"hunker-down": 
+                {
+                    "name": "Hunker Down"
+                    ,"desc": "<p><em>&ldquo;We have incoming missiles! Move into a defensive position now.&rdquo;</em></p> <p>As enemy fire and missiles fly toward your mecha, you find nearby cover or twist your mecha to shield it from damage. Using intervening terrain is the best way to mitigate damage, but if there is nothing to use, the mecha itself can absorb impacts when maneuvered properly.</p> <p><strong>&bull; Benefit &ndash; Resist: </strong>By moving into a defensive stance you are able to resist damage or humiliation.</p> <p><strong>&bull; Cost &ndash; Immobile: </strong>This defensive act keeps you from moving.</p> <p><strong>&bull; Physical: </strong>A wave of enemy missiles streaks in. You have nowhere to go, so you hunker down to mitigate the damage.</p> <p><strong>&bull; Social: </strong>You are challenged by another company for control of processing ore. The UEDF wants to negotiate, but you stand your ground and win the contract.</p> <p><strong>&bull; Technical: </strong>You are designing a new piece of Robotechnology and hit a technical problem. You allow 1 system to overload so you can assemble another much more complex system.</p>"
+                    ,"cad1":"Resist"
+                    ,"cad2":"Immobile"
+                }      
+                ,"i-can-fix-it": 
+                {
+                    "name": "I Can Fix It"
+                    ,"desc": "<p><em>&ldquo;Well, there&rsquo;s no good news here, but I can get this Valkyrie back up on her wings again.&rdquo;</em></p> <p>No matter how damaged, broken, or exploded something is, you can fix it. You must choose your area of expertise: Medical, Robotechnology, or Structural. Use this Skill to perform surgery on fallen comrades or fix damaged mecha or the SDF-1. You can also oversee others making repairs for you if you have competent technicians available.</p> <p><strong>&bull; Benefit &ndash; Repair: </strong>You are able to fix an object or make a friend feel better after a breakup.</p> <p><strong>&bull; Cost &ndash; Time: </strong>To do the job right takes time, and the more of it you have the better of a job you can do.</p> <p><strong>&bull; Physical: </strong>You have the training to heal injuries and tend wounds.</p> <p><strong>&bull; Social: </strong>You are a natural at repairing relationships or getting a disagreement resolved.</p> <p><strong>&bull; Technical: </strong>You have the knowledge to fix equipment and troubleshoot software.</p>"
+                    ,"cad1":"Repair"
+                    ,"cad2":"Time"
+                }
+                ,"infiltration-specialist": 
+                {
+                    "name": "Infiltration Specialist"
+                    ,"desc": "<p><em>&ldquo;I know that vent looks small. I hope you aren&rsquo;t claustrophobic.&rdquo;</em></p> <p>When trying to break in somewhere, you must avoid guards, detection systems, and barriers. You know how to deal with all of these. This Skill will help operatives get to their target, stalk a person of interest, and know the guard&rsquo;s patrol patterns. You may need to scout the area or get additional information to make a successful infiltration.</p> <p><strong>&bull; Benefit &ndash; Obscure: </strong>As a specialist in covert action you are excellent at hiding yourself or another.</p> <p><strong>&bull; Cost &ndash; Cover: </strong>You can&rsquo;t move in the open without being seen. However, you can do a lot with just a little cover.</p> <p><strong>&bull; Physical: </strong>You are in a sniper perch targeting the enemy. They are unable to locate you because you obfuscate your position.</p> <p><strong>&bull; Social: </strong>You are tracking a target. They suddenly turn around but do not see you because you quickly move around a corner.</p> <p><strong>&bull; Technical: </strong>You place a tracing beacon on an enemy mecha which allows you to track its location. You hide it in a spot where no one can find it.</p>"
+                    ,"cad1":"Obscure"
+                    ,"cad2":"Cover"
+                }      
+                ,"ironclad-strategy": 
+                {
+                    "name": "Ironclad Strategy"
+                    ,"desc": "<p><em>&ldquo;We have cruisers covering our flank and destroyers in position for an assault. Get the mecha out there when the enemy is in range of bombardment.&rdquo;</em></p> <p>When you form a plan, it never goes wrong. Your mind calculates all the possibilities when given enough information and time. When you make a plan roll this Skill, and successes may be used by those taking part in the plan. Each turn, a comrade may take 1 of the successes for themselves as long as they follow the plan.</p> <p><strong>&bull; Benefit &ndash; Plan: </strong>You create a foolproof plan that can get you through anything.</p> <p><strong>&bull; Cost &ndash; Execute: </strong>For the plan to have benefit, those involved must be able or willing to follow it.</p> <p><strong>&bull; Physical: </strong>Based on your observations, you create a plan that allows you to engage the enemy while taking few loses.</p> <p><strong>&bull; Social: </strong>You enter a party and know who likes and trusts each other. You use this information to formulate a plan which allows you to start a feud between rival companies.</p> <p><strong>&bull; Technical: </strong>Lots of repairs need to get done after a battle. You form a plan to tackle the problem as another wave of Zentraedi attack.</p> "
+                    ,"cad1":"Plan"
+                    ,"cad2":"Execute"
+                }      
+                ,"machinations": 
+                {
+                    "name": "Machinations"
+                    ,"desc": "<p><em>&ldquo;That Major over there is working with that lieutenant, and the ring leader? It&rsquo;s that slummy looking Private...&rdquo;</em></p> <p>You are adept at tracking the motives and social designs of those around you. Through interaction, you are able to piece together others&rsquo; intentions and dispositions. It may require you talking to many people, sussing out rumors, and eavesdropping on conversations. You may also use this skill to create gossip and manipulate others through social engineering.</p> <p><strong>&bull; Benefit &ndash; Uncover: </strong>You are able to uncover and understand strange or secret happenings.</p> <p><strong>&bull; Cost &ndash; Exposure: </strong>To unravel mysteries and secret dealings, you need access to the information and be able to parse it.</p> <p><strong>&bull; Physical: </strong>As a battle unfolds, you start to understand the enemy&rsquo;s intent. You relay your observations to a commanding officer so they can change plans.</p> <p><strong>&bull; Social: </strong>You observe and insert yourself into the right line of communication. After investigating, you understand what your target&rsquo;s social goals are.</p> <p><strong>&bull; Technical: </strong>You have been given an alien piece of technology. After some time investigating, you understand how it works and what it is used for.</p>"
+                    ,"cad1":"Uncover"
+                    ,"cad2":"Exposure"
+                }      
+                ,"man-at-arms": 
+                {
+                    "name": "Man-at-Arms"
+                    ,"desc": "<p><em>&ldquo;I have years of training in hand weapons, modern weapons, and tactical theory.&rdquo;</em></p> <p>You have received additional training in small arms and tactical combat. You have a small team at the ready for breaching enemy ships or defending your own. Scouts and rangers often require enhanced tactical combat training as they are more likely to run into hostiles. Use this Skill to apply small arms tactics to your situation.</p> <p><strong>&bull; Benefit &ndash; Expertise: </strong>You have advanced and comprehensive tactical knowledge.</p> <p><strong>&bull; Cost &ndash; Experience: </strong>Only the most seasoned veterans have the right experience to handle any situation.</p> <p><strong>&bull; Physical: </strong>There are enemy combatants dug in ahead. You expend your magazine as you spray fire over their position to keep them down.</p> <p><strong>&bull; Social: </strong>After a brutal fight, your crew&rsquo;s spirits are down. You use your knowledge of the common soldier to inspire them to carry on.</p> <p><strong>&bull; Technical: </strong>Your weapon jams in the middle of a firefight, but you have no problem getting back into working order.</p>"
+                    ,"cad1":"Expertise"
+                    ,"cad2":"Experience"
+                }      
+                ,"multiprocess": 
+                {
+                    "name": "Multiprocess"
+                    ,"desc": "<p><em>&ldquo;We have threats everywhere &ndash; we need to charge the Reflex Cannon, reposition Destroids, and focus fire on that Cruiser.&rdquo;</em></p> <p>You are always aware of the action around you. A good officer must be able to process all information coming in at all times. You can use the information to make the best decision at any moment based on what you know. Use this Skill to help you out of jams or find a quick solution to a problem when information is at hand.</p> <p><strong>&bull; Benefit &ndash; Cope: </strong>Even with chaos screaming all around, you hold it together and take care of business.</p> <p><strong>&bull; Cost &ndash; Concentration: </strong>Even though you can cope, you need to maintain focus.</p> <p><strong>&bull; Physical: </strong>You track a multitude of tactical information, including: number of enemy targets, best positions for offensive and defensive maneuvers, and how to attack.</p> <p><strong>&bull; Social: </strong>You have the ability to pay attention to many conversations and topics at once. While holding a conversation you can be thinking of ten other things.</p> <p><strong>&bull; Technical: </strong>A complex system is malfunctioning. You hold it together, identify the problems, and fix them in an orderly fashion.</p>"
+                    ,"cad1":"Cope"
+                    ,"cad2":"Concentration"
+                }    
+                ,"omniprescient": 
+                {
+                    "name": "Omniprescient"
+                    ,"desc": "<p><em>&ldquo;We can&rsquo;t move to cover, because they have us cut off. However, they are clustered and sitting pretty for an airstrike.&rdquo;</em></p> <p>Your ability to surveil a battlefield and track your teammates is unparalleled. Awareness and insight of the region around you is extremely important to your survival. You seem to see around corners, hear the silent, and smell across space. Use this Skill to spot an enemy sniper, keep track of your squadmates, or determine how much damage an enemy has taken.</p> <p><strong>&bull; Benefit &ndash; Awareness: </strong>You see, hear, or smell everything in your sensory purview.</p> <p><strong>&bull; Cost &ndash; Proximity: </strong>To gain awareness, you need to be in sensory proximity to the potential concerns.</p> <p><strong>&bull; Physical: </strong>An enemy sneaks up behind you, but you know they&rsquo;re there. You fill them with lead after you turn and fire.</p> <p><strong>&bull; Social: </strong>At a large party, you are aware of who is speaking with whom. When you talk to a major, you know that they had been speaking with the gunnery chief.</p> <p><strong>&bull; Technical: </strong>You are tasked with fixing a system but don&rsquo;t have the proper parts. You have a strong knowledge of electronics and build a new piece that works perfectly.</p> "
+                    ,"cad1":"Awareness"
+                    ,"cad2":"Proximity"
+                }      
+                ,"precise-targeting": 
+                {
+                    "name": "Precise Targeting"
+                    ,"desc": "<p><em>&ldquo;I am transforming to battloid mode and deploying the G-11 for maximum effect.&rdquo;</em></p> <p>With a calculated drive for battle, you carefully place your attacks one after another. You cut down the enemy at range with unparalleled efficiency. With precise targeting you are able to snipe a target at range or shoot a mecha&rsquo;s power core with minimal effort.</p> <p><strong>&bull; Benefit &ndash; Accurate: </strong>With an eagle eye, you tackle the problem and achieve what you want.</p> <p><strong>&bull; Cost &ndash; Slow: </strong>It takes a little extra time to get that perfect solution dialed in.</p> <p><strong>&bull; Physical: </strong>Your enemy is ducking between asteroids, strafing you as they do so. You take careful aim and shoot just as they expose themselves, knocking them out.</p> <p><strong>&bull; Social: </strong>You are haggling with a store owner and swiftly interrupt them at the exact right moment to bring up a point they can&rsquo;t deny. You gain the leverage.</p> <p><strong>&bull; Technical: </strong>As you fix a highly complex piece of Robotechnology, a gear breaks loose. You must dart in with a tool at the right moment to extract the gear.</p> "
+                    ,"cad1":"Accurate"
+                    ,"cad2":"Slow"
+                }      
+                ,"psychoanalysis": 
+                {
+                    "name": "Psychoanalysis"
+                    ,"desc": "<p><em>&ldquo;Do your nightmares ever include the friends you lost in combat? You might need to resolve things within yourself before moving on.&rdquo;</em></p> <p>Through years of study, you have learned to identify and treat mental disorders. This includes treating UEDF personnel with PTSD, recognizing mentally unstable behavior, and reading another&rsquo;s intentions after studying their actions. This Skill is important as it allows you to treat a comrade&rsquo;s Stress and gain insight regarding a villain&rsquo;s behavior.</p> <p><strong>&bull; Benefit &ndash; Insight: </strong>You become aware of an intent or thought in another, or something that was created.</p> <p><strong>&bull; Cost &ndash; Analysis: </strong>You must be able to analyze and understand what you are looking into.</p> <p><strong>&bull; Physical:</strong>You read the emotions of your enemies and see that they are scared and ready to flee. You use this to take advantage of the situation.</p> <p><strong>&bull; Social: </strong>During a tense negotiation, you realize that what the opposition is asking for is not really what they are interested in.</p> <p><strong>&bull; Technical: </strong>You notice that a member of your repair crew is exhausted. You remove them from the team before they make a mistake and blow the place up.</p>"
+                    ,"cad1":"Insight"
+                    ,"cad2":"Analysis"
+                }      
+                ,"rally-cry": 
+                {
+                    "name": "Rally Cry"
+                    ,"desc": "<p><em>&ldquo;All right, men, today we make our stand. Let&rsquo;s show those giants who&rsquo;s boss!&rdquo;</em></p> <p>Using resolve and charisma, you are able to boost those under your command. You have the ability to inspire troops fighting with fury and rally those that are fleeing. Giving an inspiring speech before a battle can encourage troops and help their resolve under fire.</p> <p><strong>&bull; Benefit &ndash; Embolden: </strong>Through example and your driving spirit, you are able to inspire those around you.</p> <p><strong>&bull; Cost &ndash; Communication: </strong>For troops to become emboldened, they must be able to hear you, see you, or read what you have written.</p> <p><strong>&bull; Physical: </strong>Your soldiers are about to engage an enemy. You whip them into a fervor and they attack with a fiercebloodlust.</p> <p><strong>&bull; Social: </strong>Your team is falling behind in a trivia competition but you give a rousing speech and lift their spirits.</p> <p><strong>&bull; Technical: </strong>The engineers are falling behind in repairs before the big battle. You convince them that they cannot give up because the entire SDF-1 is counting on them.</p>"
+                    ,"cad1":"Embolden"
+                    ,"cad2":"Communication"
+                }      
+                ,"rapidfire": 
+                {
+                    "name": "Rapidfire"
+                    ,"desc": "<p><em>&ldquo;More&hellip; more&hellip; more&hellip; firepower!&rdquo;</em></p> <p>Using a strategy that inundates a problem, you are able to succeed by overwhelming it. For combat, this could mean rapid and successive attacks or rapid gunfire. In social situations you stay on topic and use the information you have to keep your opponent from responding.</p> <p><strong>&bull; Benefit &ndash; Deluge: </strong>This Skill enables you to do a lot of one specific thing.</p> <p><strong>&bull; Cost &ndash; Inaccurate: </strong>It&rsquo;s hard to know you&rsquo;ll hit for effect when you are going for saturation.</p> <p><strong>&bull; Physical: </strong>You notice an enemy on your wingmate&rsquo;s six. You fire a long stream of shells toward their position. This causes the enemy to break off.</p> <p><strong>&bull; Social: </strong>You are debating a rival at a party and ask questions so fast that your rival doesn&rsquo;t have time to recover or answer.</p> <p><strong>&bull; Technical: </strong>A terminal has locked you out and you need access. You rapidly try different hacking techniques to break into the system.</p>"
+                    ,"cad1":"Deluge"
+                    ,"cad2":"Inaccurate"
+                }      
+                ,"scanning-sweep": 
+                {
+                    "name": "Scanning Sweep"
+                    ,"desc": "<p><em>&ldquo;Sir. We have incoming Zentraedi targets coming in from our aft flank.&rdquo;</em></p> <p>You are adept at using mecha and ship sensors in creative ways. You know how to increase your sensors&rsquo; range, find hidden signals, nullify enemy sensors, and create ECM effects. You are able to get more from your sensors than most can. Use this Skill in combat to detect enemy craft or hide your own signals. See more about sensors in combat on page 162.</p> <p><strong>&bull; Benefit &ndash; Details: </strong>With a keen eye, you focus your awareness and learn details about your surrounding area.</p> <p><strong>&bull; Cost &ndash; Focus: </strong>You must focus with intent to really see what others cannot.</p> <p><strong>&bull; Physical: </strong>You survey the field to determine the enemy&rsquo;s formation and devise a plan to counter it.</p> <p><strong>&bull; Social: </strong>You talk to the street people to get an idea for how the smugglers are operating.</p> <p><strong>&bull; Technical: </strong>You activate a Cat&rsquo;s Eye sensor array to scan the area around the SDF-1 and detect something active in the nearby asteroid field.</p> "
+                    ,"cad1":"Details"
+                    ,"cad2":"Focus"
+                }      
+                ,"science-that": 
+                {
+                    "name": "Science That"
+                    ,"desc": "<p><em>&ldquo;Gain the extra power you need by lowering the containment field by 1.5%.&rdquo;</em></p> <p>After years of studying and experimentation you have learned the ways of science. You are able to identify new strains of microbes, calculate a black hole&rsquo;s mass, and study tectonic movement, among other things. Use this Skill to find creative ways to solve problems with the equipment and materials you find on hand.</p> <p><strong>&bull; Benefit &ndash; Solution: </strong>Using your extensive knowledge of science you understand and solve problems.</p> <p><strong>&bull; Cost &ndash; Expertise: </strong>Your ability to solve problems goes only as far as your expertise in a science-based subject.</p> <p><strong>&bull; Physical: </strong>You use your knowledge of science to lure an enemy near a dangerous space anomaly. It inhibits their sensors and you take advantage of the situation.</p> <p><strong>&bull; Social: </strong>You know that alcohol causes people to become inhabited, so you get your mark to drink more. He eventually spills the information you need.</p> <p><strong>&bull; Technical:</strong>You don&rsquo;t have all the right parts to fix the alien comms system. With science, you find a workaround after studying how the exotic system works.</p>"
+                    ,"cad1":"Solution"
+                    ,"cad2":"Expertise"
+                }      
+                ,"smooth-method": 
+                {
+                    "name": "Smooth Method"
+                    ,"desc": "<p><em>&ldquo;Hey, hey&hellip;Why not just stop by and see our facilities? I am sure we can accommodate any project that you have in mind.&rdquo;</em></p> <p>A silver tongue and the right attitude can open doors or get you out of trouble quick. Saying the right thing in the right way at the right time can be as powerful as any weapon. You can use this Skill to gain people&rsquo;s confidence, tell a convincing lie, or get others to believe a far-fetched excuse. This is a valuable skill if you want to get into areas you normally can&rsquo;t and make up the perfect excuse for being there.</p> <p><strong>&bull; Benefit &ndash; Efficiency: </strong>You are able to eke out the most benefit from the smallest effort.</p> <p><strong>&bull; Cost &ndash; Intuition: </strong>Seeing through your goal and accounting for missteps is crucial.</p> <p><strong>&bull; Physical: </strong>You coax your enemies into a false sense of security as you feign strength or weakness. This could get you out of a jam or gain an advantage.</p> <p><strong>&bull; Social: </strong>Your way with words can be used to convince people of things that are not true. This can help get you something you want or get you out of trouble.</p> <p><strong>&bull; Technical: </strong>You are able to get parts to operate in ways they were not intended to be used or keep parts from functioning based on their design.</p>  "
+                    ,"cad1":"Efficiency"
+                    ,"cad2":"Intuition"
+                }      
+                ,"star-quality": 
+                {
+                    "name": "Star Quality"
+                    ,"desc": "<p><em>&ldquo;And now&hellip;the one you&rsquo;ve been waiting for&hellip;Minmei!&rdquo;</em></p> <p>Only the brightest can attain the fame of a true star. You have that charisma, talent, and drive. Being a star is hard work. You must perform entrancingly, deal with doting fans, and practice frequently. Those who watch you perform become inspired and may lose their sense of time. This Skill allows you to capture attention and bring out the best in those around you.</p> <p><strong>&bull; Benefit &ndash; Guile: </strong>You know how to charm those around you, make up a believable story, or misdirect others.</p> <p><strong>&bull; Cost &ndash; Attention: </strong>This doesn&rsquo;t happen instantly. You need those you want to engage with paying attention to you.</p> <p><strong>&bull; Physical: </strong>You use showmanship and flashy moves to not only dazzle your opponents, but inspire your allies.</p> <p><strong>&bull; Social: </strong>You get people&rsquo;s attention through your radiant personality. People want to be near you and support your efforts.</p> <p><strong>&bull; Technical: </strong>Technical problems seem to solve themselves. You make a solid effort and things fit and come together nicely.</p> "
+                    ,"cad1":"Guile"
+                    ,"cad2":"Attention"
+                }      
+                ,"strafing-run": 
+                {
+                    "name": "Strafing Run"
+                    ,"desc": "<p><em>&ldquo;All right, squad, let&rsquo;s get in formation to make a run at that scout ship.&rdquo;</em></p> <p>Strafing Run allows you to fire as you are moving, letting you move from and back into cover, or take defensive maneuvers as you move closer or farther away.</p> <p><strong>&bull; Benefit &ndash; Skirmish: </strong>You fight on the move, keeping your opponents guessing.</p> <p><strong>&bull; Cost &ndash; Movement: </strong>To be effective, you need to keep moving. Without enough displacement your attacks are ineffective.</p> <p><strong>&bull; Physical: </strong>You are behind cover and being shot at by enemies. You dash from boulder to boulder as you fire back at the enemy.</p> <p><strong>&bull; Social: </strong>As you investigate a shady character suspected of robbery, you also question them on other crimes as you gain information on the robbery.</p> <p><strong>&bull; Technical: </strong>As you work on the primary power system of a Veritech, you use short periods of down time to check other, smaller systems.</p> "
+                    ,"cad1":"Skirmish"
+                    ,"cad2":"Movement"
+                }      
+                ,"survival-expert": 
+                {
+                    "name": "Survival Expert"
+                    ,"desc": "<p><em>&ldquo;When the wind blows like this, it&rsquo;s best to head for the closest cover. Something worse is coming!&rdquo;</em></p> <p>You have received extensive training in dealing with extreme environments. This includes arctic, desert, underwater, and exo-planet environments. Use this Skill to navigate, forage, and build/find shelter in these conditions. You also have training in first aid and scouting. Use this Skill to lead your team through hostile terrain and gain information on the enemy.</p> <p><strong>&bull; Benefit &ndash; Endure: </strong>You have the skills to endure a hostile environment.</p> <p><strong>&bull; Cost &ndash; Familiar: </strong>You need to know your surroundings to be able to survive.</p> <p><strong>&bull; Physical: </strong>As you fight in a strange alien environment, you have experience with the terrain and know where to engage the enemy.</p> <p><strong>&bull; Social: </strong>You encounter an indigenous people who point their weapons at your group. You know they are not a threat as long as you keep moving.</p> <p><strong>&bull; Technical: </strong>You need to install a satcom to communicate with your forces in space. You know exactly when and where to place it to get the message out.</p>"
+                    ,"cad1":"Endure"
+                    ,"cad2":"Familiar"
+                }      
+                ,"tradecraft": 
+                {
+                    "name": "Tradecraft"
+                    ,"desc": "<p><em>&ldquo;Thanks for the information &ndash; I know it didn&rsquo;t come without cost. This could save a lot of good Zentraedi lives.&rdquo;</em></p> <p>To become or combat a successful operative, you need a specific set of skills. Tradecraft is your ability to pass and collect information, work informants, and create encryptions. Use this Skill to protect your identity or uncover the identity of spies working around you. While your methods may seem extreme at times, your allies will be happy you are on their side.</p> <p><strong>&bull; Benefit &ndash; Tricks: </strong>You know how to get things done to confuse or distract others.</p> <p><strong>&bull; Cost &ndash; Materials: </strong>To complete your intended tasks you need materials or information to work with.</p> <p><strong>&bull; Physical: </strong>You need to take out a guard before they can alert others. You use a special technique to knock them out silently.</p> <p><strong>&bull; Social: </strong>You need to get close to a mark, so you survey their associations and realize that the best person to use for leverage is their sibling.</p> <p><strong>&bull; Technical: </strong>You need to watch a target. Good thing you know exactly where to plant the bugs and place the cameras.</p>"
+                    ,"cad1":"Tricks"
+                    ,"cad2":"Materials"
+                }      
+                ,"wing-and-a-prayer": 
+                {
+                    "name": "Wing & a Prayer"
+                    ,"desc": "<p><em>&ldquo;Sorry guys, I&rsquo;ve got nothing else. Say a prayer.&rdquo;</em></p> <p>Some are good and some are lucky. When you are at your wits&rsquo; end, it&rsquo;s time to take action and hope for the best. With a little forward thinking, you are able to get the best from the worst situation. Use this Skill to try to make something work, even when there doesn&rsquo;t seem to be a reasonable solution to the problem.</p> <p><strong>&bull; Benefit &ndash; Luck: </strong>You succeed based on luck. It isn&rsquo;t completely blind, you choose the best course and go.</p> <p><strong>&bull; Cost &ndash; Desperate:</strong>You must be in a situation where your skill isn&rsquo;t enough to help you though.</p> <p><strong>&bull; Physical: </strong>You are pinned down by the enemy. There&rsquo;s no tactical solution to getting you out of this jam. You spray and pray with your assault rifle.</p> <p><strong>&bull; Social: </strong>Your reputation is on the line and this politician is giving you trouble. You talk about him embezzling money from the orphan&rsquo;s fund. Maybe he actually did it.</p> <p><strong>&bull; Technical: </strong>You can&rsquo;t get the engines restarted again. So, you start hitting the side case with the largest wrench you can find. This will surly fix the issue.</p>"
+                    ,"cad1":"Luck"
+                    ,"cad2":"Desperate"
+                }  
+                ,"alpha-strike": 
+                {
+                    "name": "Alpha Strike"
+                    ,"desc": "<p><em>&ldquo;There&rsquo;s no holding back. I have to hit them with everything I have! It&rsquo;s now or never!&rdquo;</em></p> <p>No matter the task, you are ready to confront it with tools, missiles, or contacts. This Skill allows you to use everything you have at hand, and throw it at the problem. However, calling in favors and chain-firing your lasers can wear your mecha&rsquo;s battery to nothing.</p> <p><strong>&bull; Benefit - Get Everything:</strong>You use everything you have at your disposal to defeat the conflict in front of you.</p> <p><strong>&bull; Cost - Weakened: </strong>Afterward, you have little left. You&rsquo;ll need to refit or recover to get back to full strength.</p> <p><strong>&bull; Physical: </strong>You fire all weapons and hold the trigger down until the enemy is nothing but a ball of fire.</p> <p><strong>&bull; Social: </strong>You lead in with all your facts and arguments, providing reason after reason why your idea is better and your rival is wrong until only your idea is left with any credibility.</p> <p><strong>&bull; Technical: </strong>You salvage all the best parts from the damaged Veritechs so you can get the ace pilot back into the air as quickly as possible.</p>"
+                    ,"cad1":"Get Everything"
+                    ,"cad2":"Weakened"
+                }      
+                ,"by-the-book": 
+                {
+                    "name": "By the Book"
+                    ,"desc": "<p><em>&ldquo;Keep the formation tight&mdash;we&rsquo;re expecting heavy fire. We&rsquo;ll have the best chance of completing the mission by following the plan.&rdquo;</em></p> <p>You or your team take action based on tried and true practices. These practices offer the best statistical chance of success. When done properly, your actions execute in a beautiful rhythm. Those who operate by the book often become the teacher of the book, instructing the next generation best practices.</p> <p><strong>&bull; Benefit - Coordinate: </strong>Your team acts as one, in unison, with perfect timing. Everyone knows each other&rsquo;s positions and jobs.</p> <p><strong>&bull; Cost - Telegraph: </strong>An enemy familiar with your technique can rip it apart with ease. Those who don&rsquo;t know your technique will catch on quickly.</p> <p><strong>&bull; Physical: </strong>You pilot in a textbook fashion so that your wingmates know what you have planned.</p> <p><strong>&bull; Social: </strong>At social functions, you address people properly and comport yourself as etiquette dictates, blending in while putting everyone at ease.</p> <p><strong>&bull; Technical: </strong>Using standard parts and tools usually leads to desired results.</p> "
+                    ,"cad1":"Coordinate"
+                    ,"cad2":"Telegraph"
+                }      
+                ,"fade-to-black": 
+                {
+                    "name": "Fade to Black"
+                    ,"desc": "<p><em>&ldquo;Sometimes the best way to beat your enemy is to avoid your enemy. Become nothing, and you become everything.&rdquo;</em></p> <p>With a slight and calm technique, you disappear into the background. You seamlessly merge into any environmental or social situation. No one seems to miss or notice your disappearance. This offers you time to investigate or hide. However, your position would become quite precarious if you were discovered.</p> <p><strong>&bull; Benefit - Stealth: </strong>You or your work become difficult to notice. It may be carefully hidden or hiding in plain sight.</p> <p><strong>&bull; Cost - Exposure: </strong>When you are hiding, you must move cautiously. During this time, you are unable to defend yourself if something were to move to attack you.</p> <p><strong>&bull; Physical:</strong>You stick to the shadows to sneak by the guard. <strong>&bull; Social: </strong>During an officer&rsquo;s party, you try to blend in as one of the higher ranks to gather more information.</p> <p><strong>&bull; Technical: </strong>You build the hidden camera so it looks like a common item.</p> "
+                    ,"cad1":"Stealth"
+                    ,"cad2":"Exposure"
+                }      
+                ,"keep-pushing-forward": 
+                {
+                    "name": "Keep Pushing Forward"
+                    ,"desc": "<p><em>&ldquo;Marines! They&rsquo;re running low on ammunition, push through now! Charge!&rdquo;</em></p> <p>No matter the circumstance, you are able to get something done. However, it is an all-or-nothing endeavor. Once you start, you must push through to see the results, and they may not always be pretty. Use this Skill to assault a heavily guarded emplacement or turn a hostile mob to your favor.</p> <p><strong>&bull; Benefit - Make Progress: </strong>Regardless of the situation, you make some amount of progress. You may be low on ammunition, have a heavily damaged reputation, or have few tools available for repair.</p> <p><strong>&bull; Cost - Stubbornness: </strong>Once you start to take action, you are beholden to continue until the action has been completed. In many cases, this is dangerous; in a few, it&rsquo;s dire.</p> <p><strong>&bull; Physical: </strong>Despite this being your third sortie of the day, you still leap into the cockpit to defend your allies.</p> <p><strong>&bull; Social: </strong>Despite the looks of doubt, you stick to your guns. You know you are right and will ultimately be vindicated.</p> <p><strong>&bull; Technical: </strong>Bay after bay is filled with damaged Veritechs and Destroids. With a sigh and no end in sight, you pick up your tools. It will be a long shift, but you&rsquo;ll get it done.</p>"
+                    ,"cad1":"Make Progress"
+                    ,"cad2":"Stubbornness"
+                }      
+                ,"last-stand": 
+                {
+                    "name": "Last Stand"
+                    ,"desc": "<p><em>&ldquo;We accept our fates, my Queen. As you order, we throw down our lives for the future of the Invid.&rdquo;</em></p> <p>You are backed into a corner. There&rsquo;s nowhere to go and nothing left to do but give it your all in this last attempt at success. Use this Skill when the enemy has the drop on you, or you are pinned down with no escape.</p> <p><strong>&bull; Benefit - Desperation: </strong>With nothing else to lose, you make one last attempt against all odds. This may be your last idea, missile, or a desperate speech to turn the tides.</p> <p><strong>&bull; Cost - Consumed: </strong>In the effort, something is consumed or lost. An ally may be Wounded or killed, or a valuable item may become destroyed.</p> <p><strong>&bull; Physical: </strong>In a one-on-one fight, you&rsquo;re no more skilled than the next pilot. But surround you with enemies, and you fight like an ace.</p> <p><strong>&bull; Social: </strong>When the argument seems lost, your conviction and eloquence shine through.</p> <p><strong>&bull; Technical: </strong>The enemy is on its way, parts and ammo are low, and your crew is exhausted&mdash;yet somehow you have the Veritechs repaired, armed, and ready to launch.</p>"
+                    ,"cad1":"Desperation"
+                    ,"cad2":"Consumed"
+                }      
+                ,"treasure-hunt": 
+                {
+                    "name": "Treasure Hunt"
+                    ,"desc": "<p><em>&ldquo;I know where the old UEDF cache is, thanks to a tablet I took off a long-dead marine. They were just bones, but I got the tablet working.&rdquo;</em></p> <p>Finding buried treasure can make you rich, but it isn&rsquo;t an easy task. It takes careful planning, dedicated research, and following all the right clues to uncover the riches of your wildest dreams. Use this Skill to uncover something hidden, lost, or forgotten. To use it to its full potential, you must have a clue or previously known information guiding your actions.</p> <p><strong>&bull; Benefit - Uncover: </strong>After careful work and long hours, you uncover a long-hidden secret.</p> <p><strong>&bull; Cost - Clues: </strong>To find the treasure, you need clues. You must be on the right track already or have previously received information.</p> <p><strong>&bull; Physical: </strong>With study, you reveal details about enemy tactics that you can take advantage of when the battle arrives.</p> <p><strong>&bull; Social: </strong>You have studied your business rival, but have just found the information that will take them down, giving you the lucrative contract.</p> <p><strong>&bull; Technician: </strong>You uncover a special aspect of a long-lost technology.</p> "
+                    ,"cad1":"Uncover"
+                    ,"cad2":"Clues"
+                }      
+                ,"valued-opinion": 
+                {
+                    "name": "Valued Opinion"
+                    ,"desc": "<p><em>&ldquo;I&rsquo;ve been there before. The Invid are vicious, but they can be defeated if we work together.&rdquo;</em></p> <p>Through expertise in a field, past performance, or good character, your opinions and thoughts are valued by your allies and sometimes even your superiors. Use this Skill to add weight to your ideas and plans. It enables you to provide your expertise to people who normally would not heed to your thoughts, such as a superior officer.</p> <p><strong>&bull; Benefit &ndash; Sway: </strong>You have the ability to change people&rsquo;s opinions.</p> <p><strong>&bull; Cost &ndash; Expertise: </strong>You can&rsquo;t just bluff&mdash;you must truly have expertise in the field in which you are expressing your opinion.</p> <p><strong>&bull; Physical: </strong>Those above you will often take your tactical recommendations into consideration.</p> <p><strong>&bull; Social: </strong>Friends and associates seek your advice about relationships, fashion or other personal topics.</p> <p><strong>&bull; Technical: </strong>You are regarded as an expert in your field and are sought after for answers of a technical nature</p>"
+                    ,"cad1":"Sway"
+                    ,"cad2":"Expertise"
+                }      
+           }
+        }
+    }
+}

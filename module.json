@@ -1,0 +1,59 @@
+{
+    "id": "ad6_robotech_compendium",
+    "title": "Robotech Advantage6 Compendium",
+    "description": "Mechas and characters for Advantage6 Robotech",
+    "authors": [
+      {
+        "name": "Daniel Infante",
+        "discord": "daxos_ludocronicas",
+        "email": "daniel@ludocronicas.org",
+        "url": "https://ludocronicas.org",
+        "flags": {}
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": 12,
+      "verified": "12.331"
+    },
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+      ,{
+        "lang": "es",
+        "name": "Spanish",
+        "path": "lang/es.json"
+      }
+    ],
+    "packs": [
+        {
+            "name": "skills",
+            "label": "Skills",
+            "path": "packs/skills",
+            "type": "Item",
+            "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+            },
+            "system": "ad6_robotech",
+            "flags": {}
+          },
+          {
+            "name": "talents",
+            "label": "Talents",
+            "path": "packs/talents",
+            "type": "Item",
+            "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+            },
+            "system": "ad6_robotech",
+            "flags": {}
+          }
+
+    ]
+}
+

@@ -1,0 +1,831 @@
+{
+    "ad6_robotech":{
+        "lore":
+        {
+            "talents":
+            {
+                "career":
+                {
+                    "timed-shot":
+                    {
+                         "name":"Disparo Coordinado"
+                        ,"desc":"<p><em>&ldquo;Usa una maniobra a contrapelo para colocarte detr&aacute;s del enemigo y destruir sus motores.&rdquo;</em></p>  <p>Una vez por cada objetivo enemigo con el que est&eacute;s enfrentado, elige una ubicaci&oacute;n para aplicar el daño cuando ataques. Todo el daño de tu ataque puede aplicarse de esta manera una vez por cada enemigo al que te enfrentes. Esto puede usarse para atacar hardware o sistemas espec&iacute;ficos. Ver p&aacute;gina 161.</p>"
+                    }                      
+                    ,"crucial-orders":
+                    {
+                         "name":"Órdenes Cruciales"
+                        ,"desc":"<p><em>&ldquo;¡Sal de ah&iacute; o estar&aacute;s perdido!&rdquo;</em></p>  <p>Cuando pilotas mechas, puedes apoyar a los que est&aacute;n bajo tu mando. Durante un enfrentamiento, el L&iacute;der de Escuadr&oacute;n puede renunciar a usar su equipo especializado en cada ronda. Esto permite a un miembro del escuadr&oacute;n que pilota un mecha utilizar un conjunto de equipos adicional durante su turno; el mismo equipo no puede usarse dos veces en el mismo turno.</p>"
+                    }                      
+                    ,"got-your-back":
+                    {
+                         "name":"Te Cubro"
+                        ,"desc":"<p><em>&ldquo;No te preocupes, jefe, cubrir&eacute; tu espalda.&rdquo;</em></p>  <p>En cualquier momento durante el combate de mechas, obtienes una Acci&oacute;n adicional y un movimiento extra a la mitad de tu rango para ayudar a un aliado. Esto puede usarse para realizar acciones de asistencia, inhibici&oacute;n o redirecci&oacute;n. Debes estar dentro del rango Corto de tu aliado para usar este Talento, lo cual se determina despu&eacute;s de tomar tu movimiento extra. Puedes usar este Talento una vez por ronda.</p>"
+                    }       
+                    ,"awacs":
+                    {
+                         "name":"AWACS"
+                        ,"desc":"<p><em>&ldquo;Vuela bajo, roza esas colinas&mdash;quiero ver volar los sombreros de los granjeros. Ataca fuerte y r&aacute;pido.&rdquo;</em></p>  <p>Durante la primera ronda de un Conflicto, obtienes +1 Acci&oacute;n extra que se usa para realizar cualquier Acci&oacute;n de Apoyo. Esto te permite realizar un total de 3 Acciones. Debes estar pilotando un Mecha o veh&iacute;culo a&eacute;reo con sensores avanzados o ECM para aprovechar este Talento.</p>"
+                    }                                                         
+                    ,"embolden":
+                    {
+                         "name":"Envalentonar"
+                        ,"desc":"<p><em>&ldquo;¡Mantente firme y ninguna fuerza podr&aacute; derrotarte! ¡Somos la UEDF!&rdquo;</em></p>  <p>Una vez por encuentro, ayuda a un aliado a ignorar heridas o Fatiga de una fuente. Lo animas a trav&eacute;s del dolor e inspiras para que contin&uacute;e. Debes estar en contacto por comunicaciones o dentro del alcance de voz para que este Talento funcione.</p>"
+                    }                      
+                    ,"get-it-done":
+                    {
+                         "name":"Llevarlo a Cabo"
+                        ,"desc":"<p><em>&ldquo;No te preocupes, Capit&aacute;n, el Reactor Reflex estar&aacute; de nuevo a plena capacidad en unos minutos.&rdquo;</em></p>  <p>Puedes superar autom&aacute;ticamente un Desaf&iacute;o fallido relacionado con tu Carrera. Tan pronto como falle el Desaf&iacute;o, puedes optar por tratar la tirada como un &eacute;xito persistente. Ver las reglas de Desaf&iacute;os Persistentes en la p&aacute;gina 59.</p>"
+                    }                      
+                    ,"inspire":
+                    {
+                         "name":"Inspirar"
+                        ,"desc":"<p><em>&ldquo;Esta canci&oacute;n va dedicada a los valientes pilotos del Ala 329ª.&rdquo;</em></p>  <p>A trav&eacute;s de la m&uacute;sica, eres capaz de inspirar a los que te rodean. Puedes enfocar tu actuaci&oacute;n hacia un escuadr&oacute;n o un individuo con el que est&eacute;s familiarizado. Otorga una Ventaja a amigos o aliados que est&aacute;n luchando por la libertad. Este bono dura 1 ronda y los destinatarios deben poder escucharte, ya sea directamente o a trav&eacute;s de comunicaciones. Puedes usar este Talento una vez por enfrentamiento.</p>"
+                    }                      
+                    ,"unseen":
+                    {
+                         "name":"Invisible"
+                        ,"desc":"<p><em>&ldquo;No, señor. No vi qui&eacute;n me golpe&oacute;. ¿Dice que tambi&eacute;n las c&aacute;maras estaban ca&iacute;das?&rdquo;</em></p>  <p>Cuando te infiltras o act&uacute;as bajo disfraz, puedes tratar cualquier Desaf&iacute;o fallido como un Desaf&iacute;o Persistente. Este Talento solo puede usarse en intentos relacionados con el subterfugio. Ver p&aacute;gina 59.</p>"
+                    }                      
+                    ,"tactical-action":
+                    {
+                         "name":"Acción Táctica"
+                        ,"desc":"<p><em>&ldquo;¡Soldado! ¡No me abandones! Toma ese flanco y avanza cuando te d&eacute; la orden.&rdquo;</em></p>  <p>Durante un enfrentamiento en el que uses armas de Clase Ligera, obtienes un total de 2 acciones adicionales. Estas acciones pueden usarse durante tu turno o cederse a un aliado que est&eacute; dentro del alcance de la voz o en contacto a trav&eacute;s de comunicaciones. Esto te otorga un total de 2 acciones adicionales que se usan una por una durante el encuentro.</p>"
+                    }                      
+                    ,"adaptable":
+                    {
+                         "name":"Adaptable"
+                        ,"desc":"<p><em>&ldquo;Aprend&iacute; esto despu&eacute;s de pasar unos meses trabajando en un carguero.&rdquo;</em></p>  <p>Elige cualquier Talento de Carrera de otra Carrera para ti mismo.</p>"
+                    }                      
+                    ,"linked":
+                    {
+                         "name":"Unido"
+                        ,"desc":"<p><em>&ldquo;Siento lo que ellos sienten y s&eacute; lo que ellos saben, y pensamos como uno. Somos los tres que son uno.&rdquo;</em></p>  <p>Operas como tres seres separados que comparten los mismos pensamientos, sentimientos y experiencias. Est&aacute;s conectado con un enlace ps&iacute;quico que permanece activo mientras est&eacute;s a menos de 1 km entre ustedes. Por cada miembro fuera del alcance, los dem&aacute;s miembros sufren 1 nivel de penalizaci&oacute;n. Tienen el mismo equipo.</p>"
+                    }                      
+                    ,"caches":
+                    {
+                         "name":"Alijos"
+                        ,"desc":"<p><em>&ldquo;Tengo todo lo que necesito. Est&aacute; a nuestro alrededor. Puede que tarde un poco en encontrarlo, pero lo tengo todo.&rdquo;</em></p>  <p>En territorio familiar, nunca est&aacute;s a m&aacute;s de unos d&iacute;as de distancia de un escondite de suministros que contiene 1 art&iacute;culo de suministro general crucial para tus aventuras. En territorio desconocido, siempre puedes encontrar algo de valor en cuesti&oacute;n de d&iacute;as.</p>"
+                    }                      
+
+                }
+                ,"leadership":
+                {
+                    "munitions-strike":
+                    {
+                         "name":"Golpe de Municiones"
+                        ,"desc":"<p><em>&ldquo;¡Prep&aacute;rense para el impacto en diez segundos! C&uacute;branse los o&iacute;dos&hellip;¡esto va a ser un desastre!&rdquo;</em></p>  <p>Has reservado una pequeña porci&oacute;n de municiones que puedes usar en cualquier momento. Puedes llamar a un poderoso ataque desde un barco o nave de apoyo cercano. Una vez que las municiones se hayan usado, no podr&aacute;s solicitar otro ataque hasta que hayan pasado unos d&iacute;as para requisitar otra carga. Una vez solicitado, el Munitions Strike tardar&aacute; segundos en impactar, proporcion&aacute;ndote una reserva de 6 dados para tirar &eacute;xitos. Elige 1:</p>  <p>&bull; Bombardeo Terrestre: Inflige daño ligero a todos los objetivos en un radio de 15 m. Los objetivos dentro de los 3 m del sitio de impacto reciben daño de mecha.</p>  <p>&bull; Barrage Aeroespacial: Inflige daño de mecha a una amenaza a&eacute;rea. Cualquier objetivo en una l&iacute;nea de 100 m puede verse afectado.</p>  <p>&bull; Ataque de Reflex: Inflige daño naval a un solo objetivo. Los objetivos dentro de 50 m del sitio de impacto reciben la mitad del daño de mecha.</p>"
+                    }
+                    ,"coffee-break":
+                    {
+                         "name":"Pausa Para el Café"
+                        ,"desc":"<p><em>&ldquo;¿Alguien quiere un poco de caf&eacute;?&rdquo;</em></p>  <p>Disfrutas de una buena taza de caf&eacute; para relajarte. Cada d&iacute;a, si tienes unos minutos para relajarte y tomar caf&eacute;, reduces la Fatiga en 1. Solo puedes hacer esto una vez al d&iacute;a y cuenta para el m&aacute;ximo de 1 Fatiga que se puede recuperar diariamente.</p>"
+                    }
+                    ,"crack-team":
+                    {
+                         "name":"Equipo de Cracks"
+                        ,"desc":"<p><em>&ldquo;Solo quiero a los mejores de los mejores. Los he elegido a ustedes. No me decepcionen.&rdquo;</em></p>  <p><strong>Requisito previo: </strong>Rango de Comandante o Superior</p>  <p>Tienes el mando personal de un equipo talentoso &ndash; elige 1 de los siguientes:</p>  <p>&bull; Ciencia</p>  <p>&bull; Ingenier&iacute;a</p>  <p>&bull; Artiller&iacute;a</p>  <p>&bull; Sensores</p>  <p>Cuando ordenas a este grupo que act&uacute;e, ganas una Ventaja al tirar. Ver p&aacute;gina 167 para ordenar subordinados.</p>"
+                    }
+                    ,"fast-planner":
+                    {
+                         "name":"Planificador Rápido"
+                        ,"desc":"<p><em>&ldquo;De acuerdo, escuadr&oacute;n, este es el plan&hellip;&rdquo;</em></p>  <p>Eres capaz de evaluar una situaci&oacute;n y actuar r&aacute;pidamente. Puedes aumentar el tiempo y la cantidad de interacci&oacute;n que ocurre durante la parte de Comunicaci&oacute;n de una ronda. Cada h&eacute;roe puede intervenir dos veces para aclarar un plan. Adem&aacute;s, obt&eacute;n &ldquo;Planificador R&aacute;pido&rdquo; como un Elemento.</p>"
+                    }
+                    ,"hero-of-the-people":
+                    {
+                         "name":"Héroe de la Gente"
+                        ,"desc":"<p><em>&ldquo;Aseg&uacute;rate de que estas raciones lleguen al Bloque E. Hay muchos niños hambrientos all&iacute; abajo.&rdquo;</em></p>  <p>Eres muy querido por la gente com&uacute;n. Te compran bebidas cuando est&aacute;s en la ciudad y siempre te saludan con una sonrisa. Incluso pueden unirse para ayudarte o protegerte si te metes en problemas. Ganas una Ventaja al tratar con civiles en situaciones sociales. Adem&aacute;s, obt&eacute;n &ldquo;H&eacute;roe del Pueblo&rdquo; como un Elemento.</p>"
+                    }
+                    ,"lead-the-charge":
+                    {
+                         "name":"Liderar la Carga"
+                        ,"desc":"<p><em>“¡Vamos, escuadrón! Directo al centro… ¡todos se reúnan conmigo!”</em></p> <p>Cuando cargas al combate, inspiras una furia justa en aquellos que siguen tu liderazgo. En la primera ronda de combate, si eres el primero en entrar o iniciarlo, la mitad de los que están bajo tu mando pueden hacer rerolls a cualquiera o a todas las Acciones.</p>"
+                    }
+                    ,"mad-thinker":
+                    {
+                         "name":"Pensador Loco"
+                        ,"desc":"<p><em>&ldquo;Eso es tan loco&hellip; ¡que puede funcionar!&rdquo;</em></p>  <p>Ves cosas en tu mente que otros no pueden concebir; un instante despu&eacute;s, est&aacute;s intentando algo que nadie pens&oacute; posible. Una vez por combate o encuentro, puedes usar Habilidades para llevar a cabo un plan tan loco que podr&iacute;a funcionar. Al intentar este plan, no recibes penalizaciones por dificultad.</p>"
+                    }
+                    ,"pride-of-the-fleet":
+                    {
+                         "name":"Orgullo de la Flota"
+                        ,"desc":"<p><em>&ldquo;No sucumbiremos ante esta fuerza superior. Lucharemos y seremos victoriosos.&rdquo;</em></p>  <p>A trav&eacute;s de tu presencia indomable, aturdes a aquellos que desean hacerte daño. Cuando est&eacute;s en presencia de un enemigo, tu esp&iacute;ritu y determinaci&oacute;n lo aturden. Una vez por combate o encuentro, puedes anular 1 Acci&oacute;n enemiga en cualquier momento. El enemigo debe ser capaz de verte a ti, a tu mecha o a tu nave para que esto ocurra.</p>"
+                    }
+                    ,"swiftmind":
+                    {
+                         "name":"Mente Rápida"
+                        ,"desc":"<p><em>&ldquo;Este administrador es casi tan bueno como yo. Est&aacute; bloqueando todo lo que intento, pero no puede detener esto.&rdquo;</em></p> <p>Piensas y procesas informaci&oacute;n mucho m&aacute;s r&aacute;pido que la mayor&iacute;a. Ganas todos los empates contra h&eacute;roes o villanos cuando los enfrentas mentalmente. En caso de empate, se considera que tienes al menos 1 &eacute;xito contra tu oponente.</p>"
+                    }
+                    ,"station-overload":
+                    {
+                         "name":"Sobrecarga de Estación"
+                        ,"desc":"<p><em>&ldquo;No me importa lo que diga esta lectura, tenemos que aumentar la producci&oacute;n&hellip; ¡redirecciona la sobrecarga a otro sistema!&rdquo;</em></p>  <p>En situaciones de emergencia, utilizas todos los recursos a tu disposici&oacute;n. Puedes usar 2 suites de equipo de una estaci&oacute;n o duplicar la efectividad de 1. Cuando esto ocurre, un sistema de tu mecha, nave o base sufre un total de 2 daños de sistema. Puedes elegir dañar las suites de equipo de tu estaci&oacute;n, dej&aacute;ndolas inoperativas en su lugar.</p>"
+                    }
+                    ,"supply-drop":
+                    {
+                         "name":"Despliegue de Suministros"
+                        ,"desc":"<p><em>&ldquo;Estamos bastante mal aqu&iacute; abajo. ¿Crees que podemos recibir algo de apoyo?&rdquo;</em></p>  <p>Te preparas para apoyar a tu equipo en el campo. Una vez por misi&oacute;n, puedes pedir suministros a una ubicaci&oacute;n especificada mediante una aeronave de transporte o un transbordador espacial. Los suministros tardan unos minutos en llegar tras ser solicitados. La entrega incluye:</p>  <p>&bull; Cualquier 6 Kits.</p>  <p>&bull; Suficiente munici&oacute;n para recargar completamente las armas de los mechas y todas las armas ligeras.</p>  <p>&bull; Herramientas y materiales necesarios para reparar 4 puntos de daño de mecha o todo el daño de armadura de Clase Ligera.</p>  <p>Los elementos listados arriba son el suministro est&aacute;ndar. Puedes solicitar entregas especiales de armas para mechas, misiles, equipo ligero, edificios de campamento o veh&iacute;culos MPV.</p>"
+                    }
+                    ,"watchdog":
+                    {
+                         "name":"Perro Guardián"
+                        ,"desc":"<p><em>&ldquo;Mantente alerta en esos sensores; necesitamos asegurarnos de que los flancos est&eacute;n cubiertos.&rdquo;</em></p>  <p>Siempre est&aacute;s atento a los sensores, sabiendo que la detecci&oacute;n temprana de una amenaza puede salvar vidas. Una vez por encuentro, durante la Fase de Apoyo, puedes tratar un Escaneo Dirigido como un Escaneo de &AACUTE;rea. Esto significa que no divides el resultado a la mitad al determinar tus &eacute;xitos, pero obtienes la capacidad de ver el &AACUTE;rea. Consulta la p&aacute;gina 155 para m&aacute;s informaci&oacute;n sobre las Acciones de Observaci&oacute;n. Adem&aacute;s, obt&eacute;n &ldquo;Perro Guardi&aacute;n&rdquo; como un Elemento.</p>"
+                    }
+                    ,"battle-order":
+                    {
+                         "name":"Orden de Batalla"
+                        ,"desc":"<p><em>&ldquo;Si hacemos esto bien, ¡podemos salir de aqu&iacute; con vida!.&rdquo;</em></p>  <p>Eres decisivo y mantienes la calma bajo presi&oacute;n. Aquellos bajo tu mando siguen tus &oacute;rdenes sin cuestionarlas. Una vez por Conflicto, puedes dar una orden a un aliado o subordinado de rango inferior al tuyo. Al seguir esta orden, no sufren Fatiga por exceder su L&iacute;mite. Haz la orden en la Fase de Comunicaci&oacute;n.</p>"
+                    }
+                    ,"combat-leader":
+                    {
+                         "name":"Líder de Combate"
+                        ,"desc":"<p><em>&ldquo;Escuadr&oacute;n Gamattru, deben lanzarse sobre la posici&oacute;n enemiga despu&eacute;s de su descarga de cobertura antia&eacute;rea. Usen un patr&oacute;n de entrada parab&oacute;lico. No podr&aacute;n adaptarse..&rdquo;</em></p>  <p>Te destacas al liderar en pleno combate. Tu instinto agudo y habilidad para anticipar los movimientos del enemigo te han llevado a muchas victorias gloriosas. Una vez por Conflicto, obt&eacute;n +1 Acci&oacute;n extra. Esta Acci&oacute;n extra solo puede usarse para realizar una Acci&oacute;n de Soporte u Operaciones (suponiendo que no hayas realizado una Acci&oacute;n de Operaciones o Soporte en el Conflicto).</p>"
+                    }
+                    ,"good-reputation":
+                    {
+                         "name":"Buena Reputación"
+                        ,"desc":"<p><em>&ldquo;Esta unidad ha escaneado y eliminado a 203 formas de vida humanoides. Mis c&aacute;lculos indican que eliminar&eacute; a 414 m&aacute;s antes de evolucionar..&rdquo;</em></p>  <p>Años de servicio dedicado te han otorgado muchos elogios. Las personas que conocen tu trayectoria toman tu palabra en serio. Tienes una buena reputaci&oacute;n entre una poblaci&oacute;n espec&iacute;fica de seres conscientes—que se elige al tomar este Talento. Obtienes una Ventaja al participar en situaciones sociales con este grupo.</p>"
+                    }
+                    ,"inspirational":
+                    {
+                         "name":"Inspiracional"
+                        ,"desc":"<p><em>&ldquo;Tenemos muy poco, y nuestro enemigo est&aacute; bien preparado, pero a&uacute;n podemos marcar la diferencia. ¡Cada uno de nosotros puede cambiar el juego si somos inteligentes y decididos!.&rdquo;</em></p>  <p>Te paras en un &aacute;rbol ca&iacute;do para proyectar tu voz. A medida que te diriges a tus compañeros, m&aacute;s y m&aacute;s personas se acercan para escuchar lo que tienes que decir. Al final de tu discurso, tienes a toda la compañ&iacute;a cautivada. Una vez por Conflicto, puedes dar un discurso inspirador. Toma minutos completarlo, pero todos los que lo escuchen aumentan su L&iacute;mite de Fatiga en 1 para el pr&oacute;ximo Conflicto.</p>"
+                    }
+                    ,"legendary-hero":
+                    {
+                         "name":"Héroe Legendario"
+                        ,"desc":"<p><em>&ldquo;¿Ves a esa persona? Escuch&eacute; que se enfrent&oacute; a todo un enjambre de Exploradores Invid con solo un cuchillo. Me alegra que est&eacute; de nuestro lado..&rdquo;</em></p>  <p>Una vez, hace mucho tiempo, caminaste hacia las fauces del infierno y saliste ileso. Aumenta tu Fama en 1 nivel. Una vez por Conflicto, puedes invocar tu estatus legendario para inspirar a tus compañeros a la grandeza. Al Atacar y ser Atacado, obt&eacute;n +3 &EACUTE;xitos autom&aacute;ticos, pero recibes 1 Herida o daño autom&aacute;ticamente. El equipo no puede mitigar este daño.</p>"
+                    }
+                    ,"that-is-how-it-is-done":
+                    {
+                         "name":"Así se Hace"
+                        ,"desc":"<p><em>&ldquo;El campo de batalla no es solo una prueba para ti. Tambi&eacute;n es una prueba para ellos. Ens&eacute;ñales c&oacute;mo se hace..&rdquo;</em></p>  <p>Una vez por Conflicto, obt&eacute;n el siguiente Beneficio: En el turno despu&eacute;s de haber tenido &EACUTE;xito con una Acci&oacute;n, cualquier aliado dentro de Alcance Corto que haya presenciado tu Acci&oacute;n puede realizar una repetici&oacute;n si ejecuta la misma Acci&oacute;n de la misma manera. Activa esta Habilidad despu&eacute;s de haber tenido &eacute;xito, al inicio del turno.</p>"
+                    }                                                        
+                }
+                ,"piloting":
+                {
+                    "all-the-missiles":
+                    {
+                         "name":"Todos los Misiles"
+                        ,"desc":"<p><em>&ldquo;Es una cosa hermosa, ver cientos de mini-misiles dirigirse hacia el enemigo.&rdquo;</em></p>  <p>Una vez por encuentro, duplica los dados de Habilidad de una suite de equipo de misiles. Sin embargo, al usar este Talento, debes gastar 2 usos de munici&oacute;n de la suite de equipo.</p>"
+                    }
+                    ,"always-shot-down":
+                    {
+                         "name":"Siempre Derribado"
+                        ,"desc":"<p><em>&ldquo;Casi nunca regreso con un Veritech despu&eacute;s de un combate. Parece que siempre me derriban.&rdquo;</em></p>  <p>Cualquier mecha que pilote pierda 1 punto de armadura. Sin embargo, nunca sufres daño f&iacute;sico y siempre te recuperan cuando tu mecha es destruido.</p>  <p>Consulta con el GM antes de tomar este Talento si usas el Modo de Alta Letalidad. Consulta la p&aacute;gina 168.</p>"
+                    }
+                    ,"countermeasures":
+                    {
+                         "name":"Contramedidas"
+                        ,"desc":"<p><em>&ldquo;Los misiles son la mejor opci&oacute;n antimisiles en tu arsenal.&rdquo;</em></p>  <p>Puedes duplicar los dados de Habilidad de una suite de equipo antimisiles cuando lo usas para defenderte de ataques basados en misiles.</p>"
+                    }
+                    ,"daredevil":
+                    {
+                         "name":"Temerario"
+                        ,"desc":"<p><em>&ldquo;Haremos un ataque rel&aacute;mpago desde los anillos de Saturno.&rdquo;</em></p>  <p>Cuando realices una tarea peligrosa que implique agilidad, fuerza, rapidez y valent&iacute;a, obt&eacute;n una nueva tirada. Puedes usar este Talento una vez por encuentro. Como una habilidad pasiva continua, reduce en 1 el daño por embestida que recibas.</p>"
+                    }
+                    ,"equipment-upgrade":
+                    {
+                         "name":"Mejora de Equipamiento"
+                        ,"desc":"<p><em>&ldquo;Entonces, el jefe de la cubierta&hellip;es mi padrino. Obtengo lo mejor de todo.&rdquo;</em></p>  <p>Obt&eacute;n acceso a 1 pieza de equipo equivalente a 1 rango por encima de tu rango actual. Esto incluye mechas, naves navales y mejoras de mechas.</p>"
+                    }
+                    ,"fast-transform":
+                    {
+                         "name":"Transformación Rápida"
+                        ,"desc":"<p><em>&ldquo;Battloid para disparar, Guardi&aacute;n para esquivar y Caza para maniobrar...&rdquo;</em></p>  <p>Eres un maestro en el control de tu Veritech. Puedes transformarte entre modos de manera r&aacute;pida y confiada. Cuando uses una suite de equipo de transformaci&oacute;n, la Acci&oacute;n se considera mejorada. Basado en tu creatividad, la situaci&oacute;n y la narrativa, el GM considerar&aacute; un bono para la Acci&oacute;n. Una vez por encuentro, puedes usar 2 suites de equipo en lugar de 1 durante tu turno. Ambas suites deben estar relacionadas con los modos de transformaci&oacute;n utilizados.</p>"
+                    }
+                    ,"fly-anything":
+                    {
+                         "name":"Pilotar Todo"
+                        ,"desc":"<p><em>&ldquo;Zentraedi, Veritech o prototipo, no importa. Te sientes como en casa en cualquier mecha.&rdquo;</em></p>  <p>Tienes la experiencia para pilotar cualquier tipo de nave avanzada o voladora. Esto incluye Aeronaves, Mechas, Mejoras de Mecha, Veh&iacute;culos Espaciales y Transbordadores. Asume que tienes competencia en cualquier veh&iacute;culo de tamaño ligero o mecha. Tambi&eacute;n puedes pilotar buques navales con una penalizaci&oacute;n.</p>"
+                    }
+                    ,"hard-lock":
+                    {
+                         "name":"En la Mira"
+                        ,"desc":"<p><em>&ldquo;Ahora, cadetes, si lo cronometran correctamente, cuando salgan de una vuelta, pueden abrirse para una salva de misiles.&rdquo;</em></p>  <p>Si dañaste un mecha, puedes usar este Talento como una suite de equipo en la siguiente ronda contra el mismo mecha. Debes realizar al menos 1 Acci&oacute;n de ataque en la ronda siguiente a dañar un mecha y usar Hard Lock como suite de equipo. Tambi&eacute;n debes cumplir con todos los dem&aacute;s requisitos para atacar.</p>  <p>&bull; Usos: Ilimitados</p>  <p>&bull; Habilidad: 3</p>"
+                    }
+                    ,"heap-of-junk":
+                    {
+                         "name":"Pila de Basura"
+                        ,"desc":"<p><em>&ldquo;Te lo digo&hellip; y no me importa lo que digan los diagn&oacute;sticos&hellip; ¡est&aacute; roto!&rdquo;</em></p>  <p>Hay algo mal con tu mecha. Ning&uacute;n ingeniero puede arreglarlo y siempre hay un sistema u otro que tiene problemas. Reduce aleatoriamente 1 sistema de tu mecha en 1 nivel cuando lo saques. Una vez por encuentro, anula todo el daño de 1 ataque. Se asume que el daño golpea una parte del chatarra y no daña ning&uacute;n otro sistema.</p>"
+                    }
+                    ,"machine-ghost":
+                    {
+                         "name":"Fantasma en la Máquina"
+                        ,"desc":"<p><em>&ldquo;Vamos, cariño&hellip; s&eacute; lo que puedes hacer&hellip; hagamos que esto suceda.&rdquo;</em></p>  <p>Te vinculas con una estaci&oacute;n, mecha, sistema o nave naval. Una vez por encuentro o combate, realiza una nueva tirada cuando uses una suite de equipo relacionada con el objeto con el que te vinculaste. Tambi&eacute;n tienes la capacidad de sentir c&oacute;mo est&aacute; funcionando el sistema o si algo est&aacute; roto o mal.</p>"
+                    }
+                    ,"never-shot-down":
+                    {
+                         "name":"Nunca Derribado"
+                        ,"desc":"<p><em>&ldquo;Ves, te dije que volver&iacute;a con vida.&rdquo;</em></p> <p>Incluso si un mecha que est&aacute;s pilotando pierde toda su estructura, eres capaz de llevarlo de regreso a la base. El mecha no puede realizar Acciones para fines de combate y debe abandonar inmediatamente la zona. Si la estructura de tu mecha se reduce a 0, puede regresar a casa, pero recibir&aacute;s 2 puntos de daño cuerpo a cuerpo del ataque que inflige el daño cr&iacute;tico.</p>"
+                    }
+                    ,"sympathetic-damage":
+                    {
+                         "name":"Daño Simpático"
+                        ,"desc":"<p><em>&ldquo;Apunta esos Mini-Misiles en su lado de babor. La armadura est&aacute; destrozada all&iacute;.&rdquo;</em></p> <p>Cuando ataques con un arma de efecto de &aacute;rea basada en un mecha, si dañas un mecha enemigo, puedes elegir infligir 1 nivel de daño a un sistema espec&iacute;fico. Las armas explosivas deben tener un radio de al menos 3 m para recibir este beneficio. Consulta la p&aacute;gina 162 para m&aacute;s informaci&oacute;n sobre el daño a sistemas.</p>"
+                    }
+                    ,"advanced-maneuvering":
+                    {
+                         "name":"Maniobras Avanzadas"
+                        ,"desc":"<p><em>&ldquo;La evaluaci&oacute;n t&aacute;ctica indica que usar los restos de asteroides resultar&aacute; en un 92 por ciento de probabilidad de escape..&rdquo;</em></p>  <p>Con una mente aguda y reflejos a&uacute;n m&aacute;s veloces, llevas tu Mecha al l&iacute;mite. Usando cada Propulsor Vernier y tu intuici&oacute;n, te zambulles por el espacio como un bailar&iacute;n elegante. Al realizar una Acci&oacute;n de Defender o Redirigir en una nave adecuada que est&eacute; volando al menos a media velocidad, obt&eacute;n el siguiente conjunto de equipo:</p>  <p><strong>&bull; Usos: </strong>Ilimitados</p>  <p><strong>&bull; Habilidad: </strong>5 + recibes 1 punto de daño en tu nave debido al estr&eacute;s de la maniobra</p>"
+                    }
+                    ,"defensive-fighter":
+                    {
+                         "name":"Luchador Defensivo"
+                        ,"desc":"<p><em>&ldquo;Tantos misiles. Podemos superarlo si los dividimos. Aguanta, estamos a punto de experimentar algo de turbulencia..&rdquo;</em></p>  <p>Observas las mareas de la batalla y sabes c&oacute;mo esquivar y tejer. Tu posicionamiento mitiga los peores impactos. Al moverte al menos a media velocidad en tu Mecha o veh&iacute;culo a&eacute;reo, obt&eacute;n +1 Armadura contra daño de &aacute;rea de efecto y Ataques con Alcance Corto. Este es un efecto continuo. Tambi&eacute;n puedes decidir usarlo para ganar +1 Armadura al realizar una Acci&oacute;n de Defender una vez por Conflicto.</p>"
+                    }
+                    ,"fox-among-the-hounds":
+                    {
+                         "name":"Zorro entre Sabuesos "
+                        ,"desc":"<p><em>&ldquo;No te preocupes, l&iacute;der Bravo—mi señal est&aacute; encriptada y solo voy a deslizarme... justo en medio de estos Invid..&rdquo;</em></p>  <p>Eres un experto en deshacer cualquier formaci&oacute;n y convertir los ataques enemigos en un peligro para sus propios aliados. Obt&eacute;n el Elemento “Zorro”. Est&aacute;s en este Elemento cuando est&aacute;s rodeado de m&uacute;ltiples enemigos m&aacute;s d&eacute;biles. Al enfrentarte a un enjambre de objetivos, si has atacado al enjambre en tu ronda anterior, puedes usar el siguiente conjunto de equipo “Zorro Entre los Perros de Caza”:</p>  <p><strong>&bull; Usos: </strong>Ilimitados</p>  <p><strong>&bull; Habilidad: </strong>2</p>"
+                    }
+                    ,"head-hunter":
+                    {
+                         "name":"Cazacabezas"
+                        ,"desc":"<p><em>&ldquo;Mi Reina no me evolucion&oacute; para perder el tiempo enfrent&aacute;ndome a estas ratas. Quiero un verdadero desaf&iacute;o..&rdquo;</em></p>  <p>Obtienes el Elemento “Cazador de Cabezas”. Est&aacute;s en este Elemento cuando buscas y enfrentas ases enemigos, oficiales y guerreros de renombre en combate singular. Durante el curso de un Conflicto, puedes acumular Acciones de Ataque al apuntar a un piloto enemigo de renombre. M&aacute;s adelante en el Conflicto, puedes agregar estas Acciones acumuladas a una Acci&oacute;n de Ataque contra tu rival. Cada Acci&oacute;n acumulada te permite ignorar 1 punto de la Armadura del objetivo y ganar +1 &EACUTE;xito autom&aacute;tico.</p>"
+                    }
+                    ,"just-hold-together":
+                    {
+                         "name":"Mantener la Calma"
+                        ,"desc":"<p><em>&ldquo;Est&aacute; bien, cariño, s&eacute; que no te gustar&aacute; esto—pero si te doy un poco m&aacute;s de energ&iacute;a, puedes enviar esa señal..&rdquo;</em></p>  <p>Conoces tu Mecha y tienes la suerte de tu lado. Durante un Conflicto, un Piloto puede hacer que todos los Sistemas y Equipos dañados o destruidos funcionen sin penalizaci&oacute;n dentro del Mecha o veh&iacute;culo a&eacute;reo que est&aacute;s operando. Esto puede suceder en cualquier ronda despu&eacute;s de que el daño haya ocurrido. La duraci&oacute;n del efecto es de segundos. Este Talento no permitir&aacute; que un sistema que requiere munici&oacute;n vuelva a disparar si la munici&oacute;n se ha agotado.</p>"
+                    }
+                    ,"mag-dump":
+                    {
+                         "name":"Vaciar Cargador"
+                        ,"desc":"<p><em>&ldquo;Una vez que obtengas una soluci&oacute;n de objetivo, ¡dispara! Y aseg&uacute;rate de no soltar ese gatillo..&rdquo;</em></p>  <p>Como piloto, has aprendido a confiar en tu confiable Cañ&oacute;n. Gasta 1 punto adicional de Uso al activar el conjunto de equipo del Cañ&oacute;n. Esto te proporciona el doble de dados otorgados por la Habilidad del conjunto de equipo.</p>"
+                    }
+                }
+                ,"social":
+                {
+                     "bureaucrat":
+                    {
+                         "name":"Burócrata"
+                        ,"desc":"<p><em>&ldquo;No, no. Si quieres hacer esto de manera eficiente, necesitas el formulario 1192-z.&rdquo;</em></p>  <p>Eres un experto en comprender los sistemas gubernamentales. Puedes solicitar o conseguir la aprobaci&oacute;n mediante papeleo para obtener equipo en cuesti&oacute;n de minutos u horas. Usa este Talento para deslumbrar o confundir a los dem&aacute;s con tu impresionante jerga burocr&aacute;tica. Adem&aacute;s, obt&eacute;n &ldquo;Bur&oacute;crata&rdquo; como un Elemento.</p>"
+                    }
+                    ,"copycat":
+                    {
+                         "name":"Copycat"
+                        ,"desc":"<p><em>&ldquo;No te preocupes, soy doctor&hellip; en la televisi&oacute;n.&rdquo;</em></p>  <p>Si dedicas tiempo a observar a alguien realizar una tarea que no conoces, puedes aprender y ejecutar la tarea de manera efectiva. La pr&oacute;xima vez que realices una tarea similar, obt&eacute;n una Ventaja. Puedes almacenar hasta 3 tareas diferentes de esta manera.</p>"
+                    }
+                    ,"dead-inside":
+                    {
+                         "name":"Muerto por Dentro"
+                        ,"desc":"<p><em>&ldquo;Despu&eacute;s de unas cuantas misiones, ya no siento mucho.&rdquo;</em></p> <p>Despu&eacute;s de experimentar incontables tragedias en el campo de batalla, aprendes a lidiar con la p&eacute;rdida. Nunca recibes Fatiga por la p&eacute;rdida de un camarada o una herida a ti mismo. Este Talento puede llevar a tu h&eacute;roe a ser sombr&iacute;o o melanc&oacute;lico en ocasiones. Adem&aacute;s, obt&eacute;n una Ventaja al intentar intimidar a alguien.</p>"
+                    }
+                    ,"friends-in-high-places":
+                    {
+                         "name":"Amigos en la Clase Alta"
+                        ,"desc":"<p><em>&ldquo;Crecimos en el mismo barrio. Aunque eran mayores, sab&iacute;a que le gustaba.&rdquo;</em></p>  <p>Tienes un amigo personal que te supera en rango. De vez en cuando, te ayudan a obtener informaci&oacute;n, equipo o apoyo en combate. Puedes utilizar su ayuda una vez por sesi&oacute;n de juego, o tan a menudo como est&eacute;n disponibles. Cuida esta relaci&oacute;n. Si act&uacute;as de manera grosera o ingrata, tu conexi&oacute;n podr&iacute;a darte la espalda durante un tiempo.</p>"
+                    }
+                    ,"friends-in-low-places":
+                    {
+                         "name":"Amigos en la Clase Baja"
+                        ,"desc":"<p><em>&ldquo;Puedo notar que a ese mec&aacute;nico le caigo bien&hellip; ¡mi Veritech siempre est&aacute; en perfectas condiciones!&rdquo;</em></p>  <p>Tienes una conexi&oacute;n que est&aacute; por debajo de tu rango. Esta persona es un amigo que te ayudar&aacute; al m&aacute;ximo de su capacidad. Est&aacute;n dispuestos a salirse de la estructura de mando para ofrecerte ayuda. Ten cuidado de no presionar demasiado esta conexi&oacute;n, ya que podr&iacute;an meterse en problemas por exceder su autoridad.</p>"
+                    }
+                    ,"hideout":
+                    {
+                         "name":"Escondite"
+                        ,"desc":"<p><em>&ldquo;R&aacute;pido, conozco un lugar donde podemos ir y la polic&iacute;a militar nunca nos encontrar&aacute;.&rdquo;</em></p>  <p>Tienes un lugar escondido que solo tus amigos m&aacute;s confiables conocen. Este es un lugar seguro donde puedes descansar o esconderte si las cosas se ponen peligrosas. Si pierdes el escondite o te mudas, puedes obtener otro. Toma d&iacute;as encontrar o crear un nuevo escondite.</p>"
+                    }
+                    ,"hidden-contacts":
+                    {
+                         "name":"Contactos Ocultos"
+                        ,"desc":"<p><em>&ldquo;&hellip;Conozco a alguien, ¡te encantar&aacute;!&rdquo;</em></p>  <p>Conoces a muchas personas, pero tambi&eacute;n conoces a quienes no les gusta ser encontrados. Esto podr&iacute;a ser una sociedad secreta, contrabandistas o los l&iacute;deres de una organizaci&oacute;n que trabaja en las sombras. Estos contactos especiales pueden ayudarte. Sin embargo, cuanto mayor sea la petici&oacute;n, mayor ser&aacute; el precio. Elige 1 tipo con el que tengas una asociaci&oacute;n. Obt&eacute;n una Ventaja al tratar con este grupo.</p>"
+                    }
+                    ,"lions-roar":
+                    {
+                         "name":"Rugido del León"
+                        ,"desc":"<p><em>&ldquo;Sepan esto, mis valientes guerreros. ¡Hoy saldremos victoriosos o no regresamos a casa!&rdquo;</em></p>  <p>Obt&eacute;n 1 Movimiento Heroico adicional. Puedes permitir que un aliado use este Movimiento sin penalizaci&oacute;n. El segundo Movimiento se recupera seg&uacute;n las reglas normales y por separado del Movimiento original. Consulta la p&aacute;gina 159 para la recuperaci&oacute;n de Movimientos Heroicos.</p>"
+                    }
+                    ,"mysterious-past":
+                    {
+                         "name":"Pasado Misterioso"
+                        ,"desc":"<p><em>&ldquo;Intentamos buscarles en el sistema de identificaci&oacute;n, pero no hay nada.&rdquo;</em></p>  <p>Puedes no ser quien pareces. Aquellos que investigan sobre ti no pueden aprender mucho. Hay poca informaci&oacute;n sobre d&oacute;nde creciste, tus n&uacute;meros de identificaci&oacute;n o tus registros m&eacute;dicos. Cada vez que puedas usar tu naturaleza misteriosa, obt&eacute;n una Ventaja. Adem&aacute;s, obt&eacute;n &ldquo;Misterioso&rdquo; como un Elemento.</p>"
+                    }
+                    ,"parlay":
+                    {
+                         "name":"Parlamentar"
+                        ,"desc":"<p><em>&ldquo;¡Parlamentar! Exijo parlamentar, no me puede ser negado honorablemente.&rdquo;</em></p>  <p>Tienes una forma de involucrar a los dem&aacute;s. Incluso un enemigo ac&eacute;rrimo escuchar&aacute; lo que tienes que decir antes de atacar. En la primera ronda de un encuentro o enfrentamiento, puedes retrasar que un oponente tome de 1 a 2 Acciones. El n&uacute;mero total de Acciones que puedes retrasar es igual al n&uacute;mero que elijas perder en ese turno.</p>"
+                    }
+                    ,"secret-stash":
+                    {
+                         "name":"Alijo Secreto"
+                        ,"desc":"<p><em>&ldquo;Tengo el lugar perfecto para esconder este chip de datos; nadie revisa sobre la cama.&rdquo;</em></p>  <p>Tienes un lugar pequeño y secreto para esconder objetos de valor. El espacio est&aacute; bien escondido y no es f&aacute;cil de encontrar. Solo alguien que realice un registro exhaustivo con dispositivos de alta tecnolog&iacute;a puede hallarlo. Si lo encuentran, puedes tomarte un tiempo para encontrar o crear otro escondite.</p>"
+                    }
+                    ,"wealthy":
+                    {
+                         "name":"Rico"
+                        ,"desc":"<p><em>&ldquo;A diferencia de esos chicos de fondos fiduciarios, llegaste aqu&iacute; por ti mismo.&rdquo;</em></p>  <p>Obt&eacute;n 1 nivel de Riqueza por encima de tu rango actual, hasta un m&aacute;ximo de Ultra-Riqueza. Adem&aacute;s, obt&eacute;n un Asistente, Guardaespaldas o Copiloto. Consulta la p&aacute;gina 125 para obtener m&aacute;s informaci&oacute;n sobre los compañeros.</p>"
+                    }
+                    ,"a-reason-to-come-home":
+                    {
+                         "name":"Una Razón para Volver"
+                        ,"desc":"<p><em>&ldquo;Nunca te dejar&eacute; atr&aacute;s. Volver&eacute;, sin importar qu&eacute;..&rdquo;</em></p>  <p>Cuando adquieras este Talento, obt&eacute;n un Drama relacionado con tu deseo y raz&oacute;n para sobrevivir y regresar a casa. Una vez durante un Conflicto, puedes ignorar 1 fuente de daño para reducir tus Heridas. Adem&aacute;s, obt&eacute;n el Elemento “Viajero”. Est&aacute;s en este Elemento cuando intentas regresar a la fuente de tu Drama.</p>"
+                    }
+                    ,"exaggerated-reputation":
+                    {
+                         "name":"Reputación Exagerada"
+                        ,"desc":"<p><em>&ldquo;S&iacute;, claro, elimin&eacute; yo solo a ese Triunvirato. La ASC ahora tiene capacidades avanzadas..&rdquo;</em></p>  <p>Trata tu Fama como 1 nivel m&aacute;s alto de lo que es. Sin embargo, a menudo ser&aacute;s abordado por aquellos que creen en tu reputaci&oacute;n exagerada, y las personas pueden evitarte o acosarte dependiendo de su naturaleza. Adem&aacute;s, obt&eacute;n un Edge cuando interact&uacute;es socialmente con personas que no conocen la verdad debido a las historias extravagantes y bomb&aacute;sticas que te rodean. Obt&eacute;n un Drama si esas personas descubren que no eres genuino.</p>"
+                    }
+                    ,"slick-as-water":
+                    {
+                         "name":"Escurridizo"
+                        ,"desc":"<p><em>&ldquo;Lamento mucho mis acciones. Mientras todos nos unamos, podemos superar esto..&rdquo;</em></p>  <p>Siempre sabes qu&eacute; decir para salir de un apuro. Cometes errores, pero nunca parecen afectarte socialmente. Cuando cometas un error o desliz social, puedes convertirlo en un efecto positivo al tomar 1 punto de Fatiga. El efecto positivo podr&iacute;a ser obtener un Edge la pr&oacute;xima vez que interact&uacute;es con el mismo grupo de personas, o puedes optar por no recibir un Drama de la interacci&oacute;n.</p>"
+                    }
+                    ,"sentimental-trinket":
+                    {
+                         "name":"Baratija Sentimental"
+                        ,"desc":"<p><em>&ldquo;Este pequeño amuleto es todo lo que me queda de mi prometida..&rdquo;</em></p>  <p>Siempre tienes un pequeño objeto en tu posesi&oacute;n. Este art&iacute;culo sirve como una poderosa fuente de inspiraci&oacute;n y un recordatorio para seguir sobreviviendo. Una vez por sesi&oacute;n, obt&eacute;n un Edge al resolver un desaf&iacute;o relacionado con un Drama. El amuleto puede ser destruido para resolver instant&aacute;neamente un Drama. Puedes obtener un nuevo amuleto despu&eacute;s de resolver otro Drama.</p>"
+                    }
+                    ,"unhinged":
+                    {
+                         "name":"Desquiciado"
+                        ,"desc":"<p><em>&ldquo;Rompiendo el protocolo. Las instrucciones de Regess son menos eficientes. Har&eacute; los ajustes necesarios..&rdquo;</em></p>  <p>Siempre has sido un poco inestable. La mayor&iacute;a de las veces, te metes en problemas, pero has aprendido a aprovechar esta inestabilidad. Obt&eacute;n el Elemento “Desencajado” y est&aacute;s en tu Elemento cuando act&uacute;as err&aacute;ticamente o durante una crisis mental. Pierdes permanentemente -1 punto de Estr&eacute;s; ahora tienes acceso a 4 casillas en lugar de 5. Cuando tengas una crisis mental, el GM solo puede controlar 1 de tus Acciones. T&uacute; a&uacute;n controlas la otra.</p>"
+                    }
+                    ,"you-are-the-stage":
+                    {
+                         "name":"Eres el Escenario"
+                        ,"desc":"<p><em>&ldquo;¿Sin luces? ¿Sin escenario? ¿Solo algunos &aacute;rboles muertos y grandes rocas? ¡Esta ser&aacute; la mejor actuaci&oacute;n de mi carrera! .&rdquo;</em></p>  </em></p> <p>Tu brillantez siempre es la principal atracci&oacute;n; todo lo dem&aacute;s es solo un espect&aacute;culo. Cuando est&eacute;s actuando, puedes usar un beneficio de equipo listado asociado con un lugar al que tengas acceso con tu actual Fama. No necesitas acceso al lugar para obtener este beneficio. Puedes activar este Talento una vez cada varios d&iacute;as.</p>"
+                    }
+                }
+                ,"tactical":
+                {
+                     "built-tough":
+                    {
+                         "name":"Robusto"
+                        ,"desc":"<p><em>&ldquo;Me han construido m&aacute;s resistente que el guerrero Zentraedi promedio.&rdquo;</em></p>  <p>Tu modelo Zentraedi ha sido diseñado para estar listo para la batalla. Como humano, siempre pareces salir con vida del combate. Los humanos y Zentraedi obtienen diferentes beneficios al tomar este Talento. <em>Built Tough</em> se puede tomar 2 veces:</p>  <p><strong>&bull; Humanos: </strong>Los humanos ganan 2 heridas adicionales de combate cuerpo a cuerpo; la segunda vez que se tome otorga 1 herida cr&iacute;tica adicional.</p>  <p><strong>&bull; Zentraedi: </strong>Los Zentraedi ganan 5 heridas leves que equivalen a 1 herida de combate cuerpo a cuerpo adicional y obtienen los beneficios de un traje de vuelo incluso si no llevan puesto uno. Si se toma una segunda vez, reemplaza todas tus heridas leves con 3 heridas de clase mecha (4 si has mejorado +1 herida de combate cuerpo a cuerpo en la p&aacute;gina 17) &ndash; las primeras 2 cuentan como de combate cuerpo a cuerpo y la &uacute;ltima como cr&iacute;tica.</p>  <p><strong>&bull; Tiroleanos: </strong>Los tirolianos ganan +2 heridas adicionales de combate cuerpo a cuerpo; la segunda vez que se tome otorga +1 herida cr&iacute;tica adicional.</p>  <p><strong>&bull; Invid: </strong>Los Invid ganan +1 de Resistencia, que puede añadirse a cualquier Resistencia proporcionada por el equipo pero no por las Naves. Gana +1 de Resistencia adicional si se toma una segunda vez. Ver p&aacute;gina 163 para m&aacute;s detalles.</p>  "
+                    }
+                    ,"counterattack":
+                    {
+                         "name":"Contraataque"
+                        ,"desc":"<p><em>&ldquo;¡No caer&eacute; tan f&aacute;cilmente!&rdquo;</em></p>  <p>Una vez por enfrentamiento, cuando recibes daño en combate cuerpo a cuerpo o a corta distancia, infliges la mitad del daño recibido de vuelta a tu oponente. Debes tener sistemas de armas operativos, un arma, o un plan sencillo para poder devolver el daño.</p>  "
+                    }
+                    ,"dead-eye":
+                    {
+                         "name":"Ojo Mortal"
+                        ,"desc":"<p><em>&ldquo;Dispara justo en la articulaci&oacute;n del cuello de su armadura. Ah&iacute; es m&aacute;s d&eacute;bil.&rdquo;</em></p>  <p>Una vez por enfrentamiento por oponente, puedes ignorar 1 punto de la armadura de tu objetivo. Puedes decidir usar esto despu&eacute;s de tirar tus acciones. Este Talento solo puede usarse con armas ligeras.</p>  "
+                    }
+                    ,"defender":
+                    {
+                         "name":"Defensor"
+                        ,"desc":"<p><em>&ldquo;Estoy aqu&iacute; para protegerle, senador.&rdquo;</em></p>  <p>Ganas una Ventaja para defender a un aliado. El bono solo se gana si la persona que est&aacute;s protegiendo est&aacute; siendo atacada. Debes declarar a qui&eacute;n proteges cada ronda y estar en rango para defenderlo.</p>  "
+                    }
+                    ,"efficient-fighter":
+                    {
+                         "name":"Luchador Eficiente"
+                        ,"desc":"<p><em>&ldquo;Nuestra instalaci&oacute;n de producci&oacute;n no puede seguir el ritmo de la demanda de munici&oacute;n. Coloca bien tus disparos.&rdquo;</em></p>  <p>Mientras luchas, solo usas los recursos que necesitas. No te afectan las carencias de suministros para munici&oacute;n b&aacute;sica. Ganas 1 uso adicional de un equipo basado en munici&oacute;n.</p>  "
+                    }
+                    ,"heightened":
+                    {
+                         "name":"Enaltecido"
+                        ,"desc":"<p><em>&ldquo;Parece pequeño, pero nadie es m&aacute;s fuerte que Ben.&rdquo;</em></p>  <p>Eres f&iacute;sicamente excepcional de alguna manera. Elige 1: Fuerza, Resistencia, Agilidad, Voluntad, Intelecto o Carisma. Ganas una Ventaja una vez por encuentro, enfrentamiento o d&iacute;a (a elecci&oacute;n del DJ) cuando uses el aspecto seleccionado.</p>  "
+                    }
+                    ,"infiltrator":
+                    {
+                         "name":"Infiltrador"
+                        ,"desc":"<p><em>&ldquo;Esos conductos NO son demasiado pequeños. Lo hago todo el tiempo.&rdquo;</em></p>  <p>Ganas una Ventaja en tiradas cuando te est&aacute;s infiltrando y no has sido detectado o no se espera tu presencia. Una vez que te descubren o dejas evidencia que indique tu presencia, se pierde este bono.</p>  "
+                    }
+                    ,"martial-artist":
+                    {
+                         "name":"Artista Marcial"
+                        ,"desc":"<p><em>&ldquo;Conozco los 27 estilos de animales Shaolin...&rdquo;</em></p>  <p>Eres letal en combate cuerpo a cuerpo, incluso sin armas. A efectos del combate cuerpo a cuerpo, cuentas como si estuvieras armado con un arma letal, incluso si no la tienes. Esto puede usarse en mechas y en enfrentamientos ligeros. Te permite ignorar la penalizaci&oacute;n por no tener un arma cuerpo a cuerpo adecuada.</p>  "
+                    }
+                    ,"soldier-up":
+                    {
+                         "name":"Sé un Soldado"
+                        ,"desc":"<p><em>&ldquo;Har&eacute; el trabajo. Nadie m&aacute;s tiene que salir herido.&rdquo;</em></p>  <p>Eres un soldado ejemplar, comprometido con tu deber. Al realizar una acci&oacute;n de naturaleza f&iacute;sica, puedes recibir 1 herida, de combate cuerpo a cuerpo o cr&iacute;tica, para ganar autom&aacute;ticamente 2 &eacute;xitos, o recibir 2 heridas para ganar 5 &eacute;xitos autom&aacute;ticos. No puedes ganar un Movimiento Heroico a partir de los &eacute;xitos cuando usas este Talento.</p>  "
+                    }
+                    ,"swiftstrike":
+                    {
+                         "name":"Golpe Veloz"
+                        ,"desc":"<p><em>&ldquo;Se mueven tan r&aacute;pido que no puedo seguir su posici&oacute;n... ahora est&aacute;n a las 10 en punto... ¡Mira!&rdquo;</em></p>  <p>Tus reacciones r&aacute;pidas son incomparables. Ganas en empates contra h&eacute;roes o villanos cuando los enfrentas f&iacute;sicamente. Esto significa que se asume que tienes 1 &eacute;xito contra tu oponente cuando empatas.</p>  "
+                    }
+                    ,"track-star":
+                    {
+                         "name":"Estrella de la Pista"
+                        ,"desc":"<p><em>&ldquo;Vale la pena despertarse a las 05:00 y correr una media marat&oacute;n todos los d&iacute;as.&rdquo;</em></p>  <p><strong>Humanos: </strong>Ganan +2 unidades de velocidad terrestre (50 m en total). <strong>Zentraedi: </strong>Ganan +8 unidades de velocidad terrestre (210 m en total). Tambi&eacute;n puedes correr el doble de distancia antes de fatigarte f&iacute;sicamente.</p>  "
+                    }
+                    ,"weapon-expert":
+                    {
+                         "name":"Experto en Armas"
+                        ,"desc":"<p><em>&ldquo;Ahh, los viejos modelos 60. Eran considerados bestias en su &eacute;poca.&rdquo;</em></p>  <p>Tienes una comprensi&oacute;n innata de c&oacute;mo operan las armas ligeras y puedes operar cualquier arma ligera con destreza, incluso aquellas con las que no tienes experiencia. Ganas una Ventaja para reparar, mantener o construir armas ligeras. Adem&aacute;s, ganas una Ventaja cuando atacas a un oponente armado con un arma menos potente que la tuya.</p>"
+                    }
+                    ,"camouflage":
+                    {
+                         "name":"Camuflaje"
+                        ,"desc":"<p><em>&ldquo;El barro aqu&iacute; es espeso y lleno de calcio. Obscurecer&aacute; nuestras firmas de calor..&rdquo;</em></p>  <p>Dominas el entorno y te mezclas en &eacute;l. Dados segundos para esconderte a ti y a tus aliados, obt&eacute;n un Edge en las pruebas relacionadas con el sigilo. Dados minutos para prepararte, obt&eacute;n una Ventaja. Esto asume que est&aacute;s a pie, llevando equipo limitado. Cuando est&eacute;s en Mecha o veh&iacute;culos, este beneficio se reduce en 1 nivel.</p>"
+                    }
+                    ,"demolitionist":
+                    {
+                         "name":"Demoliciones"
+                        ,"desc":"<p><em>&ldquo;Todo tiene un punto d&eacute;bil. Nada es impenetrable.&rdquo;</em></p>  <p>Sabes exactamente c&oacute;mo romper un huevo—bueno, un huevo con Armadura compuesta de 1 m de grosor. Al plantar explosivos en una Estructura y dentro de un tiempo adecuado, aumenta la Carga Formada a 3x el daño de Mecha y duplica el radio de las explosiones de Fragmentaci&oacute;n de un Kit de Demolici&oacute;n (M85).</p>"
+                    }
+                    ,"dirty-fighter":
+                    {
+                         "name":"Pelea Sucia"
+                        ,"desc":"<p><em>&ldquo;¡Apunta a los genitales! Espera, ¿tiene genitales? ¡Apunta a los genitales de todos modos!.&rdquo;</em></p>  <p>No hay tal cosa como una pelea justa. Obt&eacute;n el Elemento “Luchador Sucio”. Obt&eacute;n un Edge la primera vez que Ataques a un objetivo con un Ataque Cuerpo a Cuerpo. Si sorprendes a tu objetivo, ignora 1 punto de su Armadura.</p>"
+                    }
+                    ,"ground-pounder":
+                    {
+                         "name":"Batidor"
+                        ,"desc":"<p><em>&ldquo;No necesito veh&iacute;culos, gadgets o mechas. Tenemos todo lo que necesitamos aqu&iacute; en nuestras manos..&rdquo;</em></p>  <p>Los soldados son fr&aacute;giles pero &aacute;giles, y obtienen una gran cantidad de Ventajas t&aacute;cticas—especialmente donde se necesita guerra de guerrillas. Obt&eacute;n el Elemento “Guerrillero”. Obt&eacute;n +1 Resistencia a tu Armadura Ligera basada en equipo personal. Este beneficio es pasivo y contin&uacute;a indefinidamente. Puedes optar por quemar este beneficio para obtener +3 Resistencia contra un Ataque.</p>"
+                    }
+                    ,"snipe":
+                    {
+                         "name":"Francotirador"
+                        ,"desc":"<p><em>&ldquo;¿Con estas armas? Solo hay una forma de vencerlos. Debes apuntar al ojo. No falles..&rdquo;</em></p>  <p>Obt&eacute;n el Elemento “Paciente.” Esperas el tiempo que sea necesario para obtener el tiro perfecto. Durante un Conflicto, puedes optar por acumular Acciones de Ataque como parte de tu punter&iacute;a constante. Cada Acci&oacute;n acumulada proporciona 1 nivel de bonificaci&oacute;n, siempre que realices una Acci&oacute;n de Ataque contra el objetivo al que has estado apuntando y permanezcas sin ser detectado.</p>"
+                    }                    
+
+                }
+                ,"technical":
+                {
+                     "always-a-handy-tool":
+                    {
+                         "name":"Herramienta Siempre a Mano"
+                        ,"desc":"<p><em>&ldquo;Escucha, chico, ¿quieres ser un h&eacute;roe? Siempre lleva tu herramienta multiusos contigo.&rdquo;</em></p>  <p>Aunque no tengas un kit de herramientas, siempre pareces tener una herramienta &uacute;til a mano. Incluso si te registran, te cachean o pasas por seguridad, de alguna manera conservas tu herramienta. Tu herramienta puede usarse como un arma de mano.</p>"
+                    }
+                    ,"computer-head":
+                    {
+                         "name":"Cabeza de Computador"
+                        ,"desc":"<p><em>&ldquo;No te preocupes, cariño... no voy a meterme demasiado con tus ceros y unos.&rdquo;</em></p>  <p>Eres un maestro en reparaci&oacute;n, operaci&oacute;n, programaci&oacute;n e intrusi&oacute;n virtual de sistemas inform&aacute;ticos. Ganas una Ventaja cuando arreglas, programas o hackeas sistemas inform&aacute;ticos o virtuales.</p>"
+                    }
+                    ,"dangerous-exposure":
+                    {
+                         "name":"Exposición Peligrosa"
+                        ,"desc":"<p><em>&ldquo;Te prometo que esta no es una buena idea. Sin embargo, va a ser muy divertido.&rdquo;</em></p>  <p>Has estado expuesto a todo tipo de peligros t&eacute;cnicos, incluyendo: electricidad, fr&iacute;o y fuego. Has ganado una resistencia limitada a estos efectos. Se asume que tienes +1 de armadura cuando recibes daño de estos elementos.</p>"
+                    }
+                    ,"eidetic-memory":
+                    {
+                         "name":"Memoria Fotográfica"
+                        ,"desc":"<p><em>&ldquo;Puedo recordar todas las canciones de Minmei y todas las l&iacute;neas de sus pel&iacute;culas.&rdquo;</em></p>  <p>Tu mente es una trampa de acero. Nunca olvidas nada que hayas visto o escuchado.</p>"
+                    }
+
+                    ,"exploding-tech":
+                    {
+                         "name":"Tecnología Explosiva"
+                        ,"desc":"<p><em>&ldquo;Conect&eacute; una fuente de energ&iacute;a de respaldo a las placas gravitacionales del piso. Retrocede, esto va a ser desastroso.&rdquo;</em></p>  <p>Sabes c&oacute;mo combinar sistemas de manera vol&aacute;til. Cada vez que tienes acceso a diferentes sistemas electr&oacute;nicos o elementos, puedes hackearlos para convertirlos en un arma. Haces que los objetos interact&uacute;en y creen un efecto dañino. El resultado destruye los sistemas o elementos. Adem&aacute;s, obtienes &ldquo;Exploder&rdquo; como un Elemento.</p>"
+                    }
+                    ,"field-medic":
+                    {
+                         "name":"Médico de Campo"
+                        ,"desc":"<p><em>&ldquo;Mantente tranquilo. Piensa en cosas felices. ¿Tienes un gato? Yo me encargar&eacute;, estar&aacute;s bien.&rdquo;</em></p>  <p>Tienes el conocimiento y la habilidad para tratar heridas en el campo. Est&aacute;s entrenado para curar heridas de combate con pocos materiales. Con un kit m&eacute;dico, puedes tratar 1 herida de combate por personaje, por d&iacute;a. El tiempo de tratamiento toma minutos.</p>"
+                    }
+                    ,"hiding-hole":
+                    {
+                         "name":"Esconderse en un Agujero"
+                        ,"desc":"<p><em>&ldquo;¿D&oacute;nde est&aacute; ese nerd? Si no lo encontramos, el comandante nos va a despellejar.&rdquo;</em></p>  <p>Algunos no est&aacute;n hechos para el combate directo. Cuando las cosas se ponen dif&iacute;ciles, te escondes. Siempre logras encontrar un lugar seguro para ocultarte por un tiempo cuando alguien quiere hacerte daño. Este Talento se extiende a situaciones sociales inc&oacute;modas, as&iacute; como a fingir estar muerto.</p>"
+                    }
+                    ,"navigator":
+                    {
+                         "name":"Navegante"
+                        ,"desc":"<p><em>&ldquo;Maniobras y c&aacute;lculos... eso es todo lo que hago. Rodear la nebulosa, evitar ese asteroide... qu&eacute; pesado.&rdquo;</em></p>  <p>Te sientes como en casa en el espacio. Ganas una Ventaja para la navegaci&oacute;n de naves espaciales, incluyendo: c&aacute;lculos, supervivencia, lanzamiento, reentrada, pozos gravitacionales y trazar un curso.</p>"
+                    }
+                    ,"overload":
+                    {
+                         "name":"Sobrecarga"
+                        ,"desc":"<p><em>&ldquo;Carga el sistema al 120% de capacidad. S&eacute; que lo vamos a perder, pero lo necesitamos operativo ahora.&rdquo;</em></p>  <p>Inflige daño a un sistema para obtener un beneficio adicional de &eacute;l. El sistema recibe 2 niveles de daño, pero obtienes una Ventaja al usarlo. Las armas ligeras y el equipo personal se destruyen al usar este Talento.</p>"
+                    }
+                    ,"pack-rat":
+                    {
+                         "name":"Pack Rat"
+                        ,"desc":"<p><em>&ldquo;Cabo, necesito que firme estos papeles diciendo que la requisici&oacute;n se perdi&oacute; en combate.&rdquo;</em></p>  <p>Siempre guardas equipo extra y municiones para tiempos dif&iacute;ciles. Puedes llevar un &iacute;tem adicional sobre los m&aacute;ximos est&aacute;ndar. Tambi&eacute;n obtienes propiedad de un kit adicional, m&aacute;s all&aacute; del equipo t&iacute;pico.</p>"
+                    }
+                    ,"quick-diagnostics":
+                    {
+                         "name":"Diagnóstico Rápido"
+                        ,"desc":"<p><em>&ldquo;Estos giroscopios se descalibran todo el tiempo. Este est&aacute; al menos 0.0001 grados fuera de alineaci&oacute;n.&rdquo;</em></p>  <p>Eres capaz de identificar un problema mec&aacute;nico o el&eacute;ctrico escuch&aacute;ndolo u observando cambios menores en su comportamiento. La observaci&oacute;n solo requiere unos segundos y obtienes una Ventaja para repararlo posteriormente.</p>"
+                    }
+                    ,"therapist":
+                    {
+                         "name":"Terapeuta"
+                        ,"desc":"<p><em>&ldquo;Solo si&eacute;ntate, rel&aacute;jate y h&aacute;blame de este &uacute;ltimo enfrentamiento.&rdquo;</em></p>  <p>Tras años de entrenamiento y experiencia con los horrores de la guerra, sabes c&oacute;mo tratar el TEPT y los problemas de salud mental relacionados con el Estr&eacute;s. Despu&eacute;s de interactuar con alguien durante horas, puedes reducir su Fatiga en 1 punto. Esto puede hacerse una vez por d&iacute;a, por persona con la que interact&uacute;es, pero puede hacerse junto con la recuperaci&oacute;n est&aacute;ndar de 1 punto de Fatiga por d&iacute;a.</p>"
+                    }
+                    ,"jury-rig":
+                    {
+                         "name":"Reparación de Emergencia"
+                        ,"desc":"<p><em>&ldquo;Bueno, todos los capacitores aqu&iacute; est&aacute;n quemados, pero los de all&aacute; est&aacute;n bien. Parece una decisi&oacute;n simple..&rdquo;</em></p>  <p>El pensamiento r&aacute;pido y la ingeniosidad te han sacado de tiempos dif&iacute;ciles. Obt&eacute;n el Elemento “Ingenioso”. Cuando no tienes tiempo o las piezas para reparar adecuadamente un sistema dañado, puedes obtener piezas de otro sistema. El sistema del que tomaste las piezas queda dañado en un grado basado en el nivel de reparaci&oacute;n completado.</p>"
+                    }                      
+                    ,"intensify":
+                    {
+                         "name":"Intensificar"
+                        ,"desc":"<p><em>&ldquo;Bien, ahora tengo los Boosters conectados con el jetpack. Atacar y defender con un solo toque de bot&oacute;n..&rdquo;</em></p>  <p>Mientras reconfiguras y reescribes r&aacute;pidamente los protocolos dentro de un veh&iacute;culo, sistema o Nave, conectas m&uacute;ltiples sistemas para intensificar tus capacidades. Una vez por Conflicto, puedes usar hasta 2 equipos en lugar de 1. Sin embargo, esto cuesta 1 uso adicional de cualquiera de los equipos activados. Los sistemas deben ser complejos para modificarlos t&eacute;cnicamente.</p>"
+                    }                      
+                    ,"scavenger":
+                    {
+                         "name":"Rapiñador"
+                        ,"desc":"<p><em>&ldquo;Ahora, este lugar, este lugar siempre me ayuda. Los escombros de ese crucero se extendieron por estas colinas mientras descend&iacute;a..&rdquo;</em></p>  <p>Eres h&aacute;bil en usar materiales limitados para mantener Mechas y equipo en funcionamiento y obtener los materiales para hacerlo. En cualquier prueba de suministro para obtener Mecha o equipo, cuentas como si tuvieras 1 &EACUTE;xito adicional.</p>  <p>*Puedes tomar este Talento una segunda vez; cuando lo hagas, en cualquier prueba para obtener suministros, cuentas como si tuvieras 2 &EACUTE;xitos adicionales.</p>"
+                    }                      
+                    ,"well-stocked":
+                    {
+                         "name":"Aprovisionado"
+                        ,"desc":"<p><em>&ldquo;Llevo todo en mi chaleco de utilidades… hilo dental, alicates, una cinta m&eacute;trica, arn&eacute;s de cables neuronales, dispositivo de rastreo....&rdquo;</em></p>  <p>Obt&eacute;n el Elemento “Preparado.” Sab&iacute;as que cargar ese estuche de suministros ser&iacute;a &uacute;til en alg&uacute;n momento. Obt&eacute;n +1 uso adicional de un equipo no basado en armas al que tengas acceso. Este Talento puede usarse una vez en el transcurso de varias horas.</p>"
+                    }                      
+                }
+                ,"invid":
+                {
+                    "telekinesis":
+                    {
+                         "name":"Telekinesis"
+                        ,"desc":"<p>Puedes mover objetos con la mente. Puedes mover 10 kg de objetos a 10 m de distancia, o el Talento puede modificarse para mover 100 kg de material a 1 m. Puedes elegir dividir el peso y la distancia como lo desees. Los objetos se mueven 3 m en cuesti&oacute;n de momentos. Los enemigos que se elevan del suelo no pueden moverse. Al gastar 2 puntos de Fatiga, puedes levantar a 2 objetivos a la vez.</p>"
+                    }
+                    ,"mental-invade":
+                    {
+                         "name":"Invasión Mental"
+                        ,"desc":"<p>Usando la fuerza de tu mente, te adentras en los pensamientos de otro y puedes ver lo que est&aacute; pensando. La invasi&oacute;n dura minutos, dependiendo de la fuerza del intento. Al invadir, oyes y ves a trav&eacute;s de los sentidos del objetivo. El sujeto debe estar dentro de tu rango visual o del de otro Invid en la mente colmena adyacente. Solo puedes invadir una mente a la vez.</p>"
+                    }
+                    ,"possession":
+                    {
+                         "name":"Posesión"
+                        ,"desc":"<p>Algunos de los Invid m&aacute;s poderosos mentalmente pueden tomar control del cuerpo de otro. Para iniciar este Ataque, debes tener contacto visual o estar adyacente a otro Invid en la mente colmena. Cuando tienes el control, tu cuerpo se desploma y tu mente entra en el cuerpo del objetivo. No puedes acceder a los recuerdos del objetivo, pero tienes control total sobre su cuerpo. La posesi&oacute;n dura solo segundos.</p>"
+                    }
+                    ,"pure-beam-energy":
+                    {
+                         "name":"Rayo de Energía"
+                        ,"desc":"<p>Invocando una poderosa fuerza interna, puedes emitir un rayo de energ&iacute;a desde tus manos o tus ojos. El rayo tiene un Alcance Corto, ignora 1 punto de la Armadura de tu oponente y causa el doble de daño de Clase Ligera. Al pilotar un Mecha de base org&aacute;nica, este Ataque se potencia a daño de Clase Mecha. Puedes usar una Acci&oacute;n de Ataque con este Talento.</p>"
+                    }
+                }
+            }
+            ,"skills":{
+                "adept-negotiator": 
+                {
+                    "name": "Negociador Adepto"
+                    ,"desc": "<p><em>&ldquo;Tus t&eacute;rminos son rid&iacute;culos. Nunca podr&iacute;amos aceptar semejante disparate.&rdquo;</em></p> <p>Sabes c&oacute;mo usar la influencia y evitar los temas de debilidad para obtener la ventaja. Usa esta Habilidad para obtener lo que deseas cuando est&aacute;s en disputa con otros. Para obtener algo, debes estar dispuesto a ceder algo.</p> <p><strong>&bull; Beneficio &ndash; Compromiso: </strong>Obtienes algo que deseas.</p> <p><strong>&bull; Costo &ndash; Compromiso: </strong>Para obtener lo que deseas, debes ceder algo de valor.</p> <p><strong>&bull; F&iacute;sico: </strong>Durante un combate prolongado, despu&eacute;s de ver los movimientos de tu oponente, te expones para recibir da&ntilde;o con el fin de asestar el golpe mortal.</p> <p><strong>&bull; Social: </strong>Durante las discusiones, logras adquirir las piezas raras necesarias para construir m&aacute;s mechas, pero cedes exactamente lo que pretend&iacute;as.</p> <p><strong>&bull; T&eacute;cnico: </strong>Est&aacute;s reparando un sistema y no tienes las herramientas adecuadas. Cortocircuitas un aspecto del sistema para poner en funcionamiento el otro.</p>"
+                    ,"cad1":"Compromiso"
+                    ,"cad2":"Compromiso"
+                }
+                ,"ambush-tactics": 
+                {
+                    "name": "Tácticas de Emboscada"
+                    ,"desc": "<p><em>&ldquo;Ok hombres, vamos a asaltar el cuartel general de los terroristas. No se contengan, los tomaremos por sorpresa y r&aacute;pidamente.&rdquo;</em></p> <p>Puedes detectar una emboscada a kil&oacute;metros de distancia. Tambi&eacute;n eres un maestro en establecer emboscadas y ataques sorpresa. Ataca a un objetivo cuando menos lo espera, saca a tu equipo de un ataque que nadie pudo prever, y aprovecha la cobertura en el campo de batalla.</p> <p><strong>&bull; Beneficio &ndash; Sorpresa: </strong>Surprendes a tu enemigo con un ataque o argumento que no ve&iacute;an venir.</p> <p><strong>&bull; Costo &ndash; Oculto: </strong>Para sorprender a tu oponente, debes venir desde una posici&oacute;n oculta.</p> <p><strong>&bull; F&iacute;sico: </strong>Rehenes est&aacute;n siendo retenidos en un restaurante local.</p> <p>Te lanzas a trav&eacute;s de la ventana principal de la tienda y tomas por sorpresa a los criminales.</p> <p><strong>&bull; Social: </strong>Mientras tu rival habla de un momento oscuro en tu pasado, te preparas y lanzas tu propio ataque verbal.</p> <p><strong>&bull; T&eacute;cnico: </strong>Hay sistemas vulnerables que podr&iacute;an explotar en cualquier momento. Los evitas y llegas al n&uacute;cleo del problema antes de que todo el sistema colapse.</p> "
+                    ,"cad1":"Sorpresa"
+                    ,"cad2":"Oculto"
+                }
+                ,"angelic-grace": 
+                {
+                    "name": "Gracia Angelical"
+                    ,"desc": "<p><em>&ldquo;Al contemplar la presencia de la princesa, me siento tranquilo y c&aacute;lido.&rdquo;</em></p> <p>No caminas, te deslizas por el suelo. Aquellos a tu alrededor, incluso bestias salvajes, se calman en tu presencia. La gracia que posees es casi sobrenatural y puede ser una herramienta poderosa en las circunstancias adecuadas.</p> <p><strong>&bull; Beneficio &ndash; Elegancia: </strong>Act&uacute;as con gracia bajo presi&oacute;n en cualquier situaci&oacute;n.</p> <p><strong>&bull; Costo &ndash; Inflexible: </strong>Una vez que inicias tu enfoque, no puedes cambiarlo o la elegancia se romper&aacute;.</p> <p><strong>&bull; F&iacute;sico: </strong>Durante una pelea, eres capaz de navegar un curso traicionero con un alto nivel de eficiencia.</p> <p><strong>&bull; Social: </strong>Las dos partes en negociaci&oacute;n est&aacute;n empezando a enojarse. Utilizas tu gracia para asegurarte de que las conversaciones contin&uacute;en de manera fluida.</p> <p><strong>&bull; T&eacute;cnico: </strong>Investigando un nuevo artefacto r&aacute;pida y calmadamente, nunca cometes errores mientras traduces el texto antiguo.</p>"
+                    ,"cad1":"Equilibro"
+                    ,"cad2":"Inflexible"
+                }
+                ,"blend-in": 
+                {
+                    "name": "Mezclarse"
+                    ,"desc": "<p><em>&ldquo;Para asegurar una adecuada obfuscaci&oacute;n, camina dos pasos a la izquierda y mant&eacute;n quince de distancia de tu objetivo.&rdquo;</em></p> <p>Tienes la habilidad sorprendente de parecer que perteneces a los ojos de los dem&aacute;s. Esto te ayuda a mezclarte en una multitud o sentarte en la cena de un oficial, pretendiendo ser uno de ellos. En la mayor&iacute;a de los casos, quienes te rodean no cuestionar&aacute;n ni pondr&aacute;n en duda tu presencia. En combate, los enemigos tienden a ignorarte en favor de otros objetivos m&aacute;s evidentes.</p> <p><strong>&bull; Beneficio &ndash; Desapercibido: </strong>Mezclarte te hace parecer inconsecuente, normal o poco llamativo.</p> <p><strong>&bull; Costo &ndash; Multitud: </strong>Para pasar desapercibido a plena vista, debe haber una multitud o ruido visual en el que puedas desaparecer.</p> <p><strong>&bull; F&iacute;sico: </strong>Te mueves a trav&eacute;s del campo de batalla con la intenci&oacute;n de atacar al jefe. Pasas casi desapercibido entre los guardias gracias a una distracci&oacute;n oportuna.</p> <p><strong>&bull; Social: </strong>Te insertas en una conversaci&oacute;n casi sin ser notado. Colocas un rumor en la charla y luego te desv&iacute;as. Nadie recuerda c&oacute;mo comenz&oacute; el rumor.</p> <p><strong>&bull; T&eacute;cnico: </strong>Sabes c&oacute;mo usar partes comunes existentes para suplir la falta de piezas especializadas. Quiz&aacute; no sea lo ideal, pero servir&aacute; en un apuro.</p>"
+                    ,"cad1":"Desapercibido"
+                    ,"cad2":"Multitud"
+                }       
+                ,"close-quarters": 
+                {
+                    "name": "A Corta Distancia"
+                    ,"desc": "<p><em>&ldquo;No eres tan duro cuando no puedes moverte con facilidad por ese campo de asteroides.&rdquo;</em></p> <p>Con Combate Cercano, eres capaz de acercarte lo suficiente como para volverte personal. En el campo de batalla te involucras lo suficientemente cerca como para ver los ojos del enemigo. En situaciones sociales, te adentras en los asuntos personales de alguien.</p> <p><strong>&bull; Beneficio &ndash; Personal: </strong>Te acercas y te vuelves personal con un oponente o tarea, logrando un gran efecto.</p> <p><strong>&bull; Costo &ndash; A Corta Distancia: </strong>Necesitas estar lo m&aacute;s cerca posible para obtener los resultados que buscas.</p> <p><strong>&bull; F&iacute;sico: </strong>Te mueves y atacas en combate cuerpo a cuerpo, usando espadas, pu&ntilde;os o la culata de tu arma.</p> <p><strong>&bull; Social: </strong>Te adentras profundamente en los asuntos personales de alguien. Puedes descubrir y usar sus secretos en su contra.</p> <p><strong>&bull; T&eacute;cnico: </strong>Eres disciplinado. Eres capaz de desentra&ntilde;ar los secretos de la tecnolog&iacute;a m&aacute;s avanzada.</p>"
+                    ,"cad1":"Personal"
+                    ,"cad2":"De Cerca"
+                }         
+                ,"contacts-everywhere": 
+                {
+                    "name": "Contactos por Doquier"
+                    ,"desc": "<p><em>&ldquo;Conozco la ideolog&iacute;a de este grupo. Tenemos que ser cuidadosos. Si descubren que somos UEDF, podr&iacute;amos tener problemas.&rdquo;</em></p> <p>Conoces a muchas personas de todos los &aacute;mbitos de la vida y, en su mayor&iacute;a, te caen bien. Cultivas y haces un seguimiento de tus contactos en diversos niveles de la vida militar y social. Mientras cuides tu relaci&oacute;n con ellos, te ayudar&aacute;n. A veces, el precio implica un pago o intercambio. Esta Habilidad te ayudar&aacute; a obtener informaci&oacute;n, adquirir objetos dif&iacute;ciles de encontrar y resolver problemas complejos.</p> <p><strong>&bull; Beneficio &ndash; Apoyo: </strong>Tener amigos puede brindarte ayuda cuando m&aacute;s la necesitas.</p> <p><strong>&bull; Costo &ndash; Disponibilidad: </strong>Debes poder contactar a tu aliado, y ellos deben estar dispuestos a ayudarte.</p> <p><strong>&bull; F&iacute;sico: </strong>Durante una batalla, tu grupo es inundado por fuego enemigo. Sabes qui&eacute;n est&aacute; cerca y puede ayudarte a salir de este aprieto.</p> <p><strong>&bull; Social: </strong>Conoces a muchas personas, sabes lo que quieren y c&oacute;mo conseguir lo que necesitas de ellas.</p> <p><strong>&bull; T&eacute;cnico: </strong>Conoces a todos los proveedores de componentes y puedes hablar t&eacute;cnicamente sobre sus productos.</p>"
+                    ,"cad1":"Apoyo"
+                    ,"cad2":"Disponibilidad"
+                }      
+                ,"cover-your-buddy": 
+                {
+                    "name": "Cubre a tu Amigo"
+                    ,"desc": "<p><em>&ldquo;No te preocupes, amigo, tengo distra&iacute;do a ese bogey que est&aacute; en tus seis.&rdquo;</em></p> <p>Coloc&aacute;ndote t&uacute; o tu fuego en la l&iacute;nea de un aliado, le proporcionas cobertura para escapar del ataque o encontrar una apertura en la defensa del enemigo. Esto se utiliza para desanimar a un enemigo de perseguir o enfocarse en el aliado al que est&aacute;s cubriendo.</p> <p><strong>&bull; Beneficio &ndash; Ayuda: </strong>Con v&iacute;nculos cercanos a tus amigos, siempre sabes la mejor manera de ayudar.</p> <p><strong>&bull; Costo &ndash; Cercano: </strong>Debes estar dentro del rango para brindar tu apoyo. Esto podr&iacute;a significar sacarlos de la l&iacute;nea de fuego o apuntar a un enemigo a trav&eacute;s de su ala.</p> <p><strong>&bull; F&iacute;sico: </strong>Tu compañero de ala est&aacute; volando directo hacia un mecha enemigo, que tambi&eacute;n est&aacute; volando directo hacia &eacute;l. Proporcionas fuego de cobertura para romper la trayectoria del enemigo y darle ventaja a tu amigo.</p> <p><strong>&bull; Social: </strong>T&uacute; y tu amigo est&aacute;n de fiesta y conocen a posibles citas. Act&uacute;as como un idiota para que tu amigo parezca una excelente opci&oacute;n para salir.</p> <p><strong>&bull; T&eacute;cnico: </strong>Tu amigo est&aacute; reparando un mecha y comete un error que lo retrasa. Cuando un supervisor investiga, intercedes para quitarle presi&oacute;n.</p>"
+                    ,"cad1":"Ayuda"
+                    ,"cad2":"En Cercan&iacute;a"
+                }      
+                ,"counterposition": 
+                {
+                    "name": "Contraposición"
+                    ,"desc": "<p><em>&ldquo;Acercarte a m&iacute;, no funcionar&aacute; de esa manera.&rdquo;</em></p> <p>A medida que un oponente se involucra, eres capaz de responder reposicion&aacute;ndote para mantener una ventaja. Puedes usar esta Habilidad tanto como Reacci&oacute;n como en tu turno. Puedes usar Contra-posicionamiento en tu turno como respuesta a una Acci&oacute;n tomada por un enemigo en el &uacute;ltimo turno. Esta Habilidad es importante ya que te permite mantener tu nave en una posici&oacute;n m&aacute;s ventajosa.</p> <p><strong>&bull; Beneficio &ndash; Responder: </strong>Respondes r&aacute;pidamente e intuitivamente a las maniobras de un oponente.</p> <p><strong>&bull; Costo &ndash; Reconocer: </strong>Para poder responder, debes ser capaz de presenciar y comprender la intenci&oacute;n de tu oponente.</p> <p><strong>&bull; F&iacute;sico: </strong>El mecha enemigo se mueve para entablar combate cuerpo a cuerpo. Crees que es mejor mantenerte a distancia y disparar tus armas, as&iacute; que te deslizas hacia atr&aacute;s mientras ellos se abalanzan.</p> <p><strong>&bull; Social: </strong>Intuyendo lo que tu enemigo va a decir, lo interrumpes y lanzas un comentario mordaz que lo deja en silencio.</p> <p><strong>&bull; T&eacute;cnico: </strong>Mientras trabajas en un sistema delicado, te preparas para una sobrecarga sistem&aacute;tica y cambias la prioridad de la reparaci&oacute;n.</p>"
+                    ,"cad1":"Responder"
+                    ,"cad2":"Reconocer"
+                }      
+                ,"escape-artist": 
+                {
+                    "name": "Escapista"
+                    ,"desc": "<p><em>&ldquo;¿Ves ese respiradero? Ser&aacute; mejor que te prepares para estar c&oacute;modo.&rdquo;</em></p> <p>Eres bueno para salir de situaciones complicadas. Puedes deslizarte entre ataduras, arrastrarte por un respiradero estrecho o esconderte detr&aacute;s del obst&aacute;culo m&aacute;s pequeño. Usa esta Habilidad para emboscar, escapar de un agarre enemigo o pasar por un &aacute;rea diminuta para asesinar a tu objetivo. Los esp&iacute;as tienden a meterse en situaciones dif&iacute;ciles, y el arte del escape hace que la infiltraci&oacute;n o exfiltraci&oacute;n sea posible.</p> <p><strong>&bull; Beneficio &ndash; Escape: </strong>El Arte del Escape te permite salir de una posici&oacute;n atrapada.</p> <p><strong>&bull; Costo &ndash; Conciencia: </strong>S&oacute;lo puedes escapar si eres capaz de encontrar o crear una oportunidad para hacerlo.</p> <p><strong>&bull; F&iacute;sico: </strong>Te agarra un enemigo, pero logras deslizarte fuera de su agarre y usar su ataque en su contra.</p> <p><strong>&bull; Social: </strong>Te arrastran a una profunda conversaci&oacute;n sobre pol&iacute;tica. Tomar partido podr&iacute;a dejarte mal parado, pero logras encontrar una buena excusa para escabullirte.</p> <p><strong>&bull; T&eacute;cnico: </strong>Est&aacute;s hackeando una base de datos y un administrador te descubre. Encuentras la manera de salir del sistema sin dejar rastro.</p>"
+                    ,"cad1":"Escapar"
+                    ,"cad2":"Percepci&oacute;n"
+                }      
+                ,"exology": 
+                {
+                    "name": "Exología"
+                    ,"desc": "<p><em>&ldquo;Bueno, ¿qu&eacute; tenemos aqu&iacute;? No solemos ver este tipo de tallado intrincado a menudo, a menos que fuera una tumba de rey.&rdquo;</em></p> <p>A medida que los Humanos extienden su alcance hacia las estrellas, han tenido continuas experiencias con nuevas razas. La Exolog&iacute;a es el estudio de la cultura, historia y tecnolog&iacute;a alien&iacute;gena. Usa esta Habilidad para identificar tecnolog&iacute;a alien&iacute;gena y c&oacute;mo operarla. Tambi&eacute;n puede usarse para obtener informaci&oacute;n sobre religi&oacute;n, costumbres e historia alien&iacute;gena.</p> <p><strong>&bull; Beneficio &ndash; Familiaridad: </strong>Adquieres una familiaridad con algo esot&eacute;rico o alien&iacute;gena.</p> <p><strong>&bull; Costo &ndash; Limitado: </strong>La informaci&oacute;n que posees es muy limitada y puede no aplicarse a muchas situaciones.</p> <p><strong>&bull; F&iacute;sico: </strong>Despu&eacute;s de un estudio riguroso de las naves de los alien&iacute;genas, descubres fallos en su diseño. Sabes exactamente d&oacute;nde atacar.</p> <p><strong>&bull; Social: </strong>Entiendes que el enemigo solo piensa en la guerra. Usa esto a tu favor durante las negociaciones.</p> <p><strong>&bull; T&eacute;cnico: </strong>Mientras que la mayor&iacute;a de los ingenieros nunca podr&iacute;an revertir la ingenier&iacute;a de esta antigua tecnolog&iacute;a alien&iacute;gena, t&uacute; tienes años de estudio en este campo.</p>"
+                    ,"cad1":"Familiaridad"
+                    ,"cad2":"Espec&iacute;fico"
+                }      
+                ,"flash-move": 
+                {
+                    "name": "Movimiento Rápido"
+                    ,"desc": "<p><em>&ldquo;¡Ja! ¡Ahora estoy aqu&iacute;! Apuesto a que no esperabas eso.&rdquo;</em></p> <p>Identificas una pequeña ventana de tiempo para mover tu mecha. Aceleras los propulsores y te desplazas una corta distancia, sorprendiendo completamente al enemigo. Los mejores pilotos pueden usar esta Habilidad para reposicionarse, evitar ataques o aprovechar un punto d&eacute;bil del enemigo.</p> <p><strong>&bull; Beneficio &ndash; Impr&eacute;decible:</strong> Realizas un movimiento que sucede r&aacute;pidamente y es dif&iacute;cil de predecir o intuir.</p> <p><strong>&bull; Costo &ndash; Corto Alcance: </strong>El movimiento es r&aacute;pido y no te lleva muy lejos.</p> <p><strong>&bull; F&iacute;sico: </strong>Est&aacute;s rodeado por el enemigo que ataca de una vez. Te mueves r&aacute;pidamente fuera del camino, y ellos se disparan entre s&iacute; en un fuego cruzado.</p> <p><strong>&bull; Social: </strong>Participas en una competencia de baile, y con tus astucias y movimientos caracter&iacute;sticos r&aacute;pidos, sorprendes al p&uacute;blico y ganas el trofeo.</p> <p><strong>&bull; T&eacute;cnico: </strong>No hay mucho tiempo para desactivar una bomba, pero con tus instintos r&aacute;pidos te mueves r&aacute;pidamente, cortando los cables en r&aacute;pida sucesi&oacute;n.</p>"
+                    ,"cad1":"Impredecible"
+                    ,"cad2":"De Cerca"
+                }      
+                ,"grand-presence": 
+                {
+                    "name": "Gran Presencia"
+                    ,"desc": "<p><em>&ldquo;He aqu&iacute;, el anfitri&oacute;n del baile de esta noche&hellip; ¡el Almirante en persona!&rdquo;</em></p> <p>Cuando entras en una situaci&oacute;n, todos quedan impresionados por tu presencia. Aquellos a tu alrededor quieren acercarse m&aacute;s y escuchar lo que tienes que decir. Puedes usar esta Habilidad para inspirar, intimidar y cautivar a quienes te ven. Captas la atenci&oacute;n y el respeto que mereces, tanto de aliados como de enemigos.</p> <p><strong>&bull; Beneficio &ndash; Atenci&oacute;n: </strong>Cuando apareces en escena, los dem&aacute;s se detienen y te miran con asombro, miedo o admiraci&oacute;n.</p> <p><strong>&bull; Costo &ndash; Reconocimiento: </strong>Es &uacute;til que quienes te miran, sepan qui&eacute;n eres o est&eacute;n al tanto de tu presencia.</p> <p><strong>&bull; F&iacute;sico: </strong>Cuando entras en el campo de batalla, el enemigo se siente intimidado por tu presencia y distra&iacute;do.</p> <p><strong>&bull; Social: </strong>Captas atenci&oacute;n al entrar en un gran sal&oacute;n de baile y obtienes consultas y respeto.</p> <p><strong>&bull; T&eacute;cnico: </strong>Cuando trabajas en equipo, logras que las cosas funcionen de maneras inesperadas&hellip; como si las piezas quisieran trabajar para ti.</p>"
+                    ,"cad1":"Atenci&oacute;n"
+                    ,"cad2":"Reconocimiento"
+                }      
+                ,"heavy-encryption": 
+                {
+                    "name": "Encriptación Pesada"
+                    ,"desc": "<p><em>&ldquo;Necesito solo quince segundos m&aacute;s para descifrarlo. ¿Puedes mantener a los Zentraedi ocupados un poco m&aacute;s?&rdquo;</em></p> <p>La encriptaci&oacute;n de mensajes hacia y desde unidades amigas es vital para la seguridad de una organizaci&oacute;n militar. Tienes la habilidad de encriptar y desencriptar mensajes. Usa esta Habilidad para asegurar que el enemigo no tenga acceso a tu informaci&oacute;n. Tambi&eacute;n puedes usar esta Habilidad para proteger – o acceder a – archivos almacenados en una base de datos.</p> <p><strong>&bull; Beneficio &ndash; Bloqueo: </strong>Tienes la capacidad de bloquear algo para que otros no puedan acceder.</p> <p><strong>&bull; Costo &ndash; Llave: </strong>Quien quiera abrir lo que has bloqueado debe tener o crear una llave.</p> <p><strong>&bull; F&iacute;sico: </strong>Mientras atacas, enmascaras tus movimientos para que sea m&aacute;s dif&iacute;cil para tu objetivo defenderse.</p> <p><strong>&bull; Social: </strong>Mientras seduces a un joven socialit&eacute; frente a su padre, usas insinuaciones sutiles para asegurarte de que entiendan tu intenci&oacute;n, pero su padre no.</p> <p><strong>&bull; T&eacute;cnico: </strong>Mientras env&iacute;as un mensaje importante a las fuerzas terrestres, te aseguras de que la señal est&eacute; segura e inaccesible para ser interceptada.</p>"
+                    ,"cad1":"Bloqueo"
+                    ,"cad2":"Llave"
+                }      
+                ,"hunker-down": 
+                {
+                    "name": "Resguardarse"
+                    ,"desc": "<p><em>&ldquo;¡Tenemos misiles entrantes! ¡Mu&eacute;vete a una posici&oacute;n defensiva ahora.&rdquo;</em></p> <p>Mientras el fuego enemigo y los misiles vuelan hacia tu mecha, encuentras cobertura cercana o giras tu mecha para protegerlo del daño. Usar el terreno intermedio es la mejor manera de mitigar el daño, pero si no hay nada que usar, el propio mecha puede absorber impactos si se maniobra correctamente.</p> <p><strong>&bull; Beneficio &ndash; Resistencia: </strong>Al moverte a una posici&oacute;n defensiva, eres capaz de resistir el daño o la humillaci&oacute;n.</p> <p><strong>&bull; Costo &ndash; Inm&oacute;vil: </strong>Este acto defensivo te impide moverte.</p> <p><strong>&bull; F&iacute;sico: </strong>Una oleada de misiles enemigos se acerca. No tienes a d&oacute;nde ir, as&iacute; que te agachas para mitigar el daño.</p> <p><strong>&bull; Social: </strong>Una empresa rival te desaf&iacute;a por el control del procesamiento de mineral. La UEDF quiere negociar, pero te mantienes firme y ganas el contrato.</p> <p><strong>&bull; T&eacute;cnico: </strong>Est&aacute;s diseñando una nueva pieza de Robotecnolog&iacute;a y enfrentas un problema t&eacute;cnico. Permites que 1 sistema se sobrecargue para poder ensamblar otro sistema mucho m&aacute;s complejo.</p>"
+                    ,"cad1":"Resistir"
+                    ,"cad2":"Inm&oacute;vil"
+                }      
+                ,"i-can-fix-it": 
+                {
+                    "name": "Puedo Arreglarlo"
+                    ,"desc": "<p><em>&ldquo;Bueno, no hay buenas noticias aqu&iacute;, pero puedo hacer que esta Valkyrie vuelva a sus alas.&rdquo;</em></p> <p>No importa cu&aacute;n dañado, roto o explotado est&eacute; algo, puedes arreglarlo. Debes elegir tu &aacute;rea de especializaci&oacute;n: M&eacute;dica, Robotecnolog&iacute;a o Estructural. Usa esta Habilidad para realizar cirug&iacute;as en compañeros ca&iacute;dos o reparar mechas dañados o el SDF-1. Tambi&eacute;n puedes supervisar a otros que realicen reparaciones para ti si tienes t&eacute;cnicos competentes disponibles.</p> <p><strong>&bull; Beneficio &ndash; Reparaci&oacute;n: </strong>Eres capaz de arreglar un objeto o hacer que un amigo se sienta mejor despu&eacute;s de una ruptura.</p> <p><strong>&bull; Costo &ndash; Tiempo: </strong>Para hacer el trabajo correctamente se necesita tiempo, y cuanto m&aacute;s tiempo tengas, mejor ser&aacute; el trabajo que puedas hacer.</p> <p><strong>&bull; F&iacute;sico: </strong>Tienes la capacitaci&oacute;n para curar lesiones y atender heridas.</p> <p><strong>&bull; Social: </strong>Eres un experto en reparar relaciones o resolver desacuerdos.</p> <p><strong>&bull; T&eacute;cnico: </strong>Tienes el conocimiento para reparar equipos y solucionar problemas de software.</p>"
+                    ,"cad1":"Reparar"
+                    ,"cad2":"Tiempo"
+                }
+                ,"infiltration-specialist": 
+                {
+                    "name": "Especialista Infiltración"
+                    ,"desc": "<p><em>&ldquo;S&eacute; que esa ventilaci&oacute;n parece pequeña. Espero que no tengas claustrofobia.&rdquo;</em></p> <p>Cuando intentas infiltrarte en alg&uacute;n lugar, debes evitar guardias, sistemas de detecci&oacute;n y barreras. Sabes c&oacute;mo lidiar con todos ellos. Esta Habilidad ayudar&aacute; a los operativos a llegar a su objetivo, seguir a una persona de inter&eacute;s y conocer los patrones de patrulla de los guardias. Puede que necesites explorar el &aacute;rea o obtener informaci&oacute;n adicional para realizar una infiltraci&oacute;n exitosa.</p> <p><strong>&bull; Beneficio &ndash; Ocultamiento: </strong>Como especialista en acciones encubiertas, eres excelente en ocultarte a ti mismo o a otros.</p> <p><strong>&bull; Costo &ndash; Cobertura: </strong>No puedes moverte a la vista sin ser visto. Sin embargo, puedes hacer mucho con solo un poco de cobertura.</p> <p><strong>&bull; F&iacute;sico: </strong>Est&aacute;s en una posici&oacute;n de francotirador apuntando al enemigo. Ellos no pueden localizarte porque ocultas tu posici&oacute;n.</p> <p><strong>&bull; Social: </strong>Est&aacute;s siguiendo a un objetivo. De repente, se da la vuelta, pero no te ve porque te mueves r&aacute;pidamente alrededor de una esquina.</p> <p><strong>&bull; T&eacute;cnico: </strong>Pones un rastreador en un mecha enemigo que te permite seguir su ubicaci&oacute;n. Lo escondes en un lugar donde nadie pueda encontrarlo.</p>"
+                    ,"cad1":"Encubierto"
+                    ,"cad2":"Cobertura"
+                }      
+                ,"ironclad-strategy": 
+                {
+                    "name": "Estrategia Acorazada"
+                    ,"desc": "<p><em>&ldquo;Tenemos cruceros cubriendo nuestro flanco y destructores en posici&oacute;n para un asalto. Saca el mecha cuando el enemigo est&eacute; al alcance de bombardeo.&rdquo;</em></p> <p>Cuando formas un plan, nunca sale mal. Tu mente calcula todas las posibilidades cuando tienes suficiente informaci&oacute;n y tiempo. Cuando hagas un plan, tira esta Habilidad, y los &eacute;xitos pueden ser utilizados por quienes participen en el plan. Cada turno, un camarada puede tomar 1 de los &eacute;xitos para s&iacute; mismo siempre y cuando siga el plan.</p> <p><strong>&bull; Beneficio &ndash; Plan: </strong>Creas un plan infalible que puede sacarte de cualquier apuro.</p> <p><strong>&bull; Costo &ndash; Ejecuci&oacute;n: </strong>Para que el plan tenga beneficio, los involucrados deben ser capaces o estar dispuestos a seguirlo.</p> <p><strong>&bull; F&iacute;sico: </strong>Basado en tus observaciones, creas un plan que te permite enfrentarte al enemigo mientras sufres pocas bajas.</p> <p><strong>&bull; Social: </strong>Entro en una fiesta y s&eacute; qui&eacute;n se gusta y conf&iacute;a en cada uno. Usas esta informaci&oacute;n para formular un plan que te permite iniciar una disputa entre empresas rivales.</p> <p><strong>&bull; T&eacute;cnico: </strong>Se necesitan muchas reparaciones despu&eacute;s de una batalla. Formas un plan para abordar el problema mientras otra ola de Zentraedi ataca.</p>"
+                    ,"cad1":"Plan"
+                    ,"cad2":"Ejecutarlo"
+                }      
+                ,"machinations": 
+                {
+                    "name": "Maquinaciones"
+                    ,"desc": "<p><em>&ldquo;Ese Mayor all&aacute; est&aacute; trabajando con ese teniente, ¿y el l&iacute;der? Es ese rufi&aacute;n de rancio aspecto...&rdquo;</em></p> <p>Eres experto en rastrear los motivos y los diseños sociales de quienes te rodean. A trav&eacute;s de la interacci&oacute;n, eres capaz de desentrañar las intenciones y disposiciones de los dem&aacute;s. Puede requerir que hables con muchas personas, investigues rumores y escuches conversaciones. Tambi&eacute;n puedes usar esta habilidad para crear chismes y manipular a otros mediante ingenier&iacute;a social.</p> <p><strong>&bull; Beneficio &ndash; Descubrir: </strong>Eres capaz de descubrir y entender sucesos extraños o secretos.</p> <p><strong>&bull; Costo &ndash; Exposici&oacute;n: </strong>Para desentrañar misterios y tratos secretos, necesitas acceso a la informaci&oacute;n y ser capaz de interpretarla.</p> <p><strong>&bull; F&iacute;sico: </strong>A medida que se desarrolla la batalla, empiezas a entender la intenci&oacute;n del enemigo. Transmites tus observaciones a un oficial comandante para que puedan cambiar los planes.</p> <p><strong>&bull; Social: </strong>Observas e insertas en la l&iacute;nea de comunicaci&oacute;n adecuada. Despu&eacute;s de investigar, entiendes cu&aacute;les son los objetivos sociales de tu objetivo.</p> <p><strong>&bull; T&eacute;cnico: </strong>Te han dado una pieza de tecnolog&iacute;a alien&iacute;gena. Despu&eacute;s de investigar un tiempo, entiendes c&oacute;mo funciona y para qu&eacute; se usa.</p>"
+                    ,"cad1":"Descubrir"
+                    ,"cad2":"Exposici&oacute;n"
+                }      
+                ,"man-at-arms": 
+                {
+                    "name": "Hombre de Armas"
+                    ,"desc": "<p><em>&ldquo;Tengo años de entrenamiento en armas cortas, armas modernas y teor&iacute;a t&aacute;ctica.&rdquo;</em></p> <p>Has recibido formaci&oacute;n adicional en armas de fuego y combate t&aacute;ctico. Tienes un pequeño equipo listo para asaltar naves enemigas o defender la tuya. Los scouts y rangers a menudo requieren entrenamiento t&aacute;ctico mejorado ya que es m&aacute;s probable que se enfrenten a hostiles. Usa esta habilidad para aplicar t&aacute;cticas de armas pequeñas a tu situaci&oacute;n.</p> <p><strong>&bull; Beneficio &ndash; Experiencia: </strong>Tienes un conocimiento t&aacute;ctico avanzado y completo.</p> <p><strong>&bull; Costo &ndash; Experiencia: </strong>Solo los veteranos m&aacute;s experimentados tienen la experiencia necesaria para manejar cualquier situaci&oacute;n.</p> <p><strong>&bull; F&iacute;sico: </strong>Hay combatientes enemigos atrincherados adelante. Gastas tu cargador mientras disparas sobre su posici&oacute;n para mantenerlos cubiertos.</p> <p><strong>&bull; Social: </strong>Despu&eacute;s de una pelea brutal, el &aacute;nimo de tu equipo est&aacute; bajo. Usas tu conocimiento del soldado com&uacute;n para inspirarlos a seguir adelante.</p> <p><strong>&bull; T&eacute;cnico: </strong>Tu arma se atasc&oacute; en medio de un tiroteo, pero no tienes problemas para volver a ponerla en funcionamiento.</p>"
+                    ,"cad1":"Pericia"
+                    ,"cad2":"Experiencia"
+                }      
+                ,"multiprocess": 
+                {
+                    "name": "Multiprocesar"
+                    ,"desc": "<p><em>&ldquo;Tenemos amenazas por todas partes &ndash; necesitamos cargar el Cañ&oacute;n Reflex, reposicionar los Destroids y concentrar el fuego en ese Crucero.&rdquo;</em></p> <p>Siempre est&aacute;s al tanto de la acci&oacute;n a tu alrededor. Un buen oficial debe ser capaz de procesar toda la informaci&oacute;n que llega en todo momento. Puedes usar la informaci&oacute;n para tomar la mejor decisi&oacute;n en cualquier momento basado en lo que sabes. Usa esta habilidad para ayudarte a salir de apuros o encontrar una soluci&oacute;n r&aacute;pida a un problema cuando tienes la informaci&oacute;n a mano.</p> <p><strong>&bull; Beneficio &ndash; Afrontar: </strong>A pesar del caos que te rodea, mantienes la calma y te ocupas de los asuntos.</p> <p><strong>&bull; Costo &ndash; Concentraci&oacute;n: </strong>Aunque puedes afrontar la situaci&oacute;n, necesitas mantener el enfoque.</p> <p><strong>&bull; F&iacute;sico: </strong>Rastreas una multitud de informaci&oacute;n t&aacute;ctica, incluyendo: n&uacute;mero de objetivos enemigos, mejores posiciones para maniobras ofensivas y defensivas, y c&oacute;mo atacar.</p> <p><strong>&bull; Social: </strong>Tienes la capacidad de prestar atenci&oacute;n a muchas conversaciones y temas al mismo tiempo. Mientras mantienes una conversaci&oacute;n, puedes estar pensando en diez cosas m&aacute;s.</p> <p><strong>&bull; T&eacute;cnico: </strong>Un sistema complejo est&aacute; fallando. Mantienes el orden, identificas los problemas y los solucionas de manera ordenada.</p>"
+                    ,"cad1":"Afrontar"
+                    ,"cad2":"Concentraci&oacute;n"
+                }    
+                ,"omniprescient": 
+                {
+                    "name": "Omnipreciente"
+                    ,"desc": "<p><em>&ldquo;No podemos movernos a cobertura, porque nos tienen aislados. Sin embargo, est&aacute;n agrupados y listos para un ataque a&eacute;reo.&rdquo;</em></p> <p>Tu habilidad para vigilar un campo de batalla y rastrear a tus compañeros es inigualable. La conciencia e informaci&oacute;n del &aacute;rea a tu alrededor es extremadamente importante para tu supervivencia. Pareces ver alrededor de las esquinas, escuchar lo silencioso y oler a trav&eacute;s del espacio. Usa esta habilidad para detectar un francotirador enemigo, seguir el rastro de tus compañeros de escuadra o determinar cu&aacute;nto daño ha recibido un enemigo.</p> <p><strong>&bull; Beneficio &ndash; Conciencia: </strong>Ves, oyes o hueles todo dentro de tu campo sensorial.</p> <p><strong>&bull; Costo &ndash; Proximidad: </strong>Para obtener conciencia, necesitas estar en proximidad sensorial con las posibles preocupaciones.</p> <p><strong>&bull; F&iacute;sico: </strong>Un enemigo se acerca por detr&aacute;s, pero sabes que est&aacute; all&iacute;. Lo llenas de balas despu&eacute;s de girar y disparar.</p> <p><strong>&bull; Social: </strong>En una gran fiesta, eres consciente de qui&eacute;n est&aacute; hablando con qui&eacute;n. Cuando hablas con un alto cargo, sabes que hab&iacute;an estado hablando con el jefe de artiller&iacute;a.</p> <p><strong>&bull; T&eacute;cnico: </strong>Te encargan reparar un sistema pero no tienes las piezas adecuadas. Tienes un s&oacute;lido conocimiento de electr&oacute;nica y construyes una pieza nueva que funciona a la perfecci&oacute;n.</p>"
+                    ,"cad1":"Percepci&oacute;n"
+                    ,"cad2":"Proximidad"
+                }      
+                ,"precise-targeting": 
+                {
+                    "name": "Apuntado Preciso"
+                    ,"desc": "<p><em>&ldquo;Estoy transform&aacute;ndome a modo Battloid y desplegando el G-11 para un efecto m&aacute;ximo.&rdquo;</em></p> <p>Con un impulso calculado para la batalla, colocas cuidadosamente tus ataques uno tras otro. Destruyes al enemigo a distancia con una eficiencia inigualable. Con un objetivo preciso, puedes eliminar un objetivo a larga distancia o disparar al n&uacute;cleo de energ&iacute;a de un mecha con un esfuerzo m&iacute;nimo.</p> <p><strong>&bull; Beneficio &ndash; Precisi&oacute;n: </strong>Con ojo de &aacute;guila, abordas el problema y logras lo que deseas.</p> <p><strong>&bull; Costo &ndash; Lento: </strong>Se necesita un poco de tiempo adicional para ajustar la soluci&oacute;n perfecta.</p> <p><strong>&bull; F&iacute;sico: </strong>Tu enemigo se oculta entre asteroides, dispar&aacute;ndote mientras lo hace. Tomas una cuidadosa punter&iacute;a y disparas justo cuando se expone, derrib&aacute;ndolo.</p> <p><strong>&bull; Social: </strong>Est&aacute;s regateando con un dueño de tienda y lo interrumpes de manera r&aacute;pida en el momento exacto para plantear un punto que no puede negar. Obtienes la ventaja.</p> <p><strong>&bull; T&eacute;cnico: </strong>Mientras reparas una pieza altamente compleja de Robotechnology, un engranaje se suelta. Debes actuar con una herramienta en el momento adecuado para extraer el engranaje.</p>"
+                    ,"cad1":"Precisi&oacute;n"
+                    ,"cad2":"Lento"
+                }      
+                ,"psychoanalysis": 
+                {
+                    "name": "Psicoanálisis"
+                    ,"desc": "<p><em>&ldquo;¿Alguna vez tus pesadillas incluyen a los amigos que perdiste en combate? Puede que necesites resolver las cosas dentro de ti antes de seguir adelante.&rdquo;</em></p> <p>A trav&eacute;s de años de estudio, has aprendido a identificar y tratar trastornos mentales. Esto incluye tratar al personal de la UEDF con PTSD, reconocer comportamientos mentalmente inestables y leer las intenciones de otra persona despu&eacute;s de estudiar sus acciones. Esta habilidad es importante ya que te permite tratar el Estr&eacute;s de un camarada y obtener informaci&oacute;n sobre el comportamiento de un villano.</p> <p><strong>&bull; Beneficio &ndash; Perspicacia: </strong>Te vuelves consciente de una intenci&oacute;n o pensamiento en otro, o algo que se ha creado.</p> <p><strong>&bull; Costo &ndash; An&aacute;lisis: </strong>Debes ser capaz de analizar y entender lo que est&aacute;s investigando.</p> <p><strong>&bull; F&iacute;sico:</strong>Lees las emociones de tus enemigos y ves que est&aacute;n asustados y listos para huir. Utilizas esto para aprovechar la situaci&oacute;n.</p> <p><strong>&bull; Social: </strong>Durante una negociaci&oacute;n tensa, te das cuenta de que lo que la oposici&oacute;n est&aacute; pidiendo no es realmente lo que les interesa.</p> <p><strong>&bull; T&eacute;cnico: </strong>Notas que un miembro de tu equipo de reparaci&oacute;n est&aacute; exhausto. Lo retiras del equipo antes de que cometa un error y haga explotar el lugar.</p>"
+                    ,"cad1":"Perspicacia"
+                    ,"cad2":"An&aacute;lisis"
+                }      
+                ,"rally-cry": 
+                {
+                    "name": "Grito de Guerra"
+                    ,"desc": "<p><em>&ldquo;¡Muy bien, hombres, hoy hacemos nuestra &uacute;ltima defensa! ¡Vamos a mostrarles a esos gigantes qui&eacute;n manda!&rdquo;</em></p> <p>Utilizando tu determinaci&oacute;n y carisma, eres capaz de motivar a aquellos bajo tu mando. Tienes la habilidad de inspirar a las tropas a luchar con furia y rallyar a aquellos que est&aacute;n huyendo. Dar un discurso inspirador antes de una batalla puede animar a las tropas y fortalecer su determinaci&oacute;n bajo fuego.</p> <p><strong>&bull; Beneficio &ndash; Envalentonar: </strong>A trav&eacute;s del ejemplo y tu esp&iacute;ritu impulsor, eres capaz de inspirar a quienes te rodean.</p> <p><strong>&bull; Costo &ndash; Comunicaci&oacute;n: </strong>Para que las tropas se envalentonen, deben poder escucharte, verte o leer lo que has escrito.</p> <p><strong>&bull; F&iacute;sico:</strong>Tus soldados est&aacute;n a punto de enfrentar al enemigo. Los incitas a un frenes&iacute; y atacan con una furia implacable.</p> <p><strong>&bull; Social: </strong>Tu equipo est&aacute; quedando atr&aacute;s en una competici&oacute;n de trivia, pero das un discurso estimulante y levantas su &aacute;nimo.</p> <p><strong>&bull; T&eacute;cnico: </strong>Los ingenieros est&aacute;n quedando atr&aacute;s en las reparaciones antes de la gran batalla. Los convences de que no pueden rendirse porque toda la SDF-1 cuenta con ellos.</p>"
+                    ,"cad1":"Envalentonar"
+                    ,"cad2":"Comunicaci&oacute;n"
+                }      
+                ,"rapidfire": 
+                {
+                    "name": "Fuego Rápido"
+                    ,"desc": "<p><em>&ldquo;¡M&aacute;s... m&aacute;s... m&aacute;s... potencia de fuego!&rdquo;</em></p> <p>Utilizando una estrategia que inunda un problema, eres capaz de tener &eacute;xito al abrumarlo. Para el combate, esto podr&iacute;a significar ataques r&aacute;pidos y sucesivos o disparos continuos. En situaciones sociales, te mantienes en el tema y usas la informaci&oacute;n que tienes para mantener a tu oponente sin respuesta.</p> <p><strong>&bull; Beneficio &ndash; Diluvio: </strong>Esta habilidad te permite hacer mucho de una cosa espec&iacute;fica.</p> <p><strong>&bull; Costo &ndash; Inexacto: </strong>Es dif&iacute;cil saber si acertar&aacute;s con efectividad cuando est&aacute;s buscando saturaci&oacute;n.</p> <p><strong>&bull; F&iacute;sico:</strong>Notas a un enemigo en la retaguardia de tu compañero de ala. Disparas una larga r&aacute;faga de proyectiles hacia su posici&oacute;n. Esto hace que el enemigo se retire.</p> <p><strong>&bull; Social: </strong>Est&aacute;s debatiendo con un rival en una fiesta y haces preguntas tan r&aacute;pido que tu rival no tiene tiempo para recuperarse o responder.</p> <p><strong>&bull; T&eacute;cnico: </strong>Un terminal te ha bloqueado el acceso y necesitas entrar. Pruebas r&aacute;pidamente diferentes t&eacute;cnicas de hacking para entrar en el sistema.</p>"
+                    ,"cad1":"Diluvio"
+                    ,"cad2":"Imprecisi&oacute;n"
+                }      
+                ,"scanning-sweep": 
+                {
+                    "name": "Barrido Escáner"
+                    ,"desc": "<p><em>&ldquo;Señor. Tenemos objetivos Zentraedi entrantes viniendo desde nuestro flanco trasero.&rdquo;</em></p> <p>Eres experto en usar sensores de mechas y naves de manera creativa. Sabes c&oacute;mo aumentar el alcance de tus sensores, encontrar señales ocultas, anular los sensores enemigos y crear efectos de ECM. Puedes obtener m&aacute;s de tus sensores que la mayor&iacute;a. Usa esta habilidad en combate para detectar naves enemigas o esconder tus propias señales. Consulta m&aacute;s sobre los sensores en combate en la p&aacute;gina 162.</p> <p><strong>&bull; Beneficio &ndash; Detalles: </strong>Con un ojo agudo, enfocas tu percepci&oacute;n y obtienes detalles sobre tu &aacute;rea circundante.</p> <p><strong>&bull; Costo &ndash; Enfoque: </strong>Debes concentrarte con intenci&oacute;n para realmente ver lo que otros no pueden.</p> <p><strong>&bull; F&iacute;sico: </strong>Examinas el campo para determinar la formaci&oacute;n del enemigo y idear un plan para contrarrestarla.</p> <p><strong>&bull; Social: </strong>Hablas con la gente de la calle para obtener una idea de c&oacute;mo est&aacute;n operando los contrabandistas.</p> <p><strong>&bull; T&eacute;cnico: </strong>Activar un array de sensores Cat's Eye para escanear el &aacute;rea alrededor del SDF-1 y detectar algo activo en el campo de asteroides cercano.</p>"
+                    ,"cad1":"Detalles"
+                    ,"cad2":"Enfocarse"
+                }      
+                ,"science-that": 
+                {
+                    "name": "Enfoque Científico"
+                    ,"desc": "<p><em>&ldquo;Gana la energ&iacute;a extra que necesitas reduciendo el campo de contenci&oacute;n en un 1.5%.&rdquo;</em></p> <p>Despu&eacute;s de años de estudio y experimentaci&oacute;n, has aprendido los caminos de la ciencia. Eres capaz de identificar nuevas cepas de microbios, calcular la masa de un agujero negro y estudiar el movimiento tect&oacute;nico, entre otras cosas. Usa esta habilidad para encontrar maneras creativas de resolver problemas con el equipo y los materiales que tienes a mano.</p> <p><strong>&bull; Beneficio &ndash; Soluci&oacute;n: </strong>Usando tu extenso conocimiento de la ciencia, entiendes y resuelves problemas.</p> <p><strong>&bull; Costo &ndash; Experiencia: </strong>Tu capacidad para resolver problemas se limita a tu experiencia en un tema basado en la ciencia.</p> <p><strong>&bull; F&iacute;sico: </strong>Usas tu conocimiento de la ciencia para atraer a un enemigo cerca de una anomal&iacute;a espacial peligrosa. Esto inhibe sus sensores y t&uacute; aprovechas la situaci&oacute;n.</p> <p><strong>&bull; Social: </strong>Sabes que el alcohol hace que las personas se desinhiban, as&iacute; que haces que tu objetivo beba m&aacute;s. Finalmente, revela la informaci&oacute;n que necesitas.</p> <p><strong>&bull; T&eacute;cnico: </strong>No tienes todas las piezas adecuadas para arreglar el sistema de comunicaciones alien&iacute;gena. Con la ciencia, encuentras una soluci&oacute;n alternativa despu&eacute;s de estudiar c&oacute;mo funciona el sistema ex&oacute;tico.</p>"
+                    ,"cad1":"Soluci&oacute;n"
+                    ,"cad2":"Pericia"
+                }      
+                ,"smooth-method": 
+                {
+                    "name": "Método Suave"
+                    ,"desc": "<p><em>&ldquo;Oye, oye… ¿Por qu&eacute; no pasas a ver nuestras instalaciones? Estoy seguro de que podemos acomodar cualquier proyecto que tengas en mente.&rdquo;</em></p> <p>Una lengua plateada y la actitud correcta pueden abrir puertas o sacarte de problemas r&aacute;pidamente. Decir lo correcto de la manera correcta en el momento adecuado puede ser tan poderoso como cualquier arma. Puedes usar esta habilidad para ganarte la confianza de las personas, contar una mentira convincente o hacer que otros crean una excusa incre&iacute;ble. Esta es una habilidad valiosa si quieres entrar en &aacute;reas a las que normalmente no tienes acceso y dar la excusa perfecta para estar all&iacute;.</p> <p><strong>&bull; Beneficio &ndash; Eficiencia: </strong>Puedes sacar el mayor beneficio del menor esfuerzo.</p> <p><strong>&bull; Costo &ndash; Intuici&oacute;n: </strong>Ver a trav&eacute;s de tu objetivo y tener en cuenta los posibles errores es crucial.</p> <p><strong>&bull; F&iacute;sico: </strong>Convences a tus enemigos de una falsa sensaci&oacute;n de seguridad mientras finges fuerza o debilidad. Esto puede sacarte de un apuro o darte una ventaja.</p> <p><strong>&bull; Social: </strong>Tu habilidad con las palabras puede usarse para convencer a las personas de cosas que no son verdad. Esto puede ayudarte a obtener lo que quieres o sacarte de problemas.</p> <p><strong>&bull; T&eacute;cnico: </strong>Eres capaz de hacer que las piezas operen de formas para las que no estaban destinadas a usarse o mantener partes de funcionamiento bas&aacute;ndote en su diseño.</p>"
+                    ,"cad1":"Eficiencia"
+                    ,"cad2":"Intuici&oacute;n"
+                }      
+                ,"star-quality": 
+                {
+                    "name": "Calidad de Estrella"
+                    ,"desc": "<p><em>&ldquo;Y ahora… la que has estado esperando… ¡Minmei!&rdquo;</em></p> <p>Solo los m&aacute;s brillantes pueden alcanzar la fama de una verdadera estrella. Tienes ese carisma, talento y motivaci&oacute;n. Ser una estrella es un trabajo duro. Debes actuar de manera cautivadora, tratar con admiradores entregados y practicar con frecuencia. Aquellos que te ven actuar se sienten inspirados y pueden perder la noci&oacute;n del tiempo. Esta habilidad te permite captar la atenci&oacute;n y sacar lo mejor de quienes te rodean.</p> <p><strong>&bull; Beneficio &ndash; Astucia: </strong>Sabes c&oacute;mo encantar a quienes te rodean, inventar una historia cre&iacute;ble o desviar la atenci&oacute;n de otros.</p> <p><strong>&bull; Costo &ndash; Atenci&oacute;n: </strong>Esto no sucede de inmediato. Necesitas que aquellos con quienes deseas interactuar presten atenci&oacute;n a ti.</p> <p><strong>&bull; F&iacute;sico: </strong>Utilizas el espect&aacute;culo y movimientos llamativos no solo para deslumbrar a tus oponentes, sino para inspirar a tus aliados.</p> <p><strong>&bull; Social: </strong>Captas la atenci&oacute;n de las personas a trav&eacute;s de tu personalidad radiante. La gente quiere estar cerca de ti y apoyar tus esfuerzos.</p> <p><strong>&bull; T&eacute;cnico: </strong>Los problemas t&eacute;cnicos parecen solucionarse por s&iacute; mismos. Haces un esfuerzo s&oacute;lido y las cosas encajan y se ensamblan bien.</p>"
+                    ,"cad1":"Engaño"
+                    ,"cad2":"Atenci&oacute;n"
+                }      
+                ,"strafing-run": 
+                {
+                    "name": "Ataque en Pasada"
+                    ,"desc": "<p><em>&ldquo;Muy bien, escuadr&oacute;n, pong&aacute;monos en formaci&oacute;n para atacar esa nave de reconocimiento.&rdquo;</em></p> <p>La Maniobra de ataque en pasada te permite disparar mientras te mueves, permiti&eacute;ndote pasar de un lugar a otro y volver a cubrirte, o tomar maniobras defensivas mientras te acercas o te alejas.</p> <p><strong>&bull; Beneficio &ndash; Escaramuza: </strong>Combates en movimiento, manteniendo a tus oponentes adivinando.</p> <p><strong>&bull; Costo &ndash; Movimiento: </strong>Para ser efectivo, necesitas mantenerte en movimiento. Sin suficiente desplazamiento, tus ataques son ineficaces.</p> <p><strong>&bull; F&iacute;sico: </strong>Est&aacute;s detr&aacute;s de una cubierta y siendo disparado por enemigos. Te desplazas de roca en roca mientras devuelves el fuego.</p> <p><strong>&bull; Social: </strong>A medida que investigas a un personaje sospechoso de robo, tambi&eacute;n los interrogas sobre otros cr&iacute;menes mientras obtienes informaci&oacute;n sobre el robo.</p> <p><strong>&bull; T&eacute;cnico: </strong>Mientras trabajas en el sistema de energ&iacute;a principal de un Veritech, utilizas cortos per&iacute;odos de tiempo muerto para revisar otros sistemas m&aacute;s pequeños.</p>"
+                    ,"cad1":"Escaramuza"
+                    ,"cad2":"Movimiento"
+                }      
+                ,"survival-expert": 
+                {
+                    "name": "Experto en Sobrevivir"
+                    ,"desc": "<p><em>&ldquo;Cuando el viento sopla as&iacute;, es mejor buscar la cobertura m&aacute;s cercana. ¡Algo peor est&aacute; por venir!&rdquo;</em></p> <p>Has recibido una formaci&oacute;n extensa en el manejo de entornos extremos. Esto incluye ambientes &aacute;rticos, des&eacute;rticos, subacu&aacute;ticos y de exoplanetas. Usa esta habilidad para navegar, buscar comida y construir/encontrar refugio en estas condiciones. Tambi&eacute;n tienes formaci&oacute;n en primeros auxilios y exploraci&oacute;n. Usa esta habilidad para guiar a tu equipo a trav&eacute;s de terrenos hostiles y obtener informaci&oacute;n sobre el enemigo.</p> <p><strong>&bull; Beneficio &ndash; Resistir: </strong>Tienes las habilidades para soportar un entorno hostil.</p> <p><strong>&bull; Costo &ndash; Familiaridad: </strong>Necesitas conocer tu entorno para poder sobrevivir.</p> <p><strong>&bull; F&iacute;sico: </strong>A medida que luchas en un entorno alien&iacute;gena extraño, tienes experiencia con el terreno y sabes d&oacute;nde enfrentar al enemigo.</p> <p><strong>&bull; Social: </strong>Encuentras a un pueblo ind&iacute;gena que apunta sus armas hacia tu grupo. Sabes que no representan una amenaza siempre que sigas movi&eacute;ndote.</p> <p><strong>&bull; T&eacute;cnico: </strong>Necesitas instalar un satcom para comunicarte con tus fuerzas en el espacio. Sabes exactamente cu&aacute;ndo y d&oacute;nde colocarlo para enviar el mensaje.</p>"
+                    ,"cad1":"Soportar"
+                    ,"cad2":"Familiaridad"
+                }      
+                ,"tradecraft": 
+                {
+                    "name": "Comerciante"
+                    ,"desc": "<p><em>&ldquo;Gracias por la informaci&oacute;n &ndash; s&eacute; que no vino sin costo. Esto podr&iacute;a salvar muchas vidas Zentraedi valiosas.&rdquo;</em></p> <p>Para convertirte en un operativo exitoso o combatir uno, necesitas un conjunto espec&iacute;fico de habilidades. El comercio es tu capacidad para pasar y recolectar informaci&oacute;n, trabajar con informantes y crear encriptaciones. Usa esta habilidad para proteger tu identidad o descubrir la identidad de los esp&iacute;as que trabajan a tu alrededor. Aunque tus m&eacute;todos puedan parecer extremos a veces, tus aliados estar&aacute;n contentos de que est&eacute;s de su lado.</p> <p><strong>&bull; Beneficio &ndash; Trucos: </strong>Sabes c&oacute;mo hacer las cosas para confundir o distraer a los dem&aacute;s.</p> <p><strong>&bull; Costo &ndash; Materiales: </strong>Para completar tus tareas previstas necesitas materiales o informaci&oacute;n con los que trabajar.</p> <p><strong>&bull; F&iacute;sico: </strong>Necesitas eliminar a un guardia antes de que pueda alertar a otros. Usas una t&eacute;cnica especial para noquearlo silenciosamente.</p> <p><strong>&bull; Social: </strong>Necesitas acercarte a un objetivo, por lo que investigas sus asociaciones y te das cuenta de que la mejor persona para usar como palanca es su hermano.</p> <p><strong>&bull; T&eacute;cnico: </strong>Necesitas vigilar a un objetivo. Es bueno que sepas exactamente d&oacute;nde colocar los micr&oacute;fonos y las c&aacute;maras.</p>"
+                    ,"cad1":"Trucos"
+                    ,"cad2":"Materiales"
+                }      
+                ,"wing-and-a-prayer": 
+                {
+                    "name": "Con Dios y Ayuda"
+                    ,"desc": "<p><em>&ldquo;Lo siento, chicos, no tengo nada m&aacute;s. Recen.&rdquo;</em></p> <p>Algunos tienen habilidad y otros tienen suerte. Cuando llegas al l&iacute;mite de tus recursos, es hora de actuar y esperar lo mejor. Con un poco de pensamiento anticipado, puedes obtener lo mejor de la peor situaci&oacute;n. Usa esta habilidad para intentar hacer que algo funcione, incluso cuando no parece haber una soluci&oacute;n razonable al problema.</p> <p><strong>&bull; Beneficio &ndash; Suerte: </strong>Logras el &eacute;xito basado en la suerte. No es completamente ciego, eliges el mejor curso de acci&oacute;n y sigues adelante.</p> <p><strong>&bull; Costo &ndash; Desesperado: </strong>Debes estar en una situaci&oacute;n donde tu habilidad no sea suficiente para ayudarte.</p> <p><strong>&bull; F&iacute;sico: </strong>Est&aacute;s acorralado por el enemigo. No hay una soluci&oacute;n t&aacute;ctica para sacarte de este aprieto. Disparas y rezas con tu rifle de asalto.</p> <p><strong>&bull; Social: </strong>Tu reputaci&oacute;n est&aacute; en juego y este pol&iacute;tico te est&aacute; dando problemas. Hablas sobre &eacute;l malversando dinero del fondo para hu&eacute;rfanos. Tal vez lo haya hecho.</p> <p><strong>&bull; T&eacute;cnico: </strong>No puedes reiniciar los motores. As&iacute; que empiezas a golpear el costado del motor con la llave inglesa m&aacute;s grande que puedes encontrar. Seguro que esto resolver&aacute; el problema.</p>"
+                    ,"cad1":"Suerte"
+                    ,"cad2":"Desesperado"
+                }  
+                ,"alpha-strike": 
+                {
+                    "name": "Alpha Strike"
+                    ,"desc": "<p><em>&ldquo;No hay marcha atr&aacute;s. ¡Tengo que atacar con todo lo que tengo! ¡Es ahora o nunca!&rdquo;</em></p> <p>No importa la tarea, est&aacute;s listo para enfrentarla con herramientas, misiles o contactos. Esta habilidad te permite usar todo lo que tienes a mano y lanzarlo contra el problema. Sin embargo, llamar favores y disparar en cadena tus l&aacute;seres puede agotar la bater&iacute;a de tu mecha.</p> <p><strong>&bull; Beneficio &ndash; Usar Todo:</strong> Utilizas todo lo que tienes a tu disposici&oacute;n para derrotar el conflicto que tienes delante.</p> <p><strong>&bull; Costo &ndash; Agotado: </strong> Despu&eacute;s, te quedas con poco. Necesitar&aacute;s reabastecerte o recuperarte para volver a tener tu fuerza total.</p> <p><strong>&bull; F&iacute;sico: </strong> Disparas todas las armas y mantienes el gatillo apretado hasta que el enemigo no sea m&aacute;s que una bola de fuego.</p> <p><strong>&bull; Social: </strong> Presentas todos tus hechos y argumentos, proporcionando raz&oacute;n tras raz&oacute;n de por qu&eacute; tu idea es mejor y tu rival est&aacute; equivocado, hasta que solo tu idea quede con alguna credibilidad.</p> <p><strong>&bull; T&eacute;cnico: </strong> Salvajes todas las mejores partes de los Veritechs dañados para que puedas devolver al piloto experto al aire lo m&aacute;s r&aacute;pido posible.</p>"
+                    ,"cad1":"Conseguir Todo"
+                    ,"cad2":"Debilitado"
+                }      
+                ,"by-the-book": 
+                {
+                    "name": "Según las Reglas"
+                    ,"desc": "<p><em>&ldquo;Mant&eacute;n la formaci&oacute;n compacta&mdash;esperamos fuego pesado. Tendremos la mejor oportunidad de completar la misi&oacute;n si seguimos el plan.&rdquo;</em></p> <p>T&uacute; o tu equipo toman acci&oacute;n basada en pr&aacute;cticas probadas y verdaderas. Estas pr&aacute;cticas ofrecen la mejor oportunidad estad&iacute;stica de &eacute;xito. Cuando se hacen correctamente, tus acciones se ejecutan en un ritmo hermoso. Aquellos que operan al pie de la letra a menudo se convierten en los maestros del libro, instruyendo a la siguiente generaci&oacute;n en las mejores pr&aacute;cticas.</p> <p><strong>&bull; Beneficio &ndash; Coordinar: </strong>Tu equipo act&uacute;a como uno solo, en un&iacute;sono, con un timing perfecto. Todos conocen las posiciones y tareas de los dem&aacute;s.</p> <p><strong>&bull; Costo &ndash; Predecible: </strong>Un enemigo familiarizado con tu t&eacute;cnica puede desbaratarla con facilidad. Aquellos que no conocen tu t&eacute;cnica lo aprender&aacute;n r&aacute;pidamente.</p> <p><strong>&bull; F&iacute;sico: </strong>Pilotear&aacute;s de manera ejemplar para que tus compañeros de escuadr&oacute;n sepan lo que tienes planeado.</p> <p><strong>&bull; Social: </strong>En funciones sociales, te diriges a las personas adecuadamente y te comportas como dicta la etiqueta, integr&aacute;ndote mientras pones a todos a gusto.</p> <p><strong>&bull; T&eacute;cnico: </strong>Usar piezas y herramientas est&aacute;ndar generalmente lleva a los resultados deseados.</p>"
+                    ,"cad1":"Coordinado"
+                    ,"cad2":"Tel&eacute;grafo"
+                }      
+                ,"fade-to-black": 
+                {
+                    "name": "Desvanecerse"
+                    ,"desc": "<p><em>&ldquo;A veces, la mejor manera de vencer a tu enemigo es evitar a tu enemigo. Convi&eacute;rtete en nada y te convertir&aacute;s en todo.&rdquo;</em></p> <p>Con una t&eacute;cnica sutil y tranquila, desapareces en el fondo. Te fusionas sin esfuerzo en cualquier situaci&oacute;n ambiental o social. Nadie parece extrañar o notar tu desaparici&oacute;n. Esto te ofrece tiempo para investigar o esconderte. Sin embargo, tu posici&oacute;n se volver&iacute;a bastante precaria si fueras descubierto.</p> <p><strong>&bull; Beneficio &ndash; Sigilo: </strong>T&uacute; o tu trabajo se vuelven dif&iacute;ciles de notar. Puede estar cuidadosamente oculto o escondido a plena vista.</p> <p><strong>&bull; Costo &ndash; Exposici&oacute;n: </strong>Cuando est&aacute;s escondido, debes moverte con cautela. Durante este tiempo, no puedes defenderte si algo se mueve para atacarte.</p> <p><strong>&bull; F&iacute;sico: </strong>Te mantienes en las sombras para pasar desapercibido por el guardia.</p> <p><strong>&bull; Social: </strong>Durante una fiesta de oficiales, intentas integrarte como uno de los rangos superiores para obtener m&aacute;s informaci&oacute;n.</p> <p><strong>&bull; T&eacute;cnico: </strong>Construyes la c&aacute;mara oculta para que parezca un objeto com&uacute;n.</p>"
+                    ,"cad1":"Sigilo"
+                    ,"cad2":"Exposici&oacute;n/Cautela"
+                }      
+                ,"keep-pushing-forward": 
+                {
+                    "name": "Adelante con Todo"
+                    ,"desc": "<p><em>&ldquo;¡Marines! ¡Est&aacute;n qued&aacute;ndose sin municiones, empujen ahora! ¡Carguen!&rdquo;</em></p> <p>Sea cual sea la circunstancia, eres capaz de hacer que algo se logre. Sin embargo, es un esfuerzo de todo o nada. Una vez que empiezas, debes seguir adelante hasta ver los resultados, y estos pueden no ser siempre bonitos. Usa esta habilidad para asaltar un emplazamiento fuertemente custodiado o para convertir una multitud hostil a tu favor.</p> <p><strong>&bull; Beneficio &ndash; Avanzar: </strong>Independientemente de la situaci&oacute;n, logras alg&uacute;n progreso. Puedes estar bajo de municiones, tener una reputaci&oacute;n gravemente dañada, o tener pocas herramientas disponibles para reparar.</p> <p><strong>&bull; Costo &ndash; Terquedad: </strong>Una vez que empiezas a actuar, est&aacute;s obligado a continuar hasta que la acci&oacute;n haya sido completada. En muchos casos, esto es peligroso; en algunos, es cr&iacute;tico.</p> <p><strong>&bull; F&iacute;sico: </strong>A pesar de ser tu tercera salida del d&iacute;a, a&uacute;n te lanzas a la cabina para defender a tus aliados.</p> <p><strong>&bull; Social: </strong>A pesar de las miradas de duda, te mantienes firme. Sabes que tienes raz&oacute;n y ser&aacute;s finalmente reivindicado.</p> <p><strong>&bull; T&eacute;cnico: </strong>Bah&iacute;a tras bah&iacute;a est&aacute; llena de Veritechs y Destroids dañados. Con un suspiro y sin un final a la vista, tomas tus herramientas. Ser&aacute; un turno largo, pero lo terminar&aacute;s.</p>"
+                    ,"cad1":"Hacer Avances"
+                    ,"cad2":"Tozudez"
+                }      
+                ,"last-stand": 
+                {
+                    "name": "Última Línea"
+                    ,"desc": "<p><em>&ldquo;Aceptamos nuestro destino, mi Reina. Tal como ordenas, entregamos nuestras vidas por el futuro de los Invid.&rdquo;</em></p> <p>Est&aacute;s acorralado. No hay a d&oacute;nde ir y nada m&aacute;s que hacer excepto darlo todo en este &uacute;ltimo intento por el &eacute;xito. Usa esta habilidad cuando el enemigo tenga ventaja sobre ti o est&eacute;s acorralado sin escape.</p> <p><strong>&bull; Beneficio &ndash; Desesperaci&oacute;n: </strong>Sin nada m&aacute;s que perder, haces un &uacute;ltimo intento contra todas las probabilidades. Puede ser tu &uacute;ltima idea, misil o un discurso desesperado para cambiar las cosas.</p> <p><strong>&bull; Costo &ndash; Consumido: </strong>En el esfuerzo, algo se consume o se pierde. Un aliado puede resultar herido o morir, o un objeto valioso puede quedar destruido.</p> <p><strong>&bull; F&iacute;sico: </strong>En una pelea uno a uno, no eres m&aacute;s h&aacute;bil que el siguiente piloto. Pero si te rodean enemigos, luchas como un as.</p> <p><strong>&bull; Social: </strong>Cuando el argumento parece perdido, tu convicci&oacute;n y elocuencia brillan.</p> <p><strong>&bull; T&eacute;cnico: </strong>El enemigo est&aacute; en camino, las piezas y municiones est&aacute;n bajas, y tu equipo est&aacute; exhausto&mdash;sin embargo, de alguna manera tienes los Veritechs reparados, armados y listos para el despegue.</p>"
+                    ,"cad1":"Desesperaci&oacute;n"
+                    ,"cad2":"Consumido"
+                }      
+                ,"treasure-hunt": 
+                {
+                    "name": "Caza de Tesoros"
+                    ,"desc": "<p><em>&ldquo;Sé dónde est&aacute; el antiguo cache de la UEDF, gracias a una tableta que tom&eacute; de un marine que lleva mucho tiempo muerto. Eran solo huesos, pero logr&eacute; hacer que la tableta funcionara.&rdquo;</em></p> <p>Encontrar tesoros enterrados puede hacerte rico, pero no es una tarea f&aacute;cil. Se requiere una planificaci&oacute;n cuidadosa, investigaci&oacute;n dedicada y seguir todas las pistas correctas para descubrir las riquezas de tus sueños m&aacute;s salvajes. Usa esta habilidad para descubrir algo oculto, perdido o olvidado. Para usarla en todo su potencial, debes tener una pista o informaci&oacute;n previamente conocida que gu&iacute;e tus acciones.</p> <p><strong>&bull; Beneficio &ndash; Descubrir: </strong>Despu&eacute;s de un trabajo cuidadoso y largas horas, descubres un secreto largo tiempo oculto.</p> <p><strong>&bull; Costo &ndash; Pistas: </strong>Para encontrar el tesoro, necesitas pistas. Debes estar en el camino correcto o haber recibido información previamente.</p> <p><strong>&bull; F&iacute;sico: </strong>Con estudio, revelas detalles sobre t&aacute;cticas enemigas que puedes aprovechar cuando llegue la batalla.</p> <p><strong>&bull; Social: </strong>Has estudiado a tu rival empresarial, pero acabas de encontrar la informaci&oacute;n que los derribar&aacute;, d&aacute;ndote el contrato lucrativo.</p> <p><strong>&bull; T&eacute;cnico: </strong>Descubres un aspecto especial de una tecnolog&iacute;a perdida hace mucho tiempo.</p> "
+                    ,"cad1":"Descubrir"
+                    ,"cad2":"Pistas"
+                }      
+                ,"valued-opinion": 
+                {
+                    "name": "Opinion Informada"
+                    ,"desc": "<p><em>&ldquo;He estado all&iacute; antes. Los Invid son viciosos, pero pueden ser derrotados si trabajamos juntos.&rdquo;</em></p> <p>A trav&eacute;s de la experiencia en un campo, el desempeño pasado o el buen car&aacute;cter, tus opiniones y pensamientos son valorados por tus aliados y a veces incluso por tus superiores. Usa esta habilidad para darle peso a tus ideas y planes. Te permite proporcionar tu experiencia a personas que normalmente no prestar&iacute;an atenci&oacute;n a tus pensamientos, como un oficial superior.</p> <p><strong>&bull; Beneficio &ndash; Persuasi&oacute;n: </strong>Tienes la habilidad de cambiar las opiniones de las personas.</p> <p><strong>&bull; Costo &ndash; Experiencia: </strong>No puedes simplemente hacer una jugada&mdash;debes tener verdadera experiencia en el campo en el que est&aacute;s expresando tu opini&oacute;n.</p> <p><strong>&bull; F&iacute;sico: </strong>Los superiores a menudo tomar&aacute;n en consideraci&oacute;n tus recomendaciones t&aacute;cticas.</p> <p><strong>&bull; Social: </strong>Amigos y asociados buscan tu consejo sobre relaciones, moda u otros temas personales.</p> <p><strong>&bull; T&eacute;cnico: </strong>Eres considerado un experto en tu campo y se te busca para respuestas de car&aacute;cter t&eacute;cnico.</p>"
+                    ,"cad1":"Influencia"
+                    ,"cad2":"Competencia"
+                }      
+           }
+        }
+    }
+}
